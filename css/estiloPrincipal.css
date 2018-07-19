@@ -1,3 +1,23 @@
+body{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.subtitulo_serviços {
+    color: #00172f;
+    font-size: 26pt;
+}
+
+.texto {
+    font-size: 16pt;
+    color: black;
+    text-align: justify;
+}
+
+.separador {
+    float: left;
+    width: 100%;
+    border-top: 4px solid #e7e7e7;
+}
+
 .col-md-12{
     color:#EE3B24;
     position:relative;
