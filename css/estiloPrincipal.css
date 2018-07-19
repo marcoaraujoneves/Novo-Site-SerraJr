@@ -5,12 +5,16 @@
     margin:10px;
     padding: 40px;
 }
- .divisor{
-    display: inline-block;
-    background-color:#EE3B24;
-    content: "";
-    width: 70px;
-    height: 5px;
-    margin:10px;
+.tituloServicos{
     position:relative;
- }
+}
+.tituloServicos:before{
+    position:absolute;
+    left: 45%;
+    width: 95px;
+    height: 5px;
+    content: "";
+    display: inline-block;
+    top: 55px;
+    background-color: #EE3B24;
+}
