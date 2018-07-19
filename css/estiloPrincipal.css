@@ -21,3 +21,51 @@ a:hover {
     background-color: grey;
     text-decoration: none;
 }
+
+.img-responsive {
+    margin-left: 10% ;
+    margin-top: 1% ;
+    width: 75% ;
+    height: 70%;
+}
+
+body{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.subtitulo_serviços {
+    color: #00172f;
+    font-size: 26pt;
+}
+
+.texto {
+    font-size: 16pt;
+    color: black;
+    text-align: justify;
+}
+
+.separador {
+    float: left;
+    width: 100%;
+    border-top: 4px solid #e7e7e7;
+}
+
+.col-md-12{
+    color:#EE3B24;
+    position:relative;
+    width: 50%;
+    margin:10px;
+    padding: 40px;
+}
+.tituloServicos{
+    position:relative;
+}
+.tituloServicos:before{
+    position:absolute;
+    left: 45%;
+    width: 95px;
+    height: 5px;
+    content: "";
+    display: inline-block;
+    top: 55px;
+    background-color: #EE3B24;
+}
