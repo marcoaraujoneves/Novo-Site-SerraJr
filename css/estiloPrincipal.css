@@ -18,8 +18,13 @@ a:hover {
 }
 
 .saiba_mais:hover{
-    background-color: grey;
+    color: white;
+    background-color: #ff2600;
     text-decoration: none;
+}
+
+.saiba_mais:active{
+    background-color:red;
 }
 
 .img-responsive {
@@ -49,6 +54,8 @@ body{
     border-top: 4px solid #e7e7e7;
 }
 
+
+/* V V V CORRIGIR - NAO ALTERE PROPRIEDADES DA CLASSE DO BOOTSTRAP! V V V */
 .col-md-12{
     color:#EE3B24;
     position:relative;
@@ -56,6 +63,8 @@ body{
     margin:10px;
     padding: 40px;
 }
+/* ^ ^ ^ CORRIGIR - NAO ALTERE PROPRIEDADES DA CLASSE DO BOOTSTRAP! ^ ^ ^ */
+
 .tituloServicos{
     position:relative;
 }
