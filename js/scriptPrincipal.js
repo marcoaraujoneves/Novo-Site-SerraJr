@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('#secaoCapa').css("margin-top",$("#barra-navegacao").css("height"));
 
-    /* Ao adicionar a classe fade, a primeira aba ficava em branco até clicar em outrae clicar
+    /* Ao adicionar a classe fade, a primeira aba ficava em branco até clicar em outra e clicar
      nela novamente, então o seguinte trecho de código foi feito para contornar tal situação */
     $('.nav-link').click(function(){
         var id = $(this).attr("href");
