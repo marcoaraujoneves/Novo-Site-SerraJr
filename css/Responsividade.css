@@ -1,0 +1,81 @@
+/*----------------------------------   Sobre Nós    -------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/* Adaptações para os links das abas */
+@media (max-width:284px){
+    .nav-tabs .nav-item .nav-link {
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:285px) and (max-width:346px){
+    .nav-tabs .nav-item .nav-link {
+        padding-left: 7px;
+        padding-right: 7px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:347px) and (max-width:406px){
+    .nav-tabs .nav-item .nav-link {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width:407px) and (max-width:440px){
+    .nav-tabs .nav-item .nav-link {
+        font-size: 17px;
+    }
+}
+
+/* Adaptações para as imagens das abas */
+@media (max-width:768px){
+    .tab-pane .img-responsive{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px){
+    .tab-pane .img-responsive{
+        margin-left: 7.5%;
+        width: 85%;
+    }
+}
+
+/*----------------------------------   Serviços   ---------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media (max-width:768px){
+    .subtituloSecoes{
+        display: none;
+    }
+}
+
+@media (min-width:0px) and (max-width:338px){
+    .linksServicos{
+        height: auto;
+    }
+}
+
+@media (min-width:339px) and (max-width:361px){
+    .linksServicos{
+        height: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .linksServicos{
+        height: auto;
+    }
+}
+
+@media (min-width:992px) and (max-width:1999px){
+    .linksServicos{
+        height: 260px;
+    }
+}
