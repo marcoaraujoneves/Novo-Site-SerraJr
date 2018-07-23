@@ -101,7 +101,7 @@ a:hover {
     margin: 20px;
 }
 
-.botaoServicos{
+.botaoEstilizado{
     position: relative;
     box-sizing: border-box;
     padding: 10px;
@@ -114,39 +114,46 @@ a:hover {
     transition: background-color 0.15s linear 0s;
 }
 
-.botaoServicos:hover{
+.botaoEstilizado:hover{
     background-color: rgb(202, 28, 5);
     color: white;
     text-decoration: none;
 }
+
+/* Contato */
+
+
+#container_contato{
+    padding-top: 20px;
+}
+
+#container_FormularioContato{
+    padding-left: 20px;
+}
+
+.contato_input{
+    padding: 7px;
+    border: 0.7px solid rgba(238, 59, 36, 0.432);
+    width: 100%;
+    border-radius: 3px;
+}
+
+.contato_input:focus{
+    outline: #EE3B24 2px solid;
+}
+
+/* Rodapé */
+.contato_info{
+    vertical-align: middle;
+}
+
+.contato_info img{
+    height: 20px;
+    margin: 5px;
+}
+
 /*----------------------------------   Tipografia   -------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
-
-.sobre_pilares h2{
-    text-align: center;
-    position:relative;
-    color:#EE3B24;
-    margin-top: 20px;    
-    font-size: 40px;
-}
-
-.nav-tabs .nav-item .active{
-    color: #EE3B24;
-}
-.sobre_pilares p{
-    text-align: center;
-    font-size: 20px;
-    line-height: 25px;
-    color: #6a6a6a;
-}
-
-.tab-pane p{
-    text-align: justify;
-}
-
-.tab-pane h5{
-    font-weight: 800;
-}
 
 .tituloSecoes{
     position:relative;
@@ -154,28 +161,6 @@ a:hover {
     color:#EE3B24;
     margin-top: 20px;
     font-weight: 700;
-}
-
-.link_externo, .link_externo:visited, .link_externo:hover{
-    font-size: 15px;
-    font-weight: 600;
-    color:#EE3B24;
-    text-decoration: underline;
-}
-
-.linksServicos{
-    color:black;
-    display: block;
-    height: 220px;
-    text-align: center;
-}
-
-.linksServicos:hover{
-    color:black;
-}
-
-.linksServicos h5{
-    font-weight: 600;
 }
 
 .tituloSecoes:before{
@@ -189,13 +174,66 @@ a:hover {
     background-color: #EE3B24;
 }
 
-#tituloSecoes_Servicos:before{
-    top: 80px;
-}
-
 .subtituloSecoes{
     position: relative;
     top:-5px;
     font-size: 17px;
     text-align: center;
+}
+
+#tituloSecoes_Servicos:before{
+    top: 80px;
+}
+
+.nav-tabs .nav-item .active{
+    color: #EE3B24;
+}
+
+.tab-pane p{
+    text-align: justify;
+}
+
+.tab-pane h5{
+    font-weight: 800;
+}
+
+.sobre_pilares h2{
+    text-align: center;
+    position:relative;
+    color:#EE3B24;
+    margin-top: 20px;    
+    font-size: 40px;
+}
+
+.sobre_pilares p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6a6a6a;
+}
+
+.link_externo, .link_externo:visited, .link_externo:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color:#EE3B24;
+    text-decoration: underline;
+}
+
+.linksServicos{
+    color:black;
+    display: block;
+    text-align: center;
+}
+
+.linksServicos:hover{
+    color:black;
+}
+
+.linksServicos h5{
+    font-weight: 600;
+}
+
+.contato_label{
+    color: #00172f;
+    font-weight: 600;
 }

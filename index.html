@@ -23,6 +23,33 @@
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
         <title> Serviços de Computação </title>
     </head>
+
+    <script type="text/javascript">
+        /* Máscara Para digitação do número de telefone no formulário de contato */
+        function mascara(o,f){
+            v_obj=o
+            v_fun=f
+            setTimeout("execmascara()",1)
+        }
+        function execmascara(){
+            v_obj.value=v_fun(v_obj.value)
+        }
+        function mtel(v){
+            v=v.replace(/\D/g,"");
+            v=v.replace(/^(\d{2})(\d)/g,"($1) $2");
+            v=v.replace(/(\d)(\d{4})$/,"$1-$2");
+            return v;
+        }
+        function id( el ){
+            return document.getElementById( el );
+        }
+        window.onload = function(){
+            id('contato_telefone').onkeypress = function(){
+                mascara( this, mtel );
+            }
+        }
+        </script>
+
     <body>
         <!-- Barra de Navegação-->
         <header>
@@ -188,7 +215,7 @@
                                 <p>Desenho Técnico e modelagem 3D<br> Prototipagem<br> Análise estrutural<br> Projetos de máquinas e equipamentos</p>
                             </div>
                         </a>
-                        <center><a class="botaoServicos" href="#">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="#">Saiba Mais</a></center>
                     </div>
 
                     <div class="col-md-4 containerServicos">
@@ -201,7 +228,7 @@
                                 </p>
                             </div>
                         </a>
-                        <center><a class="botaoServicos" href="#">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="#">Saiba Mais</a></center>
                     </div>
 
                     <div class="col-md-4 containerServicos">
@@ -214,13 +241,70 @@
                                 </p>
                             </div>
                         </a>
-                        <center><a class="botaoServicos" href="#">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="#">Saiba Mais</a></center>
                     </div>
                 </div>
             </div>
         </section>
         
+        <!-- Seção Contatos -->
+        <section>
+            <div class="container" id="contatos">
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="tituloSecoes"> Contato </h1>
+                    </div>
+                </div>
+                
+                <div class="row" id="container_contato">
+                    <div class="col-md-7" id="container_mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.911964232392!2d-42.54090613000892!3d-22.284006672727443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978a85e8cc82f3%3A0xc2954654bfcf2b7e!2sSerra+Jr.+Engenharia!5e0!3m2!1spt-BR!2sbr!4v1532349250656" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                    </div>
+
+                    <div class="col-md-5" id="container_FormularioContato">
+
+                        <form>
+                            <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                            <input type="text" id="contato_nome" name="email" class="contato_input" required placeholder="Digite aqui seu nome">
+                            <br><br>
+                            <label for="contato_email" class="contato_label"> E-mail </label><br>
+                            <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                            <br><br>
+                            <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                            <input type="text" id="contato_telefone" name="numero" class="contato_input" required placeholder="Digite aqui seu número">
+                            <br><br>
+                            <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                            <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                            <br><br>
+
+                            <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </body>
+
+    <!--  Incluir esse trecho ao rodapé
+        <span class="contato_info">
+            <img src="img/Principal/icones/home.svg">
+            Rua Bonfim, 25 - Vila Amélia, Nova Friburgo – RJ <br>
+            &emsp;&emsp; CEP: 28.625-570 <br>
+            &emsp;&emsp; Bloco 1, 3º andar, sala 312. <br>
+        </span>
+        <br>
+        <span class="contato_info">
+            <img src="img/Principal/icones/envelope-closed.svg">
+            atendimento@serrajr.eng.br <br>
+        </span>
+        <br>
+        <span class="contato_info">
+            <img src="img/Principal/icones/phone.svg">
+            (22) 2533-2265 / ramal 3122
+        </span>
+    -->
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </html>
