@@ -17,6 +17,15 @@ a:hover {
     text-decoration: none;
 }
 
+section{
+    width: 100%;
+}
+
+.cinza{
+    background-color: rgba(235, 233, 233, 0.226);
+}
+
+
 /* Barra de Navegação */
 .navbar{
     box-shadow: 0px 3px 6px rgba(128, 128, 128, 0.277);
@@ -118,6 +127,54 @@ a:hover {
     background-color: rgb(202, 28, 5);
     color: white;
     text-decoration: none;
+}
+
+/* Portifólio */
+.container_portifolio .nav-tabs{
+    border: none;
+    width: 30;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.container_portifolio .itemPortifolio .nav-link{
+    background-color: rgba(238, 59, 36, 0.5);
+    border-radius: 0px;
+}
+
+.container_portifolio .itemPortifolio .nav-link.active {
+    background-color: #EE3B24;
+    border-radius: 0px;
+}
+
+.imgPortifolio{
+    vertical-align: middle;
+    width: 400px;
+    height: 300px;
+}
+
+
+/* Blog */
+
+#tituloBlog{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container_noticiasRecentes{
+    padding: 10px;
+}
+
+.container_noticiasRecentes img{
+    height: 200px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 10px;
+}
+
+.acessarBlog{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* Contato */
@@ -236,4 +293,24 @@ a:hover {
 .contato_label{
     color: #00172f;
     font-weight: 600;
+}
+
+.portifolioProjeto h2{
+    color:#00172f;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.container_noticiasRecentes h2 {
+    margin: 10px;
+    text-align-last: center;
+    color:#032850;
+    font-weight: 700;
+}
+
+.container_noticiasRecentes p {
+    padding-top: 10px;
+    text-align: justify;
 }
