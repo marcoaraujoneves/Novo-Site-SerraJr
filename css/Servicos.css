@@ -2,6 +2,7 @@
 /*---------------------------------------------------------------------------------------------*/
 
 /* Servicos */
+
 .separador {
     width: 100%;
     border-top: 4px solid #e7e7e7;
@@ -45,8 +46,13 @@
 }
 
 #autoecontrole{
+    margin-top: 30px ;
     background-color: #f8f8f8;
+    border-top: 1px solid rgb(214, 214, 214) ;
+    border-bottom: 1px solid rgb(214, 214, 214) ;
     width: 100%;
+
+
 }
 
 /*----------------------------------   Tipografia   -------------------------------------------*/
