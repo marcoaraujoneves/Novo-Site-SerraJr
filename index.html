@@ -74,33 +74,33 @@
                 <!-- Menu de Navegação -->
                 <div class="collapse navbar-collapse" id="menu-navegacao">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" id="link_home" href=""> INÍCIO </a></li>
-                        <li class="nav-item"><a class="nav-link" id="link_sobre" href=""> SERRA JR. </a></li>
-                        <li class="nav-item"><a class="nav-link" id="link_servicos" href=""> SERVIÇOS </a></li>
-                        <li class="nav-item"><a class="nav-link" id="link_portifolio" href=""> PORTIFÓLIO </a></li>
-                        <li class="nav-item"><a class="nav-link" id="link_parceiros" href=""> BLOG </a></li>
-                        <li class="nav-item"><a class="nav-link" id="link_contatos" href=""> CONTATOS </a></li>
+                        <li class="nav-item"><a class="linkMenu nav-link link_ativo" id="link_home" href="#"> INÍCIO </a></li>
+                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoSobre" href="#secaoSobre"> SERRA JR. </a></li>
+                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoServicos" href="#secaoServicos"> SERVIÇOS </a></li>
+                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoPortifolio" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
+                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoBlog" href="#secaoBlog"> BLOG </a></li>
+                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoContato" href="#secaoContato"> CONTATOS </a></li>
                     </ul>
                 </div>
             </nav>
         </header>
 
         <!-- Capa do Site -->
-        <section id="secaoCapa">
+        <section class="secaoSite" id="secaoCapa">
 
         </section>
 
         <!-- Sobre a Serra Jr -->
-        <section>
+        <section class="secaoSite" id="secaoSobre">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="tituloSecoes"> A Serra Jr. </h1>
 
                         <ul class="nav nav-tabs"  role="tablist">
-                            <li class="nav-item"><a class="nav-link active" href="#nossa_historia" data-teste="0" role="tab" data-toggle="tab"> Nossa História </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#mej" role="tab" data-toggle="tab"> MEJ </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#iprj" role="tab" data-toggle="tab"> IPRJ </a></li>
+                            <li class="nav-item"><a class="linkSobre nav-link active" href="#nossa_historia" data-teste="0" role="tab" data-toggle="tab"> Nossa História </a></li>
+                            <li class="nav-item"><a class="linkSobre nav-link" href="#mej" role="tab" data-toggle="tab"> MEJ </a></li>
+                            <li class="nav-item"><a class="linkSobre nav-link" href="#iprj" role="tab" data-toggle="tab"> IPRJ </a></li>
                         </ul>
                         
                         <div class="tab-content">
@@ -159,7 +159,7 @@
         </section>
 
         <!-- Missão, Visão e Valores -->
-        <section>
+        <section id="secaoMissao">
             <div class="container">
                 <div class="row">
 
@@ -197,7 +197,7 @@
         </section>
 
         <!-- Serviços -->
-        <section class="cinza">
+        <section id="secaoServicos" class="secaoSite cinza">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -248,7 +248,7 @@
         </section>
         
         <!-- Seção Portifólio -->
-        <section>
+        <section class="secaoSite" id="secaoPortifolio">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12" id="tituloBlog">
@@ -257,11 +257,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12 container_portifolio">
+                    <div class="col-md-12" id="container_portifolio">
                         
                         
                         <div class="tab-content">
-                            <div class="tab-pane active"  role="tabpanel" id="soledade">
+                            <div class="containerProjetoPortifolio tab-pane active"  role="tabpanel" id="soledade">
                                 <div class="row">
                                     <div class="col-md-7">
                                         <img src="img/Principal/LogoSoledade.jpg" class="img-responsive">
@@ -279,7 +279,7 @@
                                 </div>
                             </div>
                             
-                            <div class="tab-pane "  role="tabpanel" id="laje">
+                            <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="laje">
                                 <div class="row">
                                     <div class="col-md-7">
                                         <img src="img/Principal/LogoLaje.jpg" class="img-responsive">
@@ -297,19 +297,17 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane "  role="tabpanel" id="fluid">
+                            <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="fluid">
                                 <div class="row">
-                                    <div class="col-md-7">
+                                    <div class="col-md-8">
                                         <img src="img/Principal/FluidDinamica.PNG" class="img-responsive imgPortifolio">
                                     </div>
 
-                                    <div class="col-md-5 portifolioProjeto">
+                                    <div class="col-md-4 portifolioProjeto">
                                         <h2> Fluid Dinâmica </h2>
                                         <p>
-                                            Criação de um manual com soluções obtidas computacionalmente para problemas 
-                                            estruturais encontrados nas cadeiras de rodas selecionadas. Informa as 
-                                            melhores maneiras de utiliza-las, aumentando sua vida útil e evitando 
-                                            que suas peças sejam desgastadas ou destruídas. 
+                                            Desenvolvimento de um site institucional, contendo informações de contato, informações gerais sobre a empresa e 
+                                            amostra de produtos, trazendo mais visibilidade à marca, agregando valor e auxiliando na prospecção.
                                         </p>
                                     </div>
                                 </div>
@@ -327,7 +325,7 @@
         </section>
 
         <!-- Seção Blog -->
-        <section class="cinza">
+        <section id="secaoBlog" class="secaoSite cinza">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12" id="tituloBlog">
@@ -380,7 +378,7 @@
         </section>
 
         <!-- Seção Contatos -->
-        <section>
+        <section class="secaoSite" id="secaoContato">
             <div class="container" id="contatos">
                 
                 <div class="row">

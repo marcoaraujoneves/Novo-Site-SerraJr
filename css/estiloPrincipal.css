@@ -49,8 +49,12 @@ section{
     text-align: center;
 }
 
-.nav-link:hover, .link_ativo{
-    color:#ee3b24;
+.nav-link:hover, .link_ativo {
+    color:#EE3B24 !important;
+}
+
+.link_ativo:hover{
+    color:red !important;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -74,6 +78,13 @@ section{
 .nav-tabs {
     border-bottom: 1px solid #EE3B24;
     margin-top: 30px;
+}
+
+.nav-tabs .nav-item .nav-link:hover{
+    margin-top: 1px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: none;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -130,19 +141,24 @@ section{
 }
 
 /* Portifólio */
-.container_portifolio .nav-tabs{
+
+#container_portifolio{
+    height:70%;
+}
+
+#container_portifolio .nav-tabs{
     border: none;
     width: 30;
     margin-left: 40%;
     margin-bottom: 20px;
 }
 
-.container_portifolio .itemPortifolio .nav-link{
+#container_portifolio .itemPortifolio .nav-link{
     background-color: rgba(238, 59, 36, 0.5);
     border-radius: 0px;
 }
 
-.container_portifolio .itemPortifolio .nav-link.active {
+#container_portifolio .itemPortifolio .nav-link.active {
     background-color: #EE3B24;
     border-radius: 0px;
 }
@@ -193,10 +209,12 @@ section{
     border: 0.7px solid rgba(238, 59, 36, 0.432);
     width: 100%;
     border-radius: 3px;
+    transition: outline 0.07s linear 0s;
 }
 
 .contato_input:focus{
     outline: #EE3B24 2px solid;
+    border-radius: 0px;
 }
 
 /* Rodapé */
@@ -213,6 +231,7 @@ section{
 /*---------------------------------------------------------------------------------------------*/
 
 .tituloSecoes{
+    /* font-variant-caps: small-caps; */
     position:relative;
     text-align: center;
     color:#EE3B24;
