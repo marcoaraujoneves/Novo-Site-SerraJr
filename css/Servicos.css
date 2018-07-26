@@ -36,6 +36,15 @@
     text-decoration: none;
 }
 
+.linha{
+    display: block;
+    margin: 20px auto;
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #EE3B24;
+}
+
 
 /*----------------------------------   Tipografia   -------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
@@ -45,17 +54,6 @@
     color:#EE3B24;
     margin-top: 20px;
     font-weight: 700;
-}
-
-.tituloServicos:before{
-    position:absolute;
-    left: 45%;
-    width: 95px;
-    height: 5px;
-    content: "";
-    display: inline-block;
-    top: 55px;
-    background-color: #EE3B24;
 }
 
 .subtitulo_servicos {
