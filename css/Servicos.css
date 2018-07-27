@@ -58,14 +58,14 @@
 }
 #secao_cinza{
     margin-top: 50px ;
-    background-color: #e4e4e4;
-    border-top: 1px solid rgb(180, 180, 180) ;
-    border-bottom: 1px solid rgb(180, 180, 180) ;
+    background-color: #ececec;
+    border-top: 1px solid rgb(199, 199, 199) ;
+    border-bottom: 1px solid rgb(199, 199, 199) ;
     width: 100%;
     
 }
-#rodape_computacao{
-    margin-top:  50px ;
+#rodape_servicos{
+    /* margin-top:  50px ; */
     background-color: #333 ;
     widows: 100%;
      height: 300px; /* lembrar de tirar quando adicionar os dados  */
