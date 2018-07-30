@@ -2,7 +2,20 @@ $(document).ready(function(){
 
     $(".containerProjetoPortifolio").css("height", $("#container_portifolio").css("height"));
 
+    var larguraTela = $('body').css("width");
+    larguraTela = larguraTela.replace("px","");
+    larguraTela =(parseInt(larguraTela) - 150)/2;
+    
+    $("#containerListaCapa").css("margin-left",larguraTela);
+
     $(window).resize(function(){
+        
+        larguraTela = $('body').css("width");
+        larguraTela = larguraTela.replace("px","");
+        larguraTela =(parseInt(larguraTela) - 150)/2;
+        
+        $("#containerListaCapa").css("margin-left",larguraTela);
+
         $(".containerProjetoPortifolio").css("height", "auto");
     });
 
