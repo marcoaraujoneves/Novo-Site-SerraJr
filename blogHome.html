@@ -1,0 +1,114 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/blog.css" />
+        <script src="js/blog.js"></script>
+        
+        <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
+        <title>Blog SerraJr</title>
+    </head>
+
+    <body>
+        
+        <!-- Contém a imagem e o título do blog (1) -->
+        <div class="headerBlog">
+            <div class="container-fluid container-header">
+                <div class="row vertical-center" id="grupo-titulo">
+                    <div class="col-md-12">
+                        <h1 class="text-center display-1" id="titulo">BLOG</h1>
+                        <h2 class="text-center" id="subtitulo">Notícias recentes da Serra Jr. !</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============= FIM (1) ==================-->
+
+        <!-- Menu com diversas opções relacionadas as postagens (2) -->
+        <div class="menuBlog">
+            <div class="container-fluid">
+                <div class="row" id="linha-menu">
+
+                    <!-- Caixa de pesquisa (2.1) -->
+                    <div class="col-lg-3 col-12 elemento-menu">
+                        <form id="busca-postagens" class="vertical-center">
+                            <input type="text" id="caixa-busca" name="busca" size="10" placeholder="Buscar postagens...">
+                            <button id="botao-busca">🔍</button>
+                        </form>
+                    </div>
+                    <!-- ====== FIM (2.1) ===== -->
+
+                    <!-- 1º dropdown do bootstrap (2.2) -->
+                    <div class="col-lg-1 col-sm-4 col-6 elemento-menu">
+                        <div class="dropdown vertical-center text-center">
+                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                TAGS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="tags">
+                                <a class="dropdown-item" href="#">Tag 1</a>
+                                <a class="dropdown-item" href="#">Tag 2</a>
+                                <a class="dropdown-item" href="#">Tag 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ========= FIM (2.2) =========== -->
+
+                    <!-- 2º dropdown do bootstrap (2.3)-->
+                    <div class="col-lg-1 col-sm-4 col-6 elemento-menu">
+                        <div class="dropdown vertical-center text-center">
+                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                DATA
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="data">
+                                <a class="dropdown-item" href="#">2018</a>
+                                <a class="dropdown-item" href="#">2017</a>
+                                <a class="dropdown-item" href="#">20XX</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ========= FIM (2.3) ======== -->
+
+                    <!-- 3º dropdown do bootstrap (2.4) -->
+                    <div class="col-lg-2 col-sm-4 col-12 elemento-menu">
+                        <div class="dropdown vertical-center text-center">
+                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ORDENAR POR
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="tags">
+                                <a class="dropdown-item" href="#">Data</a>
+                                <a class="dropdown-item" href="#">Popularidade</a>
+                                <a class="dropdown-item" href="#">Alfabético</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======= FIM (2.4) ======= -->
+
+                    <!-- Botões para redes sociais (2.5) -->
+                    <div class="col-lg-5 col-sm-12 col-12 elemento-menu text-right social">
+                        <a href="https://www.facebook.com/serrajreng/?fref=ts"><img src="img/Blog/facebook.svg" class="iconesSociais vertical-center"></a>
+                        <a href="https://www.instagram.com/serrajreng/"><img src="img/Blog/instagram.svg" class="iconesSociais vertical-center"></a>
+                        <a href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg"><img src="img/Blog/youtube.svg" class="iconesSociais vertical-center"></a>
+                    </div>
+                    <!-- ========== FIM (2.5) ========= -->
+                </div>
+            </div>
+        </div>
+        <!-- ====================== FIM (2) ======================= -->
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</html>
