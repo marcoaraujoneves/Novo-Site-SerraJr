@@ -98,8 +98,29 @@
 .modal_titulos{
     color:#012e5e;
     font-weight: 600;
-    font-size: 25px ;
+    font-size: 30px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.modal_texto{
+    font-size: 15px;
+    color: rgb(26, 26, 26);
+    text-align: justify;
+}
+
+.modal_sublinhado_1{
+    color:  #000000;
+    font-weight: 600;
+}
+
+.modal_sublinhado_2{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center ;
+}
+
+.modal_caixas_contato{
+
 }
 
 .tituloServicos{
@@ -118,8 +139,8 @@
 
 }
 .texto {
-    font-size: 16pt;
-    color: black;
+    font-size: 14pt;
+    color: rgb(26, 26, 26);
     text-align: justify;
 }
 
