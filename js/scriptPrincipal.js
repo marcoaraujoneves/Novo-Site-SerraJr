@@ -1,6 +1,8 @@
 var trocaSlide;
 
 $(document).ready(function(){
+    /* Previne que o usuário possa clicar e arrastar imagens */
+    $('img').on('dragstart', false);
     
     $(".containerProjetoPortifolio").css("height", $("#container_portifolio").css("height"));
     
