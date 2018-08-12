@@ -1,3 +1,119 @@
+/*----------------------------------   Logo do Site -------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+@media (max-width:300px){
+    .img-logo{
+        height: 37px;
+    }
+}
+
+/*----------------------------------   Capa do Site -------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+/* Adaptações para as imagens na capa do site */
+@media (min-width:541px) and (max-width:768px){
+    #secaoCapa{
+        height: 60%;
+    }
+}
+
+@media (min-width:350px) and (max-width:540px){
+    #secaoCapa{
+        height: 45%;
+    }
+}
+
+@media (max-width:350px){
+    #secaoCapa{
+        height: 35%;
+    }
+}
+
+/* Adaptações para os textos na capa do site */
+@media (max-width:278px){
+    .titulosCapa{
+        letter-spacing: 0px;
+        font-size: 28px;
+        top:15%;
+    }
+
+    .subtituloCapa{
+        font-size: 15px;
+        top:63%;
+    }
+}
+
+@media (min-width:279px) and (max-width:350px){
+    .titulosCapa{
+        font-size: 30px;
+        top:10%;
+    }
+
+    .subtituloCapa{
+        font-size: 18px;
+        top:64%;
+    }
+}
+
+@media (min-width:351px) and (max-width:541px){
+    .titulosCapa{
+        font-size: 35px;
+        top:20%;
+    }
+
+    .subtituloCapa{
+        font-size: 22px;
+        top:64%;
+    }
+}
+
+@media (min-width:542px) and (max-width:592px){
+    .titulosCapa{
+        font-size: 40px;
+        top:27%;
+    }
+
+    .subtituloCapa{
+        font-size: 30px;
+        top:62%;
+    }
+}
+
+@media (min-width:593px) and (max-width:658px){
+    .titulosCapa{
+        font-size: 40px;
+        top:35%;
+    }
+
+    .subtituloCapa{
+        font-size: 30px;
+        top:65%;
+    }
+}
+
+@media (min-width:659px) and (max-width:791px){
+    .titulosCapa{
+        font-size: 45px;
+        top:40%;
+    }
+
+    .subtituloCapa{
+        font-size: 30px;
+        top:67%;
+    }
+}
+
+@media (min-width:792px) and (max-width:925px){
+    .titulosCapa{
+        font-size: 55px;
+        top:40%;
+    }
+
+    .subtituloCapa{
+        font-size: 40px;
+        top:67%;
+    }
+}
+
+
 /*----------------------------------   Sobre Nós    -------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
