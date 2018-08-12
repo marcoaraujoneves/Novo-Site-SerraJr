@@ -72,6 +72,10 @@
      height: 300px; /* lembrar de tirar quando adicionar os dados  */
 }
 
+.modal-header{
+    background-color: rgb(223, 68, 48);
+}
+
 .modal_sair{
     position: relative ;
     box-sizing: border-box;
