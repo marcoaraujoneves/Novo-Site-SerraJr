@@ -115,7 +115,8 @@ a{
 .imagem{
     background-color: #aaa;
     width:100%;
-    padding: 20px;
+    padding:20px;
+    height:auto;
 }
 .card{
     background-color: white;
@@ -152,12 +153,7 @@ button{
 }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn { 
-      width: 100%;
-      padding: 0;
-    }
-}
+
 /* ========================================================== */
 
 /* ====== Media Queries para responsividade ====== */
@@ -170,6 +166,26 @@ button{
 
 @media (min-width:1920px){
     .headerBlog{
+        background-size: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .colunadireita {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .colunadireita {float: left;}
+    div.content {margin-left: 0;}
+ }
+@media screen and (max-width: 400px) {
+    .colunadireita {
+      text-align: center;
+      float: none;
+    }
+  }
+@media (min-width:1920px){
+    .imagem{
         background-size: auto;
     }
 }
