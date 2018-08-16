@@ -29,7 +29,7 @@ $(document).ready(function(){
     var sliderAtivo = 1;
     
     $('[data-ativo="1"]').css("opacity","0.55");
-    $('[data-textativo="1"]').css("opacity","1");
+    $('[data-textativo="1"]').css("left","0");
     
     window.setInterval(trocaSlider, 4500);
     
@@ -38,7 +38,7 @@ $(document).ready(function(){
             opacity: 0
         }, 700);
         $('[data-textativo="'+sliderAtivo+'"]').animate({
-            opacity: 0
+            left: "100%"
         }, 700);
         if (sliderAtivo==3){
             sliderAtivo = 1;
@@ -50,7 +50,7 @@ $(document).ready(function(){
             opacity: 0.55
         }, 700);
         $('[data-textativo="'+sliderAtivo+'"]').animate({
-            opacity: 1
+            left: "0"
         }, 700);
     }
     
