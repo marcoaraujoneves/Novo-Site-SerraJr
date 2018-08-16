@@ -21,7 +21,7 @@ a{
 }
 
 .container-header{
-    height: 500px;
+    height: 300px;
 }
 
 #grupo-titulo{
@@ -79,7 +79,7 @@ a{
     color:red;
 }
 
-.social{
+/* .social{
     padding: 15px;
 }
 
@@ -87,11 +87,77 @@ a{
     margin-right: 5px;
     width: 24px;
     height: 24px;
+} */
+
+/* ========================================================== */
+
+/* =================== Conteúdo Principal =================== */
+.titpag{
+    color:#EE3B24;
+    text-align: justify;
+    margin: 0px;
 }
+.textos{
+    text-align: justify;
+    margin: 0px;
+}
+.colunaesquerda{ 
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+.colunadireita{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.imagem{
+    background-color: #aaa;
+    width:100%;
+    padding:20px;
+    height:auto;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+button{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.saibamais{
+    border-color: #e7e7e7;
+    color: black;
+}
+
+.saibamais:hover{
+    background:rgba(221, 216, 216, 0.685);
+}
+  /* Deixar espaço entre as colunas */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #6a6a6a;
+}
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 
 /* ========================================================== */
 
 /* ====== Media Queries para responsividade ====== */
+
 /* @media (max-width:768px){
     .headerBlog{
         background-image: none;
@@ -100,6 +166,26 @@ a{
 
 @media (min-width:1920px){
     .headerBlog{
+        background-size: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .colunadireita {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .colunadireita {float: left;}
+    div.content {margin-left: 0;}
+ }
+@media screen and (max-width: 400px) {
+    .colunadireita {
+      text-align: center;
+      float: none;
+    }
+  }
+@media (min-width:1920px){
+    .imagem{
         background-size: auto;
     }
 }

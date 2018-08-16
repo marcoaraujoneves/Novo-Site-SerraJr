@@ -57,7 +57,6 @@
                         <div class="col-md-12 text-center">
                             <button type="button" class="saiba_mais" data-toggle="modal" data-target="#ModalSistemaDeControle">Saiba Mais</button>
                         </div>
-                        <br><br>
                     </div>   
                 </div>  
             </div>
@@ -80,7 +79,6 @@
                         <div class="col-md-12 text-center">
                                 <button type="button" class="saiba_mais" data-toggle="modal" data-target="#ModalAutomacao">Saiba Mais</button>
                         </div>
-                        <br><br><br><br>
                     </div>
                 </div>
             </div>
@@ -113,7 +111,6 @@
                         <div class="col-md-12 text-center">
                                 <button type="button" class="saiba_mais" data-toggle="modal" data-target="#ModalWebSites">Saiba Mais</button>
                         </div>
-                        <br><br>
                     </div>   
                 </div>
             </div>
@@ -137,7 +134,6 @@
                         <div class="col-md-12 text-center">
                             <button type="button" class="saiba_mais" data-toggle="modal" data-target="#ModalSistemaWeb">Saiba Mais</button>
                         </div>
-                        <br><br><br><br>
                     </div>
                 </div>
             </div>
@@ -161,7 +157,6 @@
                         <div class="col-md-12 text-center">
                             <button type="button" class="saiba_mais" data-toggle="modal" data-target="#ModalAplicativo">Saiba Mais</button>
                         </div>
-                        <br><br><br><br>
                     </div> 
                 </div>  
             </div>
@@ -185,14 +180,16 @@
                     <div class="modal-body">
                         <div class="container">
                             <div class="col-md-12" >
-                                <p class="modal_texto">Historicamente, nos meados das décadas de 70 e 80, com o avanço da eletrônica e, surgimento dos microprocessadores, o computador se tornou uma peça chave nos diversos setores industriais. Surgiram também os primeiros sistemas supervisores. Basicamente, um sistema supervisor destina-se à capturar e armazenar em um banco de dados, informações sobre um processo de produção. As informações vem de sensores que capturam dados específicos (conhecidos como variáveis de processo) da planta industrial.</p>
+                                <p class="modal_texto">Historicamente, nos meados das décadas de 70 e 80, com o avanço da eletrônica e o surgimento dos microprocessadores, o computador se tornou uma peça chave nos diversos setores industriais. 
+                                    Surgiram também os primeiros sistemas supervisores que destina-se à captura de informações de um processo de produção e sua armazenagem em um determinado banco de dados. 
+                                    As informações vêm de sensores que capturam dados específicos (conhecidos como variáveis de processo) da planta industrial.</p>
                                 <p class="modal_texto">A <span>Serra Jr</span> trabalha na elaboração de projetos de software de supervisão. Nossos softwares monitoram em tempo real a produção utilizando <span class="modal_sublinhado_1">Arduino</span>, <span class="modal_sublinhado_1">Raspberry Pi</span>, <span class="modal_sublinhado_1">Sensores digitais</span> e <span class="modal_sublinhado_1">Banco de dados</span> </p>
                                 <hr class="separador">
-                                <p class="modal_texto"><span class="modal_sublinhado_2">Principais benefíios do Sistema de Controle:</span> </p>
+                                <p class="modal_texto"><span class="modal_sublinhado_2">Principais benefícios do Sistema de Controle:</span> </p>
                                 <ul>
-                                    <li>Controle de produção </li>
-                                    <li>Monitoramento de processos</li>
-                                    <li>Construção de gráficos de perda e outros indicadores</li>
+                                    <li>Controle de produção. </li>
+                                    <li>Monitoramento de processos.</li>
+                                    <li>Construção de gráficos de perda e outros indicadores.</li>
                                 </ul>
                                 <p class="modal_texto"># Gostaria de saber se a Serra Jr pode te ajudar? Contate-nos e peça um orçamento ou agende uma reunião sem compromisso preenchendo os dados do nosso formulário de contato a seguir. #</p>
                             </div>
@@ -200,7 +197,22 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h2 style="font-weight:600; color: #012e5e ">- Contato -</h2>
+                                <h3 class="modal_titulo_contato">- Contato -</h3>
+                                <form>
+                                    <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                                    <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
+                                    <br><br>
+                                    <label for="contato_email" class="contato_label"> E-mail </label><br>
+                                    <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                                    <br><br>
+                                    <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                                    <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
+                                    <br><br>
+                                    <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                                    <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                                    <br><br>                                 
+                                    <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                                </form>
                             </div>
                         </div>    
                     </div>
@@ -222,7 +234,7 @@
                     <div class="modal-body">
                         <div class="container">
                             <div class="col-md-12" >
-                                <p class="modal_texto">Automação industrial é a aplicação de técnicas, softwares e/ou equipamentos específicos em um determinado processo , com o intuito de torná-lo mais eficiente e autonomo.</p>
+                                <p class="modal_texto">Automação industrial é a aplicação de técnicas, softwares e/ou equipamentos específicos em um determinado processo com o intuito de torná-lo mais eficiente e autônomo.</p>
                                 <p class="modal_texto">A <span>Serra Jr</span> trabalha com a análise e melhorias nas cadeias de produção/serviços. Desenvolvemos softwares e equipamentos customizados que agilizam e/ou proporcionam autonomia nos processos. </p>
                                 <hr class="separador">
                                 <p class="modal_texto"><span class="modal_sublinhado_2">Principais benefíios da automação:</span> </p>
@@ -237,7 +249,22 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h2 style="font-weight:600; color: #012e5e ">- Contato -</h2>
+                                <h3 class="modal_titulo_contato">- Contato -</h3>
+                                <form>
+                                    <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                                    <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
+                                    <br><br>
+                                    <label for="contato_email" class="contato_label"> E-mail </label><br>
+                                    <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                                    <br><br>
+                                    <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                                    <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
+                                    <br><br>
+                                    <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                                    <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                                    <br><br>
+                                    <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                                </form>   
                             </div>
                         </div>    
                     </div>
@@ -259,14 +286,30 @@
                     <div class="modal-body">
                         <div class="container">
                             <div class="col-md-12" >
-                                <p class="modal_texto">Com um site você garante seu espaço exclusivo na Web, independente se seu empreendimento é pequeno ou grande. Este é uma maneira de apresentar ao mundo informações, fotos e produtos referente a sua empresa e/ou serviço. Além disso, estar na internet permite que o seu negócio e você esteja em qualquer lugar do mundo a todo momento. Com a ajuda da Serra Jr., você terá essas vantagens. A partir de uma analise da sua necessidade elaboraremos um site sob medida, com todas as facilidades e requisitos de que você precisa.</p>
+                                <p class="modal_texto">Com um site você garante seu espaço exclusivo na Web, independente se seu empreendimento é pequeno ou grande. Esta é uma maneira de apresentar ao mundo informações, fotos e produtos referentes à sua empresa e/ou serviço. 
+                                    Além disso, estar na internet permite que o seu negócio e você estejam em qualquer lugar do mundo a todo momento. Com a ajuda da Serra Jr., você terá essas vantagens. A partir de uma análise da sua necessidade elaboraremos um site sob medida, com todas as facilidades e requisitos que você precisa.</p>
                                 <p class="modal_texto"># Gostaria de saber se a Serra Jr pode te ajudar? Contate-nos e peça um orçamento ou agende uma reunião sem compromisso preenchendo os dados do nosso formulário de contato a seguir. #</p>
                             </div>
                         </div>
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h2 style="font-weight:600; color: #012e5e ">Contato</h2>
+                                <h3 class="modal_titulo_contato">- Contato -</h3>
+                                <form>
+                                    <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                                    <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
+                                    <br><br>
+                                    <label for="contato_email" class="contato_label"> E-mail </label><br>
+                                    <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                                    <br><br>
+                                    <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                                    <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
+                                    <br><br>
+                                    <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                                    <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                                    <br><br>           
+                                    <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                                </form>
                             </div>
                         </div>    
                     </div>
@@ -288,14 +331,30 @@
                         <div class="modal-body">
                             <div class="container">
                                 <div class="col-md-12" >
-                                    <p class="modal_texto">O sistema web permite uma visão abrangente dos custos com encargos fiscais, funcionários, montantes reservados para os serviços prestados ou produção do produto, além do controle do estoque e/ou caixa a partir do monitoramento desses dados. Com essas informações a Serrra Jr. elabora um sistema personalizado, através do qual é possível saber se há excessos nos gastos, evitando erros humanos e garantindo maior qualidade dos registros e análises.</p>
+                                    <p class="modal_texto">O sistema web permite uma visão abrangente dos custos com encargos fiscais, funcionários, montantes reservados para os serviços prestados ou produção do produto, além do controle do estoque e/ou caixa a partir do monitoramento desses dados. 
+                                        Com essas informações a Serrra Jr. elabora um sistema personalizado através do qual é possível saber se há excessos nos gastos, evitando erros humanos e garantindo maior qualidade dos registros e análises.</p>
                                     <p class="modal_texto"># Gostaria de saber se a Serra Jr pode te ajudar? Contate-nos e peça um orçamento ou agende uma reunião sem compromisso preenchendo os dados do nosso formulário de contato a seguir. #</p>
                                 </div>
                             </div>
                             <div class="container">
                                 <hr class="separador">
                                 <div class="col-md-12 text-center">
-                                    <h2 style="font-weight:600; color: #012e5e ">- Contato -</h2>
+                                    <h3 class="modal_titulo_contato">- Contato -</h3>
+                                    <form>
+                                        <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                                        <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
+                                        <br><br>
+                                        <label for="contato_email" class="contato_label"> E-mail </label><br>
+                                        <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                                        <br><br>
+                                        <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                                        <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
+                                        <br><br>
+                                        <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                                        <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                                        <br><br>
+                                        <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                                    </form>
                                 </div>
                             </div>    
                         </div>
@@ -317,14 +376,32 @@
                     <div class="modal-body">
                         <div class="container">
                             <div class="col-md-12" >
-                                <p class="modal_texto">É inegável que as gerações atuais usam seus smartphones e tablets para realizar as mais diversas atividades no dia a dia. Desde uma compra às pesquisas de inspiração, dos pedidos de comida aos serviços bancários, quase tudo pode ser feito por meio dos aparelhos mobile. Por isso, sua empresa pode ter diversos benefícios ao apostar no desenvolvimento de aplicativos para agregar valor à marca e ter um diferencial no atendimento. Com a Serra Jr. sua ideia de app vira realidade com muita criatividade e tecnologia. Planejamos, desenvolvemos e entregamos aplicativos personalizados para seu negócio se destacar no mercado.</p>
+                                <p class="modal_texto">É inegável que as gerações atuais usam seus smartphones e tablets para realizar as mais diversas atividades no dia a dia. 
+                                    Desde uma compra às pesquisas de inspiração, dos pedidos de comida aos serviços bancários, quase tudo pode ser feito por meio dos aparelhos mobile. 
+                                    Por isso, sua empresa pode ter diversos benefícios ao apostar no desenvolvimento de aplicativos para agregar valor à marca e ter um diferencial no atendimento. 
+                                    Com a Serra Jr. sua ideia de app vira realidade com muita criatividade e tecnologia. Planejamos, desenvolvemos e entregamos aplicativos personalizados para seu negócio se destacar no mercado.</p>
                                 <p class="modal_texto"># Gostaria de saber se a Serra Jr pode te ajudar? Contate-nos e peça um orçamento ou agende uma reunião sem compromisso preenchendo os dados do nosso formulário de contato a seguir. #</p>
                             </div>
                         </div>
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h2 style="font-weight:600; color: #012e5e ">- Contato -</h2>
+                                <h3 class="modal_titulo_contato">- Contato -</h3>
+                                <form>
+                                    <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                                    <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
+                                    <br><br>
+                                    <label for="contato_email" class="contato_label"> E-mail </label><br>
+                                    <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                                    <br><br>
+                                    <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                                    <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
+                                    <br><br>
+                                    <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                                    <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                                    <br><br>                                  
+                                    <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                                </form>
                             </div>
                         </div>    
                     </div>
