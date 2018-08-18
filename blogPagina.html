@@ -26,11 +26,11 @@
     <body>
         
         <!-- Contém a imagem e o título do blog (1) -->
-        <header class="headerBlog">
-            <div class="container-fluid container-header">
+        <header id="headerBlog">
+            <div id="container_header" class="container-fluid">
                 <div class="row vertical-center" id="grupo-titulo">
                     <div class="col-md-12">
-                        <h1 class="text-center display-1" id="titulo">BLOG</h1>
+                        <h1 class="text-center display-1 titulo" id="titulo">BLOG</h1>
                         <h2 class="text-center" id="subtitulo">Notícias recentes da Serra Jr. !</h2>
                     </div>
                 </div>
@@ -39,81 +39,57 @@
         <!--============= FIM (1) ==================-->
 
         <!-- Menu com diversas opções relacionadas as postagens (2) -->
-        <nav class="menuBlog">
-            <div class="container-fluid">
-                <div class="row" id="linha-menu">
-
-                    <!-- Caixa de pesquisa (2.1) -->
-                    <div class="col-lg-3 col-12 elemento-menu">
-                        <form id="busca-postagens" class="vertical-center">
-                            <input type="text" id="caixa-busca" name="busca" size="10" placeholder="Buscar postagens...">
-                            <button id="botao-busca">🔍</button>
-                        </form>
+        <nav class="navbar navbar-expand-md navbar-light bg-light menuBlog">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    TAGS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Tag 1</a>
+                    <a class="dropdown-item" href="#">Tag 2</a>
+                    <a class="dropdown-item" href="#">Tag 3</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      DATA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">2018</a>
+                      <a class="dropdown-item" href="#">2017</a>
+                      <a class="dropdown-item" href="#">20XX</a>
                     </div>
-                    <!-- ====== FIM (2.1) ===== -->
-
-                    <!-- 1º dropdown do bootstrap (2.2) -->
-                    <div class="col-lg-1 col-sm-4 col-6 elemento-menu">
-                        <div class="dropdown vertical-center text-center">
-                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                TAGS
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="tags">
-                                <a class="dropdown-item" href="#">Tag 1</a>
-                                <a class="dropdown-item" href="#">Tag 2</a>
-                                <a class="dropdown-item" href="#">Tag 3</a>
-                            </div>
-                        </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ORDENAR POR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Data</a>
+                      <a class="dropdown-item" href="#">Popularidade</a>
+                      <a class="dropdown-item" href="#">Alfabético</a>
                     </div>
-                    <!-- ========= FIM (2.2) =========== -->
-
-                    <!-- 2º dropdown do bootstrap (2.3)-->
-                    <div class="col-lg-1 col-sm-4 col-6 elemento-menu">
-                        <div class="dropdown vertical-center text-center">
-                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                DATA
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="data">
-                                <a class="dropdown-item" href="#">2018</a>
-                                <a class="dropdown-item" href="#">2017</a>
-                                <a class="dropdown-item" href="#">20XX</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ========= FIM (2.3) ======== -->
-
-                    <!-- 3º dropdown do bootstrap (2.4) -->
-                    <div class="col-lg-2 col-sm-4 col-12 elemento-menu">
-                        <div class="dropdown vertical-center text-center">
-                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ORDENAR POR
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="tags">
-                                <a class="dropdown-item" href="#">Data</a>
-                                <a class="dropdown-item" href="#">Popularidade</a>
-                                <a class="dropdown-item" href="#">Alfabético</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ======= FIM (2.4) ======= -->
-
-                    <!-- Botões para redes sociais (2.5) -->
-                    <!-- <div class="col-lg-5 col-sm-12 col-12 elemento-menu text-right social">
-                        <a href="https://www.facebook.com/serrajreng/?fref=ts"><img src="img/Blog/facebook.svg" class="iconesSociais vertical-center"></a>
-                        <a href="https://www.instagram.com/serrajreng/"><img src="img/Blog/instagram.svg" class="iconesSociais vertical-center"></a>
-                        <a href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg"><img src="img/Blog/youtube.svg" class="iconesSociais vertical-center"></a>
-                    </div> -->
-                    <!-- ========== FIM (2.5) ========= -->
-                </div>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar postagens..." aria-label="Pesquisar postagens...">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
             </div>
         </nav>
         <!-- ====================== FIM (2) ======================= -->
-        <div class="row justify-content-center">
-            <div class="colunaesquerda">
-                <div class="card">
-                    <h2 class="titpag">LOREM IPSUM</h2>
-                    <h5>Descrição, 03 de Agosto , 2018</h5>  
-                    <img class="text-center" id="imagem_postagem" src="img/Blog/img/noticia0.jpg">
+        <article class="container-fluid px-4">
+            <div class="row">
+                <div class="col-md-8 text-justify mt-5">
+                    <h2 class="titulo m-0">LOREM IPSUM</h2>
+                    <h5><time datetime="2018-08-03">03 de Agosto, 2018</time></h5>  
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/img/noticia0.jpg">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lobortis volutpat. 
                             Morbi posuere, risus ut tincidunt feugiat, risus ante cursus tellus, et finibus enim nisl et purus. 
                             Aliquam accumsan, tellus at mollis consequat, ante metus aliquet metus, eget accumsan massa orci quis risus. 
@@ -135,6 +111,7 @@
                             Pellentesque nisl metus, tincidunt sit amet nisi ut, volutpat vehicula dui. 
                             Fusce a ante sit amet est vehicula congue non quis odio. Ut porttitor ex id nibh aliquam molestie. 
                             Donec ut ligula facilisis, iaculis nulla non, luctus nisi.</p>
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/img/noticia2.jpg">
                     <p>Sed lacinia auctor varius. Ut auctor nisi quis est luctus molestie. 
                             Pellentesque ut semper nunc. Nulla accumsan lectus risus, et suscipit nunc suscipit sit amet. 
                             Pellentesque luctus lorem quis diam pharetra porttitor. Curabitur hendrerit massa vel mi auctor sollicitudin sit amet nec sem. 
@@ -148,11 +125,49 @@
                             Nullam convallis, tortor commodo tempor vulputate, erat sem euismod quam, pretium dictum ipsum arcu at massa. 
                             Proin at elit a libero vulputate blandit ut at arcu. Donec varius orci at neque pellentesque luctus. 
                             Fusce maximus faucibus mollis. Sed hendrerit dui ac elit feugiat, in semper leo aliquam. </p>
-                    <br>
+                    <div class="relacionados">
+                        <h4>Postagens Relacionadas</h4>
+                        <ul class="font-italic">
+                            <li><a href="#">Postagem 0 - Lorem Ipsum</a></li>
+                            <li><a href="#">Postagem 1 - Dolor Sit Amet</a></li>
+                            <li><a href="#">Postagem 2 - Consectetur Adipiscing Elit</a></li>
+                            <li><a href="#">Postagem 3 - Nunc Posuere Lobortis Volutpat</a></li>
+                            <li><a href="#">Postagem 4 - Morbi Posuere, Risus Ut Tincidunt Feugia</a></li>
+                        </ul>
+                    </div>
+                    <div class="card bg-light my-3 p-3">
+                        <div class="row no-gutters">
+                            <div class="mx-auto">
+                                <img id="foto_autor" class="img-fluid vertical-center mx-3 border" src="img/Blog/img/autor.png">
+                            </div>
+                            <div class="col-md">
+                                <div class="card-block p-3">
+                                    <h3 class="card-title" id="nome_autor">Fulano da Silva</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lobortis volutpat. 
+                                                Morbi posuere, risus ut tincidunt feugiat, risus ante cursus tellus, et finibus enim nisl et purus. 
+                                                Aliquam accumsan, tellus at mollis consequat, ante metus aliquet metus, eget accumsan massa orci quis risus. 
+                                                Aliquam erat volutpat. Donec sit amet porttitor orci. Fusce commodo sapien ac lorem blandit, a suscipit purus malesuada. 
+                                                Curabitur vestibulum turpis ut lorem vestibulum, quis mollis tellus tristique. Duis aliquam sit amet ante ut ultrices. 
+                                                Etiam ornare dui quis dolor finibus, mattis vehicula diam suscipit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <aside id="lateral" class="col-md-4 text-justify mt-5">
+                    <h2 class="titulo">ASIDE</h2>
+                    <p>Esta área pode conter qualquer coisa</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lobortis volutpat. 
+                        Morbi posuere, risus ut tincidunt feugiat, risus ante cursus tellus, et finibus enim nisl et purus. 
+                        Aliquam accumsan, tellus at mollis consequat, ante metus aliquet metus, eget accumsan massa orci quis risus. 
+                        Aliquam erat volutpat. Donec sit amet porttitor orci. Fusce commodo sapien ac lorem blandit, a suscipit purus malesuada. 
+                        Curabitur vestibulum turpis ut lorem vestibulum, quis mollis tellus tristique. Duis aliquam sit amet ante ut ultrices. 
+                        Etiam ornare dui quis dolor finibus, mattis vehicula diam suscipit.</p>
+                </aside>
             </div>
-        </div>
+        </article>
+        
     </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </html>

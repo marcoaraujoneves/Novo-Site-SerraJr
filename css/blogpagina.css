@@ -11,7 +11,7 @@ a{
 /* ========================= */
 
 /* ====================== Header ====================== */
-.headerBlog{
+#headerBlog{
     width: 100%;
     background-image: url("../img/Blog/hero.png");
     background-position-x: center;
@@ -20,7 +20,7 @@ a{
     background-color: #202020;
 }
 
-.container-header{
+#container_header{
     height: 300px;
 }
 
@@ -29,137 +29,49 @@ a{
     text-shadow: 2px 2px black;
 }
 
-#titulo{
+.titulo{
     color: #EE3B24;
 }
 /* ====================================================== */
 
 /* ======================== Menu do Blog ========================= */
 .menuBlog{
-    background-color: white;
-    width:100%;
-    border: 1px solid grey;
     border-top: 5px solid #EE3B24;
     box-shadow: 0 5px 30px grey;
 }
-
-.elemento-menu{
-    border-right: 1px solid grey;
-}
-
-#busca-postagens{
-    display: flex;
-    flex-direction: row;
-    padding: 2px;
-}
-
-#caixa-busca{
-    padding: 5px;
-    flex-grow: 2;
-    border:none;
-    border-bottom: 1px solid grey;
-}
-
-#botao-busca{
-    padding: 5px;
-    border: none;
-    background: white;
-}
-
-.link-menu{
-    padding:0;
-    color:black;
-}
-
-.link-menu:hover{
-    color:#EE3B24;
-}
-
-.link-menu:active{
-    color:red;
-}
-
-/* .social{
-    padding: 15px;
-}
-
-.iconesSociais{
-    margin-right: 5px;
-    width: 24px;
-    height: 24px;
-} */
-
 /* ========================================================== */
 
 /* =================== Conteúdo Principal =================== */
 .titpag{
     color:#EE3B24;
-    text-align: justify;
-    margin: 0px;
 }
 
-.colunaesquerda{ 
-    float: left;
-    width: 75%;
-    padding: 20px;
-}
-.colunadireita{
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-    padding-right: 10px;
+.imagem_postagem{
+    width:600px;
+    border-radius: 5px;
 }
 
-#imagem_postagem{
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    object-fit: contain;
+#foto_autor{
+    height:175px;
+    width:175px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-.card{
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
-button{
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
+.relacionados a{
+    color:#012e5e;
 }
 
-  /* Deixar espaço entre as colunas */
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+.relacionados a:hover{
+    color:#EE3B24;
 }
-.footer{
-    margin-top: 20px;
-    width: 100%;
-    height: 100px;
-    background-color: #6a6a6a;
-}
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn { 
-      width: 100%;
-      padding: 0;
-    }
+
+.relacionados a:active{
+    color:red;
 }
 /* ========================================================== */
 
 /* ====== Media Queries para responsividade ====== */
-
-/* @media (max-width:768px){
-    .headerBlog{
-        background-image: none;
-    }
-} */
 
 @media (min-width:1920px){
     .headerBlog{

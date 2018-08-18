@@ -26,11 +26,11 @@
     <body>
         
         <!-- Contém a imagem e o título do blog (1) -->
-        <header class="headerBlog">
-            <div class="container-fluid container-header">
+        <header id="headerBlog">
+            <div id="container_header" class="container-fluid">
                 <div class="row vertical-center" id="grupo-titulo">
                     <div class="col-md-12">
-                        <h1 class="text-center display-1" id="titulo">BLOG</h1>
+                        <h1 class="text-center display-1 titulo" id="titulo">BLOG</h1>
                         <h2 class="text-center" id="subtitulo">Notícias recentes da Serra Jr. !</h2>
                     </div>
                 </div>
@@ -39,72 +39,48 @@
         <!--============= FIM (1) ==================-->
 
         <!-- Menu com diversas opções relacionadas as postagens (2) -->
-        <nav class="menuBlog">
-            <div class="container-fluid">
-                <div class="row" id="linha-menu">
-
-                    <!-- Caixa de pesquisa (2.1) -->
-                    <div class="col-lg-3 col-12 elemento-menu">
-                        <form id="busca-postagens" class="vertical-center">
-                            <input type="text" id="caixa-busca" name="busca" size="10" placeholder="Buscar postagens...">
-                            <button id="botao-busca">🔍</button>
-                        </form>
+        <nav class="navbar navbar-expand-md navbar-light bg-light menuBlog">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    TAGS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Tag 1</a>
+                    <a class="dropdown-item" href="#">Tag 2</a>
+                    <a class="dropdown-item" href="#">Tag 3</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      DATA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">2018</a>
+                      <a class="dropdown-item" href="#">2017</a>
+                      <a class="dropdown-item" href="#">20XX</a>
                     </div>
-                    <!-- ====== FIM (2.1) ===== -->
-
-                    <!-- 1º dropdown do bootstrap (2.2) -->
-                    <div class="col-lg-1 col-sm-4 col-6 elemento-menu">
-                        <div class="dropdown vertical-center text-center">
-                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                TAGS
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="tags">
-                                <a class="dropdown-item" href="#">Tag 1</a>
-                                <a class="dropdown-item" href="#">Tag 2</a>
-                                <a class="dropdown-item" href="#">Tag 3</a>
-                            </div>
-                        </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ORDENAR POR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Data</a>
+                      <a class="dropdown-item" href="#">Popularidade</a>
+                      <a class="dropdown-item" href="#">Alfabético</a>
                     </div>
-                    <!-- ========= FIM (2.2) =========== -->
-
-                    <!-- 2º dropdown do bootstrap (2.3)-->
-                    <div class="col-lg-1 col-sm-4 col-6 elemento-menu">
-                        <div class="dropdown vertical-center text-center">
-                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                DATA
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="data">
-                                <a class="dropdown-item" href="#">2018</a>
-                                <a class="dropdown-item" href="#">2017</a>
-                                <a class="dropdown-item" href="#">20XX</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ========= FIM (2.3) ======== -->
-
-                    <!-- 3º dropdown do bootstrap (2.4) -->
-                    <div class="col-lg-2 col-sm-4 col-12 elemento-menu">
-                        <div class="dropdown vertical-center text-center">
-                            <a class="btn btn-link dropdown-toggle link-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ORDENAR POR
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="tags">
-                                <a class="dropdown-item" href="#">Data</a>
-                                <a class="dropdown-item" href="#">Popularidade</a>
-                                <a class="dropdown-item" href="#">Alfabético</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ======= FIM (2.4) ======= -->
-
-                    <!-- Botões para redes sociais (2.5) -->
-                    <!-- <div class="col-lg-5 col-sm-12 col-12 elemento-menu text-right social">
-                        <a href="https://www.facebook.com/serrajreng/?fref=ts"><img src="img/Blog/facebook.svg" class="iconesSociais vertical-center"></a>
-                        <a href="https://www.instagram.com/serrajreng/"><img src="img/Blog/instagram.svg" class="iconesSociais vertical-center"></a>
-                        <a href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg"><img src="img/Blog/youtube.svg" class="iconesSociais vertical-center"></a>
-                    </div> -->
-                    <!-- ========== FIM (2.5) ========= -->
-                </div>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar postagens..." aria-label="Pesquisar postagens...">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
             </div>
         </nav>
         <!-- ====================== FIM (2) ======================= -->
@@ -157,6 +133,6 @@
             </div>
         </div>
     </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </html>

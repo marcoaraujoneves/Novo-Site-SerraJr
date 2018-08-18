@@ -11,16 +11,16 @@ a{
 /* ========================= */
 
 /* ====================== Header ====================== */
-.headerBlog{
+#headerBlog{
     width: 100%;
-    background-image: url("img/Blog/hero.png");
+    background-image: url("../img/Blog/hero.png");
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #202020;
 }
 
-.container-header{
+#container_header{
     height: 300px;
 }
 
@@ -29,65 +29,16 @@ a{
     text-shadow: 2px 2px black;
 }
 
-#titulo{
+.titulo{
     color: #EE3B24;
 }
 /* ====================================================== */
 
 /* ======================== Menu do Blog ========================= */
 .menuBlog{
-    background-color: white;
-    width:100%;
-    border: 1px solid grey;
     border-top: 5px solid #EE3B24;
     box-shadow: 0 5px 30px grey;
 }
-
-.elemento-menu{
-    border-right: 1px solid grey;
-}
-
-#busca-postagens{
-    display: flex;
-    flex-direction: row;
-    padding: 2px;
-}
-
-#caixa-busca{
-    padding: 5px;
-    flex-grow: 2;
-    border:none;
-    border-bottom: 1px solid grey;
-}
-
-#botao-busca{
-    padding: 5px;
-    border: none;
-    background: white;
-}
-
-.link-menu{
-    padding:0;
-    color:black;
-}
-
-.link-menu:hover{
-    color:#EE3B24;
-}
-
-.link-menu:active{
-    color:red;
-}
-
-/* .social{
-    padding: 15px;
-}
-
-.iconesSociais{
-    margin-right: 5px;
-    width: 24px;
-    height: 24px;
-} */
 
 /* ========================================================== */
 
