@@ -102,6 +102,11 @@ $(document).ready(function(){
                 seccao = alturas[i].replace("secao","link_secao");
                 $('#'+seccao).addClass("link_ativo");
             }
+            if(windowTop >= 1800){
+                $('#rolarInicio').animate({
+                    right:"15px"
+                },2500);
+            }
         }
     });
 });
