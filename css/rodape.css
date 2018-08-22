@@ -35,10 +35,10 @@
     margin-top: 5px;
 }
 
-#rodape_logo{          /* div que contem a logo */
-    margin-top: 20px ;
-    background-color: #2C2C2C ; 
-    width: 100% ;
+#rodape_logo{   
+    padding: 10% 0 10% ;                                    /*<---------- div que contem a logo */
+    background-color:rgba(51, 51, 51, 0) ; 
+    width: 100%;
     height: 100% ;
 }
 
@@ -48,27 +48,39 @@
 
 #margem_conteudo{
     background-color: #333 ;
-    padding: 30px 0px 50px;
+    padding: 25px 0px 35px;
 }
 
 .contato_texto{
     color: #9E9E9E;
     text-decoration: none ;
 }
+
 .contato_texto:hover{
     color: #EE3B24;
     transition: 0.15s linear ;
     text-decoration: none ;
 }
 
+.contato_texto_1{
+    color: #9E9E9E;
+    text-decoration: none ;
+}
+
+.contato_texto_1:hover{
+    color: #EE3B24;
+    transition: 0.15s linear ;
+    text-decoration: none ;
+}
+
 .tags{
-    margin-top: 5px ;
+    margin-top: 10px ;
+    margin-left: 5px ;
     float: left;
     padding: 3px 10px;
     color: #9E9E9E ;
     background-color: #2C2C2C ;
     border-radius: 10px ;
-   
 }
 
 .tags:hover{
@@ -81,16 +93,25 @@
     display: block;
     margin: auto;
     content: "";
-    width: 80%;
+    width: 95%;
     height: 3px;
     margin-left: 0px ;
     background: #EE3B24;
     border-radius: 5px ;
 }
 
+.copyright_caixa{
+    margin-top: 0 ;
+}
+
+#social_lista{
+    padding: 0 ;
+    margin-top: 8px ;
+}
+
 #social_lista>li{
     display: inline-block; 
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 0;
     padding-left: 3px;
     padding-right: 3px;
@@ -98,11 +119,13 @@
 
 #social_margem{
     float: right;
+    display: flex;
+    
 }
 
 .social_link{
     text-align: center;
-    padding: 5px 2px;
+    padding: 5px 0px 5px;
     background-color: rgb(58, 58, 58)  ;
     color:  #9E9E9E ;
     font-weight: 400 ;
@@ -133,12 +156,23 @@
 /*----------------------------------   Tipografia   -------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+.tags{
+    font-size: 13px ;   
+    white-space: nowrap;
+}
+
 .rodape_titulos{
     color:  #C5C5C2!important ;
+    font-size: 30px ;
+    font-weight: 500;
 }
 
 .contato_texto{
     font-size: 15px ;
+}
+
+.social_link{
+    font-size: 12px ;
 }
 
 .Copyright_texto{
@@ -158,4 +192,21 @@ color: #EE3B24 ;
 .social_icone{
     width: 24% ;
     height: 24% ;
+}
+
+.social_icone_youtube{
+    width: 26% ;
+    height: 26% ;
+}
+
+.icones_contato{
+   width: 12.5px ;
+}
+
+.rodape_logo{
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+    width: 100% ;
+    height: auto;
+    max-width: 300px ;
 }
