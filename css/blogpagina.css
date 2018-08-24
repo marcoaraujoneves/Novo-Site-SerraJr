@@ -58,15 +58,15 @@ a{
     border-radius: 50%;
 }
 
-.relacionados a{
+.links a{
     color:#012e5e;
 }
 
-.relacionados a:hover{
+.links a:hover{
     color:#EE3B24;
 }
 
-.relacionados a:active{
+.links a:active{
     color:red;
 }
 /* ========================================================== */
