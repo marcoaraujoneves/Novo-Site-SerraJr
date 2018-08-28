@@ -22,7 +22,10 @@ section{
 }
 
 .cinza{
-    background-color: rgba(235, 233, 233, 0.226);
+    background-color: #ececec;
+    border-top: 1px solid rgb(199, 199, 199) ;
+    border-bottom: 1px solid rgb(199, 199, 199) ;
+    width: 100%;
 }
 
 /* Barra de Navegação */
