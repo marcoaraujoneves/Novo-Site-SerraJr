@@ -45,24 +45,47 @@ a{
 /* =================== Conteúdo Principal =================== */
 .titpag{
     color:#EE3B24;
-    text-align: justify;
+    text-align: center;
     margin: 0px;
+    font-weight: 600 ;
+    font-size : 40px ;
 }
 .textos{
     text-align: justify;
     margin: 2px;
+    font-size: 15px ;
+    white-space: pre-line;
+    display: flex ;
 }
+
+#caixa_saiba_mais{
+    text-align: center ;
+    margin-top: 20px ;
+    margin-bottom: 10px ;
+}
+
+#caixa_imagemPost{
+    margin-top: 10px ;
+    margin-left: 15% ;
+    margin-right: 15% ;
+    text-align: center
+}
+
 .colunaesquerda{ 
     float: left;
     width: 72%;
     padding: 20px;
-    margin: 10px;
+    margin-top: 10px ;
+    margin-left: 20px;
+    margin-bottom: 10px; 
 }
 .colunadireita{
     float: left;
     width: 25%;
-    padding-left: 20px;
-    padding-right: 10px;
+    padding: 20px;
+    margin-top: 10px ;
+    margin-right: 10px;
+    margin-bottom: 10px; 
 }
 .imagem{
     background-color: #aaa;
@@ -71,13 +94,8 @@ a{
     height:auto;
 }
 .imagemPost{
-    width:50%;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding:5px;
-
+    width:100%;
+    border-radius: 10px ;
 }
 .card{
     background-color: white;
@@ -101,7 +119,9 @@ a{
 }
 .estilodata{
     color:gray;
-    font-size:20;
+    font-size:12;
+    font-weight: 600;
+    text-align: center ;
 }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

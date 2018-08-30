@@ -1,5 +1,7 @@
 $(document).ready(function(){
     var $window = $(window);
+    
+    $('img').on('dragstart', false);
 
     function checaLargura(){
         var larguraTela = $window.innerWidth();
