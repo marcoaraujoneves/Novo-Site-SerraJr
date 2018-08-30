@@ -1,91 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        
-        <script src="js/jquery-3.3.1.js"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        
-        <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/Responsividade.css" />
-        <script src="js/scriptPrincipal.js"></script>
-        
-        <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
-        <title> Home | Serra Jr. Engenharia </title>
-    </head>
-    
-    <script type="text/javascript">
-        /* Máscara Para digitação do número de telefone no formulário de contato */
-        function mascara(o,f){
-            v_obj=o
-            v_fun=f
-            setTimeout("execmascara()",1)
-        }
-        function execmascara(){
-            v_obj.value=v_fun(v_obj.value)
-        }
-        function mtel(v){
-            v=v.replace(/\D/g,"");
-            v=v.replace(/^(\d{2})(\d)/g,"($1) $2");
-            v=v.replace(/(\d)(\d{4})$/,"$1-$2");
-            return v;
-        }
-        function id( el ){
-            return document.getElementById( el );
-        }
-        window.onload = function(){
-            id('contato_telefone').onkeypress = function(){
-                mascara( this, mtel );
-            }
-        }
-    </script>
-    
-    <body>
-        <!-- Barra de Navegação-->
-        <header>
-            <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="barra-navegacao">
-                <div class="container">
-                    
-                    <div class="navbar-brand">
-                        <a href="index.html">
-                            <img class="img-logo" src="img/Principal/LogoSerraJr.png">
-                        </a>
-                    </div>
-                    
-                    <div class="navbar-header">
-                        <!-- Botao Toggle -->
-                        <button type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#menu-navegacao" aria-expanded="false" aria-label="Alternar Navegação">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    
-                </div>
-                
-                <!-- Menu de Navegação -->
-                <div class="collapse navbar-collapse" id="menu-navegacao">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> INÍCIO </a></li>
-                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoSobre" href="#secaoSobre"> SERRA JR. </a></li>
-                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoServicos" href="#secaoServicos"> SERVIÇOS </a></li>
-                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoPortifolio" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
-                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoBlog" href="#secaoBlog"> BLOG </a></li>
-                        <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoContato" href="#secaoContato"> CONTATOS </a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-        <!-- Capa do Site -->
+﻿        <!-- Capa do Site -->
         <section class="secaoSite cinza" id="secaoCapa">
             <div class="container">
                 <div class="row" id="capa">
@@ -150,7 +63,7 @@
                                     civil ,sem fins lucrativos, gerida exclusivamente por alunos de graduação de uma 
                                     universidade, que presta serviços e desenvolve projetos para empresas. 
                                 </p>
-                                <a class="link_externo" href="http://brasiljunior.org.br/"> SAIBA MAIS </a> 
+                                <a class="link_externo" target="_blank" href="http://brasiljunior.org.br/"> SAIBA MAIS </a> 
                             </div>
                             
                             <div class="tab-pane"  role="tabpanel" id="iprj">
@@ -165,7 +78,7 @@
                                     Engenharia de Computação, Mestrado e Doutorado em Modelagem Computacional (Capes nível 6), 
                                     desde 1995, e Mestrado em Ciência e Tecnologia de Materiais desde 2007.
                                 </p>
-                                <a class="link_externo" href="http://www.iprj.uerj.br/"> SITE DO INSTITUTO </a> 
+                                <a class="link_externo" target="_blank" href="http://www.iprj.uerj.br/"> SITE DO INSTITUTO </a> 
                             </div>
                         </div>
                     </div>
@@ -223,7 +136,7 @@
                 
                 <div class="row">
                     <div class="col-md-4 containerServicos">
-                        <a id="projetosMecanicos" class="linksServicos" href="ServicosMecanica.html">
+                        <a id="projetosMecanicos" class="linksServicos" href="mecanica">
                             <div>
                                 <img src="img/Principal/engrenagem.png">
                                 <h5>Projetos mecânicos</h5>
@@ -234,7 +147,7 @@
                     </div>
                     
                     <div class="col-md-4 containerServicos">
-                        <a id="projetosAutomacao" class="linksServicos" href="ServicosComp.html">
+                        <a id="projetosAutomacao" class="linksServicos" href="computacao">
                             <div>
                                 <img src="img/Principal/lampada.png">
                                 <h5>Automação</h5>
@@ -243,11 +156,11 @@
                                 </p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="ServicosComp.html">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="computacao">Saiba Mais</a></center>
                     </div>
                     
                     <div class="col-md-4 containerServicos">
-                        <a id="projetosWEB" class="linksServicos" href="ServicosComp.html#Desenvolvimento_web">
+                        <a id="projetosWEB" class="linksServicos" href="computacao#Desenvolvimento_web">
                             <div>
                                 <img src="img/Principal/devServicos.png">
                                 <h5>Desenvolvimento Web</h5>
@@ -256,7 +169,7 @@
                                 </p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="ServicosComp.html#Desenvolvimento_web">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="computacao#Desenvolvimento_web">Saiba Mais</a></center>
                     </div>
                 </div>
             </div>
@@ -359,7 +272,7 @@
                             de diversos ramos. Agora os dispositivos mobile, que em muitos casos unem estes dois mundos, 
                             são foco de um mercado bilionário que cresce cada dia mais. 
                         </p>
-                        <a class="link_externo" href="blogPagina_EraMobile.html"> VER MAIS </a> 
+                        <a class="link_externo" href="#"> VER MAIS </a> 
                     </div>
                     
                     <div class="col-md-4 container_noticiasRecentes">
@@ -373,7 +286,7 @@
                             quando bem definidos podem ajudar a construir um projeto conceitual mais detalhado e atento às 
                             necessidades do cliente.
                         </p>
-                        <a class="link_externo" href="blogPagina_AnaliseEstrutural.html"> VER MAIS </a> 
+                        <a class="link_externo" href="#"> VER MAIS </a> 
                     </div>
                     
                     <div class="col-md-4 container_noticiasRecentes">
@@ -386,7 +299,7 @@
                             impossível, pois de fato é! A única forma de representação fiel que se pode usar para 
                             solucionar essa questão é o desenho técnico.
                         </p>
-                        <a class="link_externo" href="blogPagina_DesenhoTecnico.html"> VER MAIS </a> 
+                        <a class="link_externo" href="#"> VER MAIS </a> 
                     </div>
                 </div>
                 
@@ -439,10 +352,4 @@
         
         <!-- Ícone Rolagem -->
         <a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> <img id="rolarInicio" src="img/Principal/icone-rolagem.png"> </a>
-
-
-    </body>
-    
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-</html>
     
