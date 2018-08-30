@@ -23,7 +23,7 @@ $(document).ready(function(){
         $(".containerProjetoPortifolio").css("height", "auto");
     });
     
-    $('#secaoCapa').css("margin-top",$("#barra-navegacao").css("height"));
+    $('body').css("margin-top",$("#barra-navegacao").css("height"));
     
     /* Slider da capa do site */
     var sliderAtivo = 1;

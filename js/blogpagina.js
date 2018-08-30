@@ -1,7 +1,5 @@
 $(document).ready(function(){
     var $window = $(window);
-    
-    $('img').on('dragstart', false);
 
     function checaLargura(){
         var larguraTela = $window.innerWidth();
@@ -12,7 +10,6 @@ $(document).ready(function(){
             $('#subtitulo').css('font-size', '1em');
             $('#lateral').css('display', 'none');
             $('#nome_autor').addClass('text-center');
-            $('#pesquisa').removeClass('form-inline');
         } else {
             $('#container_header').css('height','300px');
             $('#headerBlog').css('background-image','url("img/Blog/hero.png")');
@@ -20,7 +17,6 @@ $(document).ready(function(){
             $('#subtitulo').css('font-size','');
             $('#lateral').css('display', '');
             $('#nome_autor').removeClass('text-center');
-            $('#pesquisa').addClass('form-inline');
         }
     }
     checaLargura();

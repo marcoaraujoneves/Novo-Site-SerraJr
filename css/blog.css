@@ -50,27 +50,10 @@ a{
     font-weight: 600 ;
     font-size : 40px ;
 }
-
-.titpag2{
-    color:#EE3B24;
-    text-align: center;
-    margin: 0px;
-    font-weight: 600 ;
-    font-size : 25px ;
-}
-
 .textos{
     text-align: justify;
     margin: 2px;
     font-size: 15px ;
-    white-space: pre-line;
-    display: flex ;
-}
-
-.textos1{
-    text-align: justify;
-    margin: 2px;
-    font-size: 13px ;
     white-space: pre-line;
     display: flex ;
 }
@@ -104,25 +87,12 @@ a{
     margin-right: 10px;
     margin-bottom: 10px; 
 }
-
-#imagem_sobre{
-    margin-bottom: 20px 
-}
-
 .imagem{
+    background-color: #aaa;
     width:100%;
+    padding:20px;
     height:auto;
-    border-radius: 40px ;
-    border:solid 5px gray ;
-    margin-left: 2px ;
-    margin-top: 20px;
-    
 }
-
-.imagem:hover{
-    border:solid 5px #EE3B24 ;
-}
-
 .imagemPost{
     width:100%;
     border-radius: 10px ;
@@ -152,14 +122,6 @@ a{
     font-size:12;
     font-weight: 600;
     text-align: center ;
-}
-
-.link_texto{
-    color: black ;
-}
-
-.link_texto:hover{
-    color:#EE3B24;
 }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
