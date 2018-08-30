@@ -69,7 +69,7 @@ a{
 
 .textos1{
     text-align: justify;
-    margint: 2px;
+    margin: 2px;
     font-size: 13px ;
     white-space: pre-line;
     display: flex ;
