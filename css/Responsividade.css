@@ -203,6 +203,13 @@
     .row#container_contato{
         display: block;
     }
+}
 
-    
+/*----------------------------------   Formulário da página de Serviços   ---------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media (min-width:992px){
+    .formularioServicos .contato_input{
+        width: 60%;
+    }
 }

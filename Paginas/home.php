@@ -143,7 +143,7 @@
                                 <p>Desenho Técnico e modelagem 3D<br> Prototipagem<br> Análise estrutural<br> Projetos de máquinas e equipamentos</p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="ServicosMecanica.html">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="mecanica">Saiba Mais</a></center>
                     </div>
                     
                     <div class="col-md-4 containerServicos">

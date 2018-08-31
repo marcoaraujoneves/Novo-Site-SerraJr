@@ -18,6 +18,8 @@
         
         <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/Servicos.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/Responsividade.css" />
+
         <script src="js/Servicos.js"></script>
         
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
@@ -143,7 +145,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h3 class="subtitulo_servicos"> Aplicativo </h3>
+                            <h3 class="subtitulo_servicos"> Aplicativos </h3>
                             <p class="texto">
                                 Precisa de um aplicativo específico para um projeto pessoal
                                 da sua startup ou mesmo para divulgar um novo produto ou serviço?
@@ -163,11 +165,6 @@
             </div>
         </section>
 
-     <!-- ////////////////////////////////////-rodape-////////////////////////////////////////////////////-->  
-        <footer id="rodape_servicos">
-
-
-        </footer>
      <!-- ///////////////////////////////////// Botões Modais ///////////////////////////////////////// -->
 
         <div id="ModalSistemaDeControle" class="modal fade" role="dialog" tabindex="-1" >
@@ -198,8 +195,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato"> Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -250,8 +247,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato"> Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -295,8 +292,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato"> Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -333,15 +330,15 @@
                             <div class="container">
                                 <div class="col-md-12" >
                                     <p class="modal_texto">O sistema web permite uma visão abrangente dos custos com encargos fiscais, funcionários, montantes reservados para os serviços prestados ou produção do produto, além do controle do estoque e/ou caixa a partir do monitoramento desses dados. 
-                                        Com essas informações a Serrra Jr. elabora um sistema personalizado através do qual é possível saber se há excessos nos gastos, evitando erros humanos e garantindo maior qualidade dos registros e análises.</p>
+                                        Com essas inContatoações a Serrra Jr. elabora um sistema personalizado através do qual é possível saber se há excessos nos gastos, evitando erros humanos e garantindo maior qualidade dos registros e análises.</p>
                                     <p class="modal_texto"># Gostaria de saber se a Serra Jr pode te ajudar? Contate-nos e peça um orçamento ou agende uma reunião sem compromisso preenchendo os dados do nosso formulário de contato a seguir. #</p>
                                 </div>
                             </div>
                             <div class="container">
                                 <hr class="separador">
                                 <div class="col-md-12 text-center">
-                                    <h3 class="modal_titulo_contato">- Contato -</h3>
-                                    <form>
+                                    <h3 class="modal_titulo_contato"> Contato </h3>
+                                    <form class="formularioServicos">
                                         <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                         <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                         <br><br>
@@ -371,7 +368,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <div class="col-md-12 text-center">
-                            <h4 class="modal_titulos"> Aplicativo </h4>
+                            <h4 class="modal_titulos"> Aplicativos </h4>
                         </div>  
                     </div>
                     <div class="modal-body">
@@ -387,8 +384,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato"> Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
