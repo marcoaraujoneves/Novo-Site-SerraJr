@@ -143,7 +143,7 @@
                                 <p>Desenho Técnico e modelagem 3D<br> Prototipagem<br> Análise estrutural<br> Projetos de máquinas e equipamentos</p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="ServicosMecanica.html">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" href="mecanica">Saiba Mais</a></center>
                     </div>
                     
                     <div class="col-md-4 containerServicos">
@@ -272,7 +272,7 @@
                             de diversos ramos. Agora os dispositivos mobile, que em muitos casos unem estes dois mundos, 
                             são foco de um mercado bilionário que cresce cada dia mais. 
                         </p>
-                        <a class="link_externo" href="#"> VER MAIS </a> 
+                        <a class="link_externo" href="blogPagina_EraMobile.php"> VER MAIS </a> 
                     </div>
                     
                     <div class="col-md-4 container_noticiasRecentes">
@@ -286,7 +286,7 @@
                             quando bem definidos podem ajudar a construir um projeto conceitual mais detalhado e atento às 
                             necessidades do cliente.
                         </p>
-                        <a class="link_externo" href="#"> VER MAIS </a> 
+                        <a class="link_externo" href="blogPagina_AnaliseEstrutural.php"> VER MAIS </a> 
                     </div>
                     
                     <div class="col-md-4 container_noticiasRecentes">
@@ -299,13 +299,13 @@
                             impossível, pois de fato é! A única forma de representação fiel que se pode usar para 
                             solucionar essa questão é o desenho técnico.
                         </p>
-                        <a class="link_externo" href="#"> VER MAIS </a> 
+                        <a class="link_externo" href="blogPagina_DesenhoTecnico.php"> VER MAIS </a> 
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-md-12 acessarBlog">
-                        <center><a class="botaoEstilizado" href="blogHome.html"> Acessar Blog </a></center>
+                        <center><a class="botaoEstilizado" href="blog"> Acessar Blog </a></center>
                     </div>
                 </div>
             </div>

@@ -18,6 +18,8 @@
         
         <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/Servicos.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/Responsividade.css" />
+
         <script src="js/Servicos.js"></script>
         
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
@@ -131,13 +133,6 @@
             </div>
         </section>
 
-     <!-- ////////////////////////////////////-rodape-////////////////////////////////////////////-->  
-        <footer id="rodape_servicos">
-
-
-
-        </footer>
-
      <!-- ///////////////////////////////////// Botões Modais ///////////////////////////////////////// -->
 
         <div id="Modaldesenho" class="modal fade" role="dialog" >
@@ -163,8 +158,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato"> Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -215,8 +210,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>  
-                                <form>
+                                <h3 class="modal_titulo_contato"> Contato </h3>  
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -260,8 +255,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato">Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -305,8 +300,8 @@
                         <div class="container">
                             <hr class="separador">
                             <div class="col-md-12 text-center">
-                                <h3 class="modal_titulo_contato">- Contato -</h3>
-                                <form>
+                                <h3 class="modal_titulo_contato">Contato </h3>
+                                <form class="formularioServicos">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>

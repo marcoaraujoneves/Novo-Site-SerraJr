@@ -72,7 +72,7 @@
 .modal_sair{
     position: relative ;
     box-sizing: border-box;
-    padding: 6px;
+    padding: 5px 15px;
     border: 1px solid transparent;
     background-color: #ee3b24;
     color: white;
