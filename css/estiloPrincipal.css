@@ -9,6 +9,7 @@ html,body{
 
 body{
     margin: 0 auto;
+    margin-top: 48px !important;
     overflow-x: hidden;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -116,12 +117,12 @@ section{
     margin-top: 30px;
 }
 
-.nav-tabs .nav-item .nav-link:hover{
+/* .nav-tabs .nav-item .nav-link:hover{
     margin-top: 1px;
     margin-left: 8px;
     margin-right: 8px;
     border: none;
-}
+} */
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-left-color: #EE3B24;
@@ -185,7 +186,7 @@ section{
 #container_portifolio .nav-tabs{
     border: none;
     width: 30;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     margin-bottom: 20px;
 }
 
@@ -203,6 +204,10 @@ section{
     vertical-align: middle;
     width: 400px;
     height: 300px;
+}
+
+.nav{
+    display:inline-flex;
 }
 
 
@@ -313,7 +318,7 @@ section{
     font-weight: 700;
 }
 
-.tituloSecoes:before{
+/* .tituloSecoes:before{
     position:absolute;
     left: 45%;
     width: 95px;
@@ -322,6 +327,15 @@ section{
     display: inline-block;
     top: 55px;
     background-color: #EE3B24;
+} */
+
+.linha{
+    display: block;
+    margin: auto;
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #EE3B24;
 }
 
 .subtituloSecoes{
