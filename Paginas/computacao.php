@@ -196,7 +196,7 @@
                             <hr class="separador">
                             <div class="col-md-12 text-center">
                                 <h3 class="modal_titulo_contato"> Contato </h3>
-                                <form class="formularioServicos">
+                                <form class="formularioServicos" method="post" action="php/contato.php">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -248,7 +248,7 @@
                             <hr class="separador">
                             <div class="col-md-12 text-center">
                                 <h3 class="modal_titulo_contato"> Contato </h3>
-                                <form class="formularioServicos">
+                                <form class="formularioServicos" method="post" action="php/contato.php">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -293,7 +293,7 @@
                             <hr class="separador">
                             <div class="col-md-12 text-center">
                                 <h3 class="modal_titulo_contato"> Contato </h3>
-                                <form class="formularioServicos">
+                                <form class="formularioServicos" method="post" action="php/contato.php">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>
@@ -338,7 +338,7 @@
                                 <hr class="separador">
                                 <div class="col-md-12 text-center">
                                     <h3 class="modal_titulo_contato"> Contato </h3>
-                                    <form class="formularioServicos">
+                                    <form class="formularioServicos" method="post" action="php/contato.php">
                                         <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                         <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                         <br><br>
@@ -385,7 +385,7 @@
                             <hr class="separador">
                             <div class="col-md-12 text-center">
                                 <h3 class="modal_titulo_contato"> Contato </h3>
-                                <form class="formularioServicos">
+                                <form class="formularioServicos" method="post" action="php/contato.php">
                                     <label for="contato_nome" class="contato_label"> Nome </label> <br>
                                     <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                                     <br><br>

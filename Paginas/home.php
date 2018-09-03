@@ -329,7 +329,7 @@
                     
                     <div class="col-md-5" id="container_FormularioContato">
                         
-                        <form>
+                        <form method="post" action="php/contato.php">
                             <label for="contato_nome" class="contato_label"> Nome </label> <br>
                             <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
                             <br><br>
