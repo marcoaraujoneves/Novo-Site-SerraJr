@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="tituloSecoes"> A Serra Jr. </h1>
-                        
+                        <div class="linha"></div>
                         <ul class="nav nav-tabs" style="margin-top: 50px" role="tablist">
                             <li class="nav-item"><a class="linkSobre nav-link active" href="#nossa_historia" data-teste="0" role="tab" data-toggle="tab"> Nossa História </a></li>
                             <li class="nav-item"><a class="linkSobre nav-link" href="#mej" role="tab" data-toggle="tab"> MEJ </a></li>
@@ -131,6 +131,7 @@
                     <div class="col-md-12">
                         <h1 class="tituloSecoes" id="tituloSecoes_Servicos"> Serviços </h1>
                         <h4 class="subtituloSecoes"> Atuação na área de Engenharia Mecânica e Engenharia de Computação </h4>
+                        <div class="linha"></div>
                     </div>
                 </div>
                 
@@ -181,6 +182,7 @@
                 <div class="row">
                     <div class="col-md-12" id="tituloBlog">
                         <h1 class="tituloSecoes"> Nosso Portifólio </h1>
+                        <div class="linha"></div>
                     </div>
                 </div>
                 
@@ -240,12 +242,13 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            <ul class="nav nav-tabs listaPortifolio"  role="tablist">
-                                <li class="nav-item itemPortifolio"><a class="nav-link active" href="#soledade" role="tab" data-toggle="tab"></a></li>
-                                <li class="nav-item itemPortifolio"><a class="nav-link" href="#laje" role="tab" data-toggle="tab"></a></li>
-                                <li class="nav-item itemPortifolio"><a class="nav-link" href="#fluid" role="tab" data-toggle="tab"></a></li>
-                            </ul>
+                            <div class="text-center">
+                                <ul class="nav nav-tabs listaPortifolio"  role="tablist">
+                                    <li class="nav-item itemPortifolio"><a class="nav-link active" href="#soledade" role="tab" data-toggle="tab"></a></li>
+                                    <li class="nav-item itemPortifolio"><a class="nav-link" href="#laje" role="tab" data-toggle="tab"></a></li>
+                                    <li class="nav-item itemPortifolio"><a class="nav-link" href="#fluid" role="tab" data-toggle="tab"></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -258,6 +261,7 @@
                 <div class="row">
                     <div class="col-md-12" id="tituloBlog">
                         <h1 class="tituloSecoes"> Blog Serra Jr. </h1>
+                        <div class="linha"></div>
                     </div>
                 </div>
                 
@@ -319,6 +323,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="tituloSecoes"> Contato </h1>
+                        <div class="linha"></div>
                     </div>
                 </div>
                 
@@ -351,5 +356,5 @@
         </section>
         
         <!-- Ícone Rolagem -->
-        <a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> <img id="rolarInicio" src="img/Principal/icone-rolagem.png"> </a>
+        <!-- <a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> <img id="rolarInicio" src="img/Principal/icone-rolagem.png"> </a> -->
     
