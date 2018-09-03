@@ -9,7 +9,7 @@
                             
                             <div class="col-md-3 col-sm-6 col-xs-12 ">
                                 <h3  class="rodape_titulos">Menu</h3>
-                                <div class="linha"></div>
+                                <div class="linha_rodape"></div>
                                 <div class="margem_listas">
                                     <ul class="rodape_listas">
                                     <li class="rodape_elementos"> > <a class="rodape_link" href="home#secaoCapa">Início</a></li>
@@ -26,7 +26,7 @@
                             
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <h3 class="rodape_titulos">Contato</h3>
-                                <div class="linha"></div>
+                                <div class="linha_rodape"></div>
                                 <div class="margem_listas">
                                     <ul class="rodape_listas">
                                         
@@ -90,7 +90,7 @@
                             
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <h3 class="rodape_titulos">Tags</h3>
-                                <div class="linha"></div>
+                                <div class="linha_rodape"></div>
                                 <div id="rodape_tags">
                                     <span class="tags"> Desenvolvimento Web</span>
                                     <span class="tags"> Automação Indutrial</span>
@@ -123,7 +123,7 @@
                         
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="copyright_caixa">
-                                <p class="Copyright_texto"> © Copyright reserved to <span class="Copyright_sublinhado">Serra Jr. Engenharia </span></p>
+                                <p class="Copyright_texto"> © Copyright reserved to <span class="Copyright_sublinha_rodapedo">Serra Jr. Engenharia </span></p>
                             </div>
                         </div>
                         

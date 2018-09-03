@@ -50,6 +50,7 @@
 #margem_conteudo{
     background-color: #333 ;
     padding: 25px 0px 35px;
+    margin-top: 25px;
 }
 
 .contato_texto{
@@ -91,7 +92,7 @@
     transition: 0.15s linear ;
 }
 
-.linha{
+.linha_rodape{
     display: block;
     margin: auto;
     content: "";
@@ -184,7 +185,7 @@
     font-weight: 500;
 }
 
-.Copyright_sublinhado{
+.Copyright_sublinha_rodapedo{
 color: #EE3B24 ;
 }
 
