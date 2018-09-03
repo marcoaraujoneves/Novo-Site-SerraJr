@@ -20,7 +20,7 @@
         <script src="js/blogpagina.js"></script>
         
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
-        <title>Desenho Técnico</title>
+        <title>Prototipagem 3D</title>
     </head>
 
     <body>
@@ -91,72 +91,44 @@
         <article class="container-fluid px-5">
             <div class="row">
                 <div class="col-md-8 text-justify mt-5 pl-md-5">
-                    <h2 class="titulo m-0">Desenho Técnico</h2>
-                    <h5 class="estilodata"><time datetime="2018-08-03">03 de Agosto, 2018</time></h5>  
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Desenho Tecnico/img.jpg">
+                    <h2 class="titulo m-0">Prototipagem 3D</h2>
+                    <h5 class="estilodata"><time datetime="2018-08-03">03 de Setembro, 2018</time></h5>  
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Prototipagem/img1.png">
                     <p class="textos"> 
-                        PORQUE SOLICITAR O DESENHO TÉCNICO DE UMA MÁQUINA QUE JÁ EXISTE? É UM BOM NEGÓCIO?
+                        Você já deve ter ouvido falar em indústria 4.0 ou quarta revolução industrial, certo? E sobre prototipagem? 
+                        Todos estes termos estão em evidência ultimamente e não é por acaso. A indústria 4.0 está sendo impactada pelos 
+                        avanços da tecnologia de uma forma excepcional, e a prototipagem 3D é um desses motores dessa revolução. Caso 
+                        ainda não esteja familiarizado com essa terminologia e com os avanços tecnológicos da quarta revolução industrial, 
+                        venha com a gente que estamos prontos para te ajudar a entender e aplicar esses conceitos para a integração da sua 
+                        empresa na Era Da Informação. 
                     </p>
                     <p class="textos">
-                        A indústria no Brasil já começou com máquinas sendo compradas de países que deram início ao seu processo 
-                        de industrialização bem antes. Nessa direção, depois de mais ou menos 100 anos da industrialização, o 
-                        Brasil ainda não se desprendeu dessa política de utilizar máquinas ultrapassadas. Segundo a ABIMAQ 
-                        (Associação Brasileira da Indústria de Maquinas e Equipamentos), a idade média das máquinas na indústria 
-                        brasileira é 17 anos, três vezes mais antigas quando comparada com países que investem forte em tecnologia. Até este ponto não há problemas porque as máquinas não morrem, a questão é que seu desempenho vai diminuindo.  
-                    </p>
-
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Desenho Tecnico/img1.png">
-
-                    <p class="textos">
-                        Em contrapartida, nas máquinas que não possuem desenho técnico, sua manutenção é mais demorada, não é efetiva
-                        porque se perde tempo tentando entender as dimensões e especificações de suas peças e/ou equipamentos, ou
-                        até mesmo não é realizada a manutenção o que acarreta problemas como:
+                        Prototipagem é um termo que se refere a protótipo, que de forma simples e direta é um modelo simplificado do produto 
+                        que está sendo desenvolvido. Pode ser feito em escala real, reduzida, ou mesmo em escala ampliada. Com os avanços 
+                        tecnológicos recentes e o desenvolvimento da tecnologia de impressão 3D essa técnica vem sendo aprimorada e utilizada 
+                        cada vez mais pela indústria ou até mesmo por usuários residenciais. A flexibilidade da prototipagem 3D é muito grande 
+                        e nos permite fazer modelos em software CAD (Desenho auxiliado por computador) de alto grau de complexidade para serem 
+                        impressos em impressora 3D. Uma vez feito o protótipo, este pode ser usado para diversas finalidades, como por exemplo: 
+                        para verificar a funcionalidade de um produto/equipamento ou mecanismo; identificar erros de design e corrigi-los antes 
+                        de começar a produção em massa; analisar estética e aplicabilidade; detectar a necessidade de implementação de uma nova 
+                        funcionalidade ainda na etapa de projeto dentre outros. 
                     </p>
                     <p class="textos">
-                        •	Redução da vida útil dos equipamentos industriais: um equipamento que não passa por manutenções 
-                        periódicas só vai apresentar sinais de que suas peças precisam ser trocadas quando todo seu funcionamento 
-                        está desgastado. Quando isso acontece, é quase impossível recuperar a máquina e a empresa acaba por ter que 
-                        trocá-la por uma nova.
-                    </p>
-                    <p class="textos">
-                        •	Queda na qualidade dos produtos fabricados: máquinas que não funcionam corretamente são incapazes de garantir 
-                        excelência em seus processos, o que acaba ocasionando erros de produção. Se o produto não sai como esperado na 
-                        primeira linha, será necessário produzir uma nova demanda e aí o custo aumenta consideravelmente.
-                    </p>
-                    <p class="textos">
-                        •	Risco a segurança dos funcionários: equipamentos com problemas podem sofrer sobrecargas elétricas, 
-                        explodir, soltar peças, enquanto estiverem em uso e oferecer risco à integridade física dos colaboradores da 
-                        empresa.                     
-                    </p>
-                    <p class="textos">
-                        •	Maior demanda de trabalho: quando uma máquina quebra e não pode manter sua operação, a qualidade da produção 
-                        cai e o número de produtos entregues também é prejudicado. Para que a empresa mantenha o ritmo de trabalho e 
-                        alcance suas metas, a demanda de trabalho precisa aumentar. Funcionários fazem horas extras e novos funcionários 
-                        são contratados, aumentando assim a demanda de trabalho e as despesas da empresa.                    
-                    </p>
-
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Desenho Tecnico/img2.jpg">
-
-                    <p class="textos">
-                        Todos os problemas citados acabam levando a empresa para o que possa ser o maior de todos: o aumento dos 
-                        custos. A perda de produção, por causa de máquinas paradas, a troca de máquinas que deveriam durar mais 
-                        tempo, a queda na qualidade dos produtos produzidos, equipes que precisam parar seus trabalhos ou aumentar 
-                        suas cargas horárias para garantir que os produtos sejam entregues e acidentes com funcionários, são apenas 
-                        alguns dos problemas que podem aumentar consideravelmente os custos de uma empresa.                   
-                    </p>
-                    <p class="textos">
-                        Contudo, é importante ter o desenho para fazer a manutenção, corretivas ou preventivas, das máquinas. Com a 
-                        manutenção certa é possível aumentar o rendimento, preservar os sistemas e diminuir os desperdícios.                  
+                        Você ainda pode estar se perguntando se vale realmente a pena investir nessa ferramenta e quais os benefícios diretos e 
+                        indiretos dessa técnica. Uma vez que temos essa ferramenta ao nosso favor, é possível a redução de custo e melhoria de 
+                        eficiência nos processos de produção da sua empresa. A identificação de erros na etapa de projeto pode levar a uma grande 
+                        economia evitando retrabalho em uma fase mais avançada da produção. Nisso se inclui economia de matéria prima/redução de 
+                        desperdício e melhor aproveitamento do tempo de trabalho dos funcionários. Se você ficou interessado nesse nicho e precisar 
+                        de uma análise mais criteriosa em algum processo na sua empresa, entre em contato com a Serra Jr Engenharia, será um prazer 
+                        trazer a sua empresa para mais perto dessa revolução.
                     </p>
 
                     <div class="links">
                         <h5 style="text-align: center" >Referências</h5>
                         <ol>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
+                            <li> <a href="#">Link aqui.</a></li>
+                            <li> <a href="#">Link aqui.</a></li>
+                            <li> <a href="#">Link aqui.</a></li>
                         </ol>
                     </div>
                     <div class="card bg-light my-3 p-3">
@@ -178,8 +150,8 @@
                     <div class="links">
                         <h4>Postagens Relacionadas</h4>
                         <ul class="font-italic">
-                            <li><a href="blogPagina_Prototipagem.php">Prototipagem</a></li>
-                            <li><a href="blogPagina_AnaliseEstrutural.php">Análise Estrutural</a></li>
+                        <li><a href="blogPagina_DesenhoTecnico.php">Desenho Técnico</a></li>
+                        <li><a href="blogPagina_AnaliseEstrutural.php">Análise Estrutural</a></li>
                         </ul>
                     </div>
                 </div>
@@ -196,7 +168,9 @@
                 </aside>
             </div>
         </article>
+        
         <?php include('Layout/_include/rodape.php');?>
+
     </body>
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>

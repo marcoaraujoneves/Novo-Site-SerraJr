@@ -170,11 +170,8 @@
                     <div class="links">
                         <h4>Postagens Relacionadas</h4>
                         <ul class="font-italic">
-                            <li><a href="#">Postagem 0 - Lorem Ipsum</a></li>
-                            <li><a href="#">Postagem 1 - Dolor Sit Amet</a></li>
-                            <li><a href="#">Postagem 2 - Consectetur Adipiscing Elit</a></li>
-                            <li><a href="#">Postagem 3 - Nunc Posuere Lobortis Volutpat</a></li>
-                            <li><a href="#">Postagem 4 - Morbi Posuere, Risus Ut Tincidunt Feugia</a></li>
+                            <li><a href="blogPagina_DesenhoTecnico.php">Desenho Técnico</a></li>
+                            <li><a href="blogPagina_Prototipagem.php">Prototipagem</a></li>
                         </ul>
                     </div>
                 </div>

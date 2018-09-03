@@ -20,7 +20,7 @@
         <script src="js/blogpagina.js"></script>
         
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
-        <title>Desenho Técnico</title>
+        <title>A História Do Android</title>
     </head>
 
     <body>
@@ -91,72 +91,74 @@
         <article class="container-fluid px-5">
             <div class="row">
                 <div class="col-md-8 text-justify mt-5 pl-md-5">
-                    <h2 class="titulo m-0">Desenho Técnico</h2>
-                    <h5 class="estilodata"><time datetime="2018-08-03">03 de Agosto, 2018</time></h5>  
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Desenho Tecnico/img.jpg">
+                    <h2 class="titulo m-0">A História Do Android</h2>
+                    <h5 class="estilodata"><time datetime="2018-08-03">03 de Setembro, 2018</time></h5>  
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Historia Android/img1.png">
                     <p class="textos"> 
-                        PORQUE SOLICITAR O DESENHO TÉCNICO DE UMA MÁQUINA QUE JÁ EXISTE? É UM BOM NEGÓCIO?
+                        O sistema operacional Android, hoje o mais popular do mundo, surgiu na Califórnia, em 2002, quando um grupo 
+                        de três amigos abriu uma empresa, de mesmo nome, com o intuito de criar um sistema operacional inteligente para câmeras digitais. 
+                        Após certo tempo perceberam que não havia mercado suficiente para que o projeto obtivesse sucesso, então voltaram-se 
+                        para o mercado de celulares, onde os principais concorrentes seriam o Windows Mobile, da Microsoft, e o sistema Symbian, da Nokia.
                     </p>
                     <p class="textos">
-                        A indústria no Brasil já começou com máquinas sendo compradas de países que deram início ao seu processo 
-                        de industrialização bem antes. Nessa direção, depois de mais ou menos 100 anos da industrialização, o 
-                        Brasil ainda não se desprendeu dessa política de utilizar máquinas ultrapassadas. Segundo a ABIMAQ 
-                        (Associação Brasileira da Indústria de Maquinas e Equipamentos), a idade média das máquinas na indústria 
-                        brasileira é 17 anos, três vezes mais antigas quando comparada com países que investem forte em tecnologia. Até este ponto não há problemas porque as máquinas não morrem, a questão é que seu desempenho vai diminuindo.  
-                    </p>
-
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Desenho Tecnico/img1.png">
-
-                    <p class="textos">
-                        Em contrapartida, nas máquinas que não possuem desenho técnico, sua manutenção é mais demorada, não é efetiva
-                        porque se perde tempo tentando entender as dimensões e especificações de suas peças e/ou equipamentos, ou
-                        até mesmo não é realizada a manutenção o que acarreta problemas como:
-                    </p>
-                    <p class="textos">
-                        •	Redução da vida útil dos equipamentos industriais: um equipamento que não passa por manutenções 
-                        periódicas só vai apresentar sinais de que suas peças precisam ser trocadas quando todo seu funcionamento 
-                        está desgastado. Quando isso acontece, é quase impossível recuperar a máquina e a empresa acaba por ter que 
-                        trocá-la por uma nova.
-                    </p>
-                    <p class="textos">
-                        •	Queda na qualidade dos produtos fabricados: máquinas que não funcionam corretamente são incapazes de garantir 
-                        excelência em seus processos, o que acaba ocasionando erros de produção. Se o produto não sai como esperado na 
-                        primeira linha, será necessário produzir uma nova demanda e aí o custo aumenta consideravelmente.
-                    </p>
-                    <p class="textos">
-                        •	Risco a segurança dos funcionários: equipamentos com problemas podem sofrer sobrecargas elétricas, 
-                        explodir, soltar peças, enquanto estiverem em uso e oferecer risco à integridade física dos colaboradores da 
-                        empresa.                     
-                    </p>
-                    <p class="textos">
-                        •	Maior demanda de trabalho: quando uma máquina quebra e não pode manter sua operação, a qualidade da produção 
-                        cai e o número de produtos entregues também é prejudicado. Para que a empresa mantenha o ritmo de trabalho e 
-                        alcance suas metas, a demanda de trabalho precisa aumentar. Funcionários fazem horas extras e novos funcionários 
-                        são contratados, aumentando assim a demanda de trabalho e as despesas da empresa.                    
+                        Já no início enfrentaram um grande problema com falta de investimento no negócio e não conseguiram apoio nem de empresas 
+                        especializadas em investimentos do tipo, nem de operadoras, que viam seu poder no mercado ameaçado com o projeto.
                     </p>
 
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Desenho Tecnico/img2.jpg">
-
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Historia Android/img2.jpg">
+                    
                     <p class="textos">
-                        Todos os problemas citados acabam levando a empresa para o que possa ser o maior de todos: o aumento dos 
-                        custos. A perda de produção, por causa de máquinas paradas, a troca de máquinas que deveriam durar mais 
-                        tempo, a queda na qualidade dos produtos produzidos, equipes que precisam parar seus trabalhos ou aumentar 
-                        suas cargas horárias para garantir que os produtos sejam entregues e acidentes com funcionários, são apenas 
-                        alguns dos problemas que podem aumentar consideravelmente os custos de uma empresa.                   
+                        Tudo mudou quando em 2005, ao fazer a compra de várias startups que vinham se destacando no mercado, a Google comprou 
+                        também o Android, mandando um grupo de desenvolvedores para a empresa, e dando continuidade com o projeto.
                     </p>
                     <p class="textos">
-                        Contudo, é importante ter o desenho para fazer a manutenção, corretivas ou preventivas, das máquinas. Com a 
-                        manutenção certa é possível aumentar o rendimento, preservar os sistemas e diminuir os desperdícios.                  
+                        Dois anos mais tarde, em 2007, em um acordo com empresas do setor, como LG, Sony, Samsung e Motorola, 
+                        a Google lançou o Android, com a premissa de ser um sistema operacional aberto, baseado no kernel do Linux, 
+                        e que serviria como uma plataforma única para dispositivos móveis.
+                    </p>
+                    <p class="textos">
+                        Só que o projeto teve que sofrer grandes mudanças para manter-se competitivo, pois no mesmo ano a Apple lançou 
+                        o primeiro iPhone, com tecnologias novas, e muitas funcionalidades bem superiores ao do projeto inicial do 
+                        Android, que era bem limitado nesta fase.
+                    </p>
+
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Historia Android/img3.jpg">
+
+                    <p class="textos">
+                        Com o passar dos anos, diversas funcionalidades foram acrescentadas, tornando o Android muito mais amigável 
+                        ao usuário, proporcionando cada vez mais conectividade e sincronizando basicamente tudo nos Smartphones; 
+                        oferecendo, por exemplo: sincronização de diversas contas de e-mail no mesmo aparelho, controle por voz, 
+                        sistemas Voip, que permitiam o uso de aplicativos como o Skype, a partir de aparelhos móveis, uso de 
+                        aplicativos de produção, como planilhas, além das redes sociais e inúmeras outras funcionalidades. Com a 
+                        relativa facilidade para que os desenvolvedores pudessem lançar seus aplicativos na loja oficial do Android, 
+                        o catálogo da plataforma cresceu muito rápido, aumentando ainda mais as funcionalidades disponíveis para os 
+                        usuários.
+                    </p>
+                    <p class="textos">
+                        Aliado à estratégias de Marketing como os nomes das versões, que, a partir do Android 1.5 começou a receber nomes 
+                        de doces em ordem alfabética, o grande catálogo contribuiu muito para que o sistema se tornasse, em 2010, o mais 
+                        popular do mundo e, em 2017, superasse o Windows como líder mundial em acessos à Internet.
+                    </p>
+                    <p class="textos">
+                        Outro detalhe que conta muito para o sistema é a democratização que ele trouxe ao mercado. O Android é encontrado 
+                        desde aparelhos mais básicos, até os mais avançados, oferecendo sempre diversas opções de funcionalidades e proporcionando 
+                        conectivadade aos usuários.
+                    </p>
+                    
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Historia Android/img4.jpg">
+
+                    <p class="textos">
+                        Após esse crescimento mundial, o Android começou uma expansão para diversos segmentos de mercado, como sistemas para carros, 
+                        SmartTVs, desktop, dispositivos wear, sistemas de pagamentos, etc, se tornando o mais utilizado do mundo, com mais de um bilhão 
+                        de dispositivos rodando o sistema atualmente.
                     </p>
 
                     <div class="links">
                         <h5 style="text-align: center" >Referências</h5>
                         <ol>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
-                            <li>Referência - <a href="#">www.exemplo.com</a></li>
+                            <li> <a href="#">Link aqui.</a></li>
+                            <li> <a href="#">Link aqui.</a></li>
+                            <li> <a href="#">Link aqui.</a></li>
                         </ol>
                     </div>
                     <div class="card bg-light my-3 p-3">
@@ -178,8 +180,7 @@
                     <div class="links">
                         <h4>Postagens Relacionadas</h4>
                         <ul class="font-italic">
-                            <li><a href="blogPagina_Prototipagem.php">Prototipagem</a></li>
-                            <li><a href="blogPagina_AnaliseEstrutural.php">Análise Estrutural</a></li>
+                            <li><a href="blogPagina_EraMobile.php">A Era Mobile</a></li>
                         </ul>
                     </div>
                 </div>
@@ -196,7 +197,9 @@
                 </aside>
             </div>
         </article>
+        
         <?php include('Layout/_include/rodape.php');?>
+
     </body>
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
