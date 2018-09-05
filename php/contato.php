@@ -1,7 +1,7 @@
 <?php
 
-    $emailSender = "atendimento@serrajr.eng.br";
-    $emailDestinatario = "comercial@serrajr.eng.br";
+    $emailSender = "marcoaraujo@serrajr.eng.br";//"atendimento@serrajr.eng.br";
+    $emailDestinatario = "marcoaraujoneves@gmail.com";//"comercial@serrajr.eng.br";
 
     $nomeRemetente = $_POST['nome'];
     $emailRemetente = $_POST['email'];
