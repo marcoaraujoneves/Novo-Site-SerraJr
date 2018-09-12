@@ -71,12 +71,12 @@
             <!-- Menu de Navegação -->
             <div class="collapse navbar-collapse" id="menu-navegacao">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> INÍCIO </a></li>
-                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoSobre" href="#secaoSobre"> SERRA JR. </a></li>
-                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoServicos" href="#secaoServicos"> SERVIÇOS </a></li>
-                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoPortifolio" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
-                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoBlog" href="#secaoBlog"> BLOG </a></li>
-                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoContato" href="#secaoContato"> CONTATOS </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> INÍCIO </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoSobre" href="#secaoSobre"> SERRA JR. </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoServicos" href="#secaoServicos"> SERVIÇOS </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoPortifolio" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoBlog" href="#secaoBlog"> BLOG </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoContato" href="#secaoContato"> CONTATOS </a></li>
                 </ul>
             </div>
         </nav>
