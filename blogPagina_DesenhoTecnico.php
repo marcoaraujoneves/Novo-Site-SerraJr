@@ -25,7 +25,7 @@
 
     <body>
 
-        <?php include('Layout/_include/menu.php');?>
+        <?php include('menu.php');?>
         
         <!-- Contém a imagem e o título do blog (1) -->
         <header id="headerBlog">
@@ -196,7 +196,7 @@
                 </aside>
             </div>
         </article>
-        <?php include('Layout/_include/rodape.php');?>
+        <?php include('rodape.php');?>
     </body>
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>

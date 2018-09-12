@@ -1,6 +1,5 @@
 <?php 
-
-    include('Api/api.php');
-    include('Layout/site.php');
-
+    include('menu.php');
+    include('home.php');
+    include('rodape.php');
 ?>
