@@ -77,7 +77,7 @@
                                         
                                         <li class="rodape_elementos"> 
                                             <img class="icones_contato" src="img/Principal/icones/envelope-closed.svg">
-                                            <a href="index.html#container_FormularioContato"  class="contato_texto">
+                                            <a href="#secaoContato"  class="linkMenu contato_texto">
                                                 atendimento@serrajr.eng.br <br>
                                             </a>
                                         </li>
