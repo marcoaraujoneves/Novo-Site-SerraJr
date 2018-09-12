@@ -1,6 +1,9 @@
 ﻿        <!-- Capa do Site -->
-        <section class="secaoSite cinza" id="secaoCapa">
-            <div class="container">
+        <!-- <section class="secaoSite cinza" id="secaoCapa">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                </div>
                 <div class="row" id="capa">
                     <img class="imgSlider" data-ativo="1" src="img/Principal/capaSerra.jpg">
                     <img class="imgSlider" data-ativo="2" src="img/Principal/capaComp.jpg">
@@ -16,8 +19,31 @@
                     
                 </div>
             </div>
-        </section>
-        
+        </section> -->
+        <div id="secaoCapa" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/Principal/capaSerra.jpg" alt="First slide">
+                    <div class="carousel-caption carousel-vertical-center d-none d-md-block">
+                        <h1 class="titulosCapa">Conheça a Serra Jr. Engenharia</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Principal/capaComp.jpg" alt="Second slide">
+                    <div class="carousel-caption carousel-vertical-center d-none d-md-block">
+                        <h1 class="titulosCapa">Serviços em Engenharia de Computação</h1>
+                        <h2 class="subtituloCapa">Desenvolvimento de Sites e Sistemas WEB, Sistemas e Automação de Processos</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Principal/capaMec.jpg" alt="Third slide">
+                    <div class="carousel-caption carousel-vertical-center d-none d-md-block">
+                        <h1 class="titulosCapa">Serviços em Engenharia Mecânica</h1>
+                        <h2 class="subtituloCapa">Modelagem 3D de peças e máquinas, Análises Estruturais e Projeto de Máquinas</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Sobre a Serra Jr -->
         <section class="secaoSite" id="secaoSobre">
             <div class="container">
