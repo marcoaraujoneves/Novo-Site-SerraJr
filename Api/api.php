@@ -1,6 +1,6 @@
 <?php 
 
-function getPagina(){
+/*function getPagina(){
 	$url = $_SERVER['REQUEST_URI'];
 	$metodo = $_SERVER['REQUEST_METHOD'];
 
