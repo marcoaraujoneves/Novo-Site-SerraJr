@@ -192,4 +192,5 @@
     </body>
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/Servicos.js"></script>
 </html>

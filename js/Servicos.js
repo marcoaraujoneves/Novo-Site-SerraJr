@@ -7,6 +7,8 @@ $(document).ready(function(){
     // $('#link_secaoBlog').replace('#', 'index.php#');
     // $('#link_secaoContato').replace('#', 'index.php#');
     $('.linkMenuTopo').each(function(){
-        this.href = this.href.replace('#', 'index.php#');
+        var link = this.href;
+        link = link.split("#");
+        this.href = "index.php#" + link[1];
     });
 });

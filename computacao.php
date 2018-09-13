@@ -19,8 +19,6 @@
         <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/Servicos.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/Responsividade.css" />
-
-        <script src="js/Servicos.js"></script>
         
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
         <title> Serviços de Computação </title>
@@ -417,6 +415,6 @@
 
     </body>
 
-
+    <script src="js/Servicos.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </html>
