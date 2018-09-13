@@ -99,13 +99,11 @@
                     </div>
                    
                     <p class="textos">
-                        Por volta dos anos 1990, após maior difusão dos computadores, principalmente no ramo empresarial, surgiu uma crescente demanda por aparelhos móveis que tivessem as algumas das principais funções dos PCs, como ler e enviar e-mails, manter agendas, gerenciar planilhas e até controlar remotamente um computador, no intuito de conseguir mais produtividade.
+                        Celulares representaram um grande avanço em sua época, modificando bruscamente a forma como a sociedade se comunicava e até a forma como o mercado ser comportaria. Computadores foram ainda mais impactantes, sendo empregados nas mais diversas áreas e moldando o futuro de diversos ramos. Agora os dispositivos mobile, que em muitos casos unem estes dois mundos, são foco de um mercado bilionário que cresce cada dia mais.
                     </p>
-                    <p class="textos">
-                        Nesta época surgiram os primeiros PDAs (Personal Digital Assistant), que inovaram a forma de trabalhar, possibilitando acesso móvel a programas e mais conectividade...
-                    </p>
+
                     <div id="caixa_saiba_mais">
-                        <a href="blogPagina_EraMobile.html" class="saiba_mais">
+                        <a href="blogPagina_EraMobile.php" class="saiba_mais">
                             <b>Saiba Mais »</b>
                         </a>
                     </div>
@@ -122,64 +120,71 @@
                     </p>
                     
                     <div id="caixa_saiba_mais">
-                        <a href="blogPagina_AnaliseEstrutural.html" class="saiba_mais">
+                        <a href="blogPagina_AnaliseEstrutural.php" class="saiba_mais">
                             <b>Saiba Mais »</b>
                         </a>
                     </div>
                 </div>
                 <div class="card">
-                        <h2 class="titpag">LOREM IPSUM</h2>
+                        <h2 class="titpag">Desenho Técnico</h2>
                         <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                        <div class="imagem" style="height:200px;">Insira Imagem</div>
-                        <p class="textos">Textinho...</p>
-                        <br>
+                        <div id="caixa_imagemPost">
+                            <img src="img/Blog/home/noticia3.jpg" alt="Image" class="imagemPost">
+                        </div>
+                        <p class="textos">
+                            Já tentou imaginar explicar a alguém, apenas com palavras e sugestões, como é a aparência e o funcionamento de uma máquina ou até mesmo de uma “simples” peça? Todos os seus aspectos geométricos, detalhes, medidas, método de trabalho, particularidades? Parece uma tarefa árdua ou até mesmo impossível, pois de fato é! A única forma de representação fiel que se pode usar para solucionar essa questão é o desenho técnico.
+                        </p>
                         <div id="caixa_saiba_mais">
-                            <a href="blogPagina_EraMobile.html" class="saiba_mais">
+                            <a href="blogPagina_DesenhoTecnico.php" class="saiba_mais">
                                 <b>Saiba Mais »</b>
                             </a>
                         </div>
                     </div>
 
                 <div class="card">
-                        <h2 class="titpag">LOREM IPSUM</h2>
+                        <h2 class="titpag">A História do Android</h2>
                         <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                        <div class="imagem" style="height:200px;">Insira Imagem</div>
-                        <p class="textos">Textinho...</p>
-                        <br>
+                        <div id="caixa_imagemPost">
+                            <img src="img/Blog/home/noticia4.jpg" alt="Image" class="imagemPost">
+                        </div>
+                        <p class="textos">
+                            O sistema operacional Android, hoje o mais popular do mundo, surgiu na Califórnia, em 2002, quando um grupo de três amigos abriu uma empresa, de mesmo nome, com o intuito de criar um sistema operacional inteligente para câmeras digitais. Após certo tempo perceberam que não havia mercado suficiente para que o projeto obtivesse sucesso, então voltaram-se para o mercado de celulares, onde os principais concorrentes seriam o Windows Mobile, da Microsoft, e o sistema Symbian, da Nokia.
+                        </p>
                         <div id="caixa_saiba_mais">
-                            <a href="blogPagina_EraMobile.html" class="saiba_mais">
+                            <a href="blogPagina_HistoriaAndroid.php" class="saiba_mais">
                                 <b>Saiba Mais »</b>
                             </a>
                         </div>
                     </div>
 
                     <div class="card">
-                            <h2 class="titpag">LOREM IPSUM</h2>
+                            <h2 class="titpag">Prototipagem 3D</h2>
                             <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                            <div class="imagem" style="height:200px;">Insira Imagem</div>
-                            <p class="textos">Textinho...</p>
-                            <br>
+                            <div id="caixa_imagemPost">
+                                <img src="img/Blog/home/noticia5.jpg" alt="Image" class="imagemPost">
+                            </div>
+                            <p class="textos">
+                                Você já deve ter ouvido falar em indústria 4.0 ou quarta revolução industrial, certo? E sobre prototipagem? Todos estes termos estão em evidência ultimamente e não é por acaso. A indústria 4.0 está sendo impactada pelos avanços da tecnologia de uma forma excepcional, e a prototipagem 3D é um desses motores dessa revolução. Caso ainda não esteja familiarizado com essa terminologia e com os avanços tecnológicos da quarta revolução industrial, venha com a gente que estamos prontos para te ajudar a entender e aplicar esses conceitos para a integração da sua empresa na Era Da Informação.
+                            </p>
                             <div id="caixa_saiba_mais">
-                                <a href="blogPagina_EraMobile.html" class="saiba_mais">
+                                <a href="blogPagina_Prototipagem.php" class="saiba_mais">
                                     <b>Saiba Mais »</b>
                                 </a>
                             </div>
                         </div>
 
             </div>
-            <div class="colunadireita">
+             <div class="colunadireita">
                 <div class="card">
-                    <h2 class="titpag">Nossa História</h2>
-                    <div class="imagem" style="height:100px;">Insira Imagem</div>
-                    <p class="textos">Insira a história da serra aqui</p>
+                    <h2 class="titpag2">Nossa História</h2>
+                    <a href="index.html#secaoSobre"><img src="img/Principal/iprj_hall.jpg" alt="Image" class="imagem" id="imagem_sobre"></a>
+                    <a href="index.html#secaoSobre" class="link_texto"><p class="textos1">A Serra Jr. Engenharia, criada em 08 de maio de 2002, é uma empresa formada exclusivamente por alunos do curso de graduação de Engenharia...</p></a> 
                 </div>
                 <div class="card">
-                    <h3 class="titpag">Destaques</h3>
-                    <img src="img/Principal/iprj_hall.jpg" alt="Image" class="imagem" style="width:100%;height:auto;">
-                    <br>
-                    <div class="imagem">Insira Imagem</div>
-                    <br>
-                    <div class="imagem">Insira Imagem</div>
+                    <h3 class="titpag2">Destaques</h3>
+                    <a href="blogPagina_DesenhoTecnico.php"><img src="img/Blog/home/noticia3.jpg" alt="Image" class="imagem"></a>
+                    <a href="blogPagina_AnaliseEstrutural.php"><img src="img/Blog/home/noticia2.jpg" alt="Image" class="imagem"></a>
+                    <a href="blogPagina_EraMobile.php"><img src="img/Blog/home/noticia1.jpg" alt="Image" class="imagem"></a>
                 </div>
                 <div class="card">
                     <h3 class="titpag">Espaço para mais alguma coisa</h3>

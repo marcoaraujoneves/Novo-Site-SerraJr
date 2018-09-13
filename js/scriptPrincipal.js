@@ -1,6 +1,11 @@
 var trocaSlide;
 
 $(document).ready(function(){
+    $('.carousel').carousel({
+        pause:"false",
+        interval:8000
+    });
+
     /* Previne que o usuário possa clicar e arrastar imagens */
     $('img').on('dragstart', false);
     
