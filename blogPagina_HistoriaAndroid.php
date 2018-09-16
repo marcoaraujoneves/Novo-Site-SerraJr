@@ -171,7 +171,8 @@
                                     <p style="text-align: right ; font-size: 13px ; font-weight: 600; padding:0 ;  " >Autor</p>
                                     <h3 class="card-title" id="nome_autor">Marco Araujo Neves</h3>
                                     <p class="textos">
-                                        relampago Marquinhos cathau!! , *não esquecer de adicionar uma descrição depois*
+                                    Estudante de Engenharia de Computação no Instituto Politécnico da UERJ, formado como Auxiliar de Programação de Computadores pela ETEC em São Paulo.<br>
+                                        Trabalha na empresa principalmente com projetos Web, tendo participado também de projetos de automação de processos utilizando a plataforma Arduino.
                                     </p>
                                 </div>
                             </div>

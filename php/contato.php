@@ -16,7 +16,7 @@
                 <hr>';
 
     $headers = "MIME-Version: 1.1\r\n";
-    $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";
     $headers .= "From: ".$emailSender."\r\n";
     $headers .= "Return-Path: ".$emailSender."\r\n";
     $headers .= "Reply-To: ".$emailRemetente."\r\n";
