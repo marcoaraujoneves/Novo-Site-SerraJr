@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html style="width: 100%;height: 100%;">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Mensagem Enviada com Sucesso</title>
+    </head>
+    
+    <body onload="redireciona(6)" style="width: 100%;height: 100%;overflow: hidden;background-image: linear-gradient(150deg,#FA8072, #B22222,#B22222, #FA8072);">
+        <table style="color:white;border:none;width: 100%;height: 100%;text-align: center;vertical-align: middle;">
+            <tr>
+                <td>
+                    <h1 style="font-size:60px;"> Erro ao enviar Mensagem, tente novamente em alguns instantes! </h1>
+                    <h2> Redirecionando em instantes para a página inicial em <span id="temporizador"></span> segundos...</h2>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+    <script>
+        var timer = null;
+        function redireciona(segundos){
+            segundos = segundos - 1;
+
+            if(segundos == -1){
+                clearTimeout(timer);
+                location.href='../index.php';
+                return false;
+            }
+            document.getElementById('temporizador').innerHTML = segundos;
+            timer = setTimeout("redireciona("+segundos+")", 1000);
+        }
+    </script>
+</html>

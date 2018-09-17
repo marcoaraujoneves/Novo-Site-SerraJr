@@ -26,7 +26,7 @@
     $envio = mail($emailDestinatario, "Contato Site da SerraJr", $msgHTML, $headers,$emailSender);
     
     if($envio)
-        echo "Mensagem enviada com sucesso";
+        include('../msgEnviada.html');
     else
-        echo "A mensagem não pode ser enviada";
+        include('../msgEnviada.html');
 ?>
