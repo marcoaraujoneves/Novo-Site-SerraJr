@@ -177,8 +177,8 @@
              <div class="colunadireita">
                 <div class="card">
                     <h2 class="titpag2">Nossa História</h2>
-                    <a href="index.html#secaoSobre"><img src="img/Blog/home/Capa-Facebook.png" alt="Image" class="imagem" id="imagem_sobre"></a>
-                    <a href="index.html#secaoSobre" class="link_texto"><p class="textos1">A Serra Jr. Engenharia, criada em 08 de maio de 2002, é uma empresa formada exclusivamente por alunos do curso de graduação de Engenharia...</p></a> 
+                    <a href="index.php#secaoSobre"><img src="img/Blog/home/Capa-Facebook.png" alt="Image" class="imagem" id="imagem_sobre"></a>
+                    <a href="index.php#secaoSobre" class="link_texto"><p class="textos1">A Serra Jr. Engenharia, criada em 08 de maio de 2002, é uma empresa formada exclusivamente por alunos do curso de graduação de Engenharia...</p></a> 
                 </div>
                 <div class="card">
                     <h3 class="titpag2">Destaques</h3>
