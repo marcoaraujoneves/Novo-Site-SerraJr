@@ -8,12 +8,13 @@
     $telRemetente = $_POST['numero'];
     $msgRemetente = $_POST['msg'];
 
-    $msgHTML = '<html><body>
-                <p> Mensagem recebida através do Site </p>
-                <h3> Nome: '.$nomeRemetente.' </h3>
-                <h3> E-mail: '.$emailRemetente.'  </h3>
-                <h3> Telefone: '.$telRemetente.'  </h3>
-                <p><i> Mensagem: '.$msgRemetente.' </i></p>
+    $msgHTML = '<html><body> <h2 style="color:#EE3B24;"> Mensagem recebida através do Site </h2>
+                <table rules="all" style="border-color: #666;" cellpadding="10">
+                <tr style="background: #eee;"><td><strong>Nome:</strong> </td><td> '.$nomeRemetente.' </td></tr>
+                <tr style="background: #eee;"><td><strong> E-mail: </strong> </td><td>'.$emailRemetente.' </td></tr>
+                <tr style="background: #eee;"><td><strong> Telefone: </strong> </td><td>'.$telRemetente.'  </td></tr>
+                <tr style="background: #eee;"><td><strong> <i> Mensagem: </strong> </td><td>'.$msgRemetente.' </i></td></tr>
+                </table>
                 <hr></body></html>';
 
     $headers = "MIME-Version: 1.0\r\n";
