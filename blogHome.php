@@ -40,7 +40,7 @@
         </header>
         <!--============= FIM (1) ==================-->
 
-        <!-- Menu com diversas opções relacionadas as postagens (2) -->
+        <!-- Menu com diversas opções relacionadas as postagens (2) 
         <nav class="navbar navbar-expand-md navbar-light bg-light menuBlog">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -86,7 +86,7 @@
                     </div>
               </form>
             </div>
-        </nav>
+        </nav>-->
         <!-- ====================== FIM (2) ======================= -->
         <div class="row">
             <div class="colunaesquerda">
@@ -177,7 +177,7 @@
              <div class="colunadireita">
                 <div class="card">
                     <h2 class="titpag2">Nossa História</h2>
-                    <a href="index.html#secaoSobre"><img src="img/Principal/iprj_hall.jpg" alt="Image" class="imagem" id="imagem_sobre"></a>
+                    <a href="index.html#secaoSobre"><img src="img/Blog/home/Capa-Facebook.png" alt="Image" class="imagem" id="imagem_sobre"></a>
                     <a href="index.html#secaoSobre" class="link_texto"><p class="textos1">A Serra Jr. Engenharia, criada em 08 de maio de 2002, é uma empresa formada exclusivamente por alunos do curso de graduação de Engenharia...</p></a> 
                 </div>
                 <div class="card">
