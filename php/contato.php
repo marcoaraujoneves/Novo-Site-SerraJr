@@ -9,7 +9,7 @@
     $msgRemetente = $_POST['msg'];
 
     $msgHTML = '<html><body style="font-family:"Verdana",sans-serif;"> <h2 style="color:#EE3B24;"> Mensagem recebida através do Site </h2>
-                <table cellpadding="10">
+                <table rules="all" style="border-color: #EE3B24;" cellpadding="10">
                 <tr style="border-bottom:1px solid #EE3B24;color:00172f;font-weight:700;"><td><strong>Nome:</strong> </td><td> '.$nomeRemetente.' </td></tr>
                 <tr style="border-bottom:1px solid #EE3B24;color:00172f;font-weight:700;"><td><strong> E-mail: </strong> </td><td>'.$emailRemetente.' </td></tr>
                 <tr style="border-bottom:1px solid #EE3B24;color:00172f;font-weight:700;"><td><strong> Telefone: </strong> </td><td>'.$telRemetente.'  </td></tr>
