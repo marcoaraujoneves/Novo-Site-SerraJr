@@ -12,12 +12,12 @@
                                 <div class="linha_rodape"></div>
                                 <div class="margem_listas">
                                     <ul class="rodape_listas">
-                                    <li class="rodape_elementos"> > <a class="rodape_link" href="home#secaoCapa">Início</a></li>
-                                <li class="rodape_elementos"> > <a class="rodape_link" href="home#secaoSobre">Quem Somos</a></li>
-                                <li class="rodape_elementos"> > <a class="rodape_link" href="home#secaoServicos">Serviços</a></li>
-                                <li class="rodape_elementos"> > <a class="rodape_link" href="home#secaoPortifolio">Portfólio</a></li>
-                                <li class="rodape_elementos"> > <a class="rodape_link" href="blog">Blog</a></li>
-                                <li class="rodape_elementos"> > <a class="rodape_link" href="home#secaoContato">Contato</a></li>
+                                        <li class="rodape_elementos"> > <a class="rodape_link" href="#secaoCapa">Início</a></li>
+                                        <li class="rodape_elementos"> > <a class="rodape_link" href="#secaoSobre">Quem Somos</a></li>
+                                        <li class="rodape_elementos"> > <a class="rodape_link" href="#secaoServicos">Serviços</a></li>
+                                        <li class="rodape_elementos"> > <a class="rodape_link" href="#secaoPortifolio">Portfólio</a></li>
+                                        <li class="rodape_elementos"> > <a class="rodape_link" href="#secaoBlog">Blog</a></li>
+                                        <li class="rodape_elementos"> > <a class="rodape_link" href="#secaoContato">Contato</a></li>
                                     </ul>
                                 </div>
                             </div>

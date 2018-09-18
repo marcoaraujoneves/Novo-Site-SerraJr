@@ -40,7 +40,7 @@
         </header>
         <!--============= FIM (1) ==================-->
 
-        <!-- Menu com diversas opções relacionadas as postagens (2) -->
+        <!-- Menu com diversas opções relacionadas as postagens (2) 
         <nav class="navbar navbar-expand-md navbar-light bg-light menuBlog">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -86,7 +86,7 @@
                     </div>
               </form>
             </div>
-        </nav>
+        </nav>-->
         <!-- ====================== FIM (2) ======================= -->
         <article class="container-fluid px-5">
             <div class="row">

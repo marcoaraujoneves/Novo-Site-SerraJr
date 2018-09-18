@@ -11,4 +11,10 @@ $(document).ready(function(){
         link = link.split("#");
         this.href = "index.php#" + link[1];
     });
+
+    $('.rodape_link').each(function(){
+        var link = this.href;
+        link = link.split("#");
+        this.href = "index.php#" + link[1];
+    });
 });
