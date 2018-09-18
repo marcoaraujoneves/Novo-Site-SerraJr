@@ -12,7 +12,7 @@
 /*----------------------------------   Capa do Site -------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 /* Adaptações para as imagens na capa do site */
-@media (min-width:541px) and (max-width:768px){
+/* @media (min-width:541px) and (max-width:768px){
     #secaoCapa{
         height: 60%;
     }
@@ -28,7 +28,7 @@
     #secaoCapa{
         height: 35%;
     }
-}
+} */
 
 /* Adaptações para os textos na capa do site */
 @media (max-width:278px){
@@ -39,7 +39,7 @@
     }
 
     .subtituloCapa{
-        font-size: 15px;
+        font-size: 18px;
         top:63%;
     }
 }
@@ -51,7 +51,7 @@
     }
 
     .subtituloCapa{
-        font-size: 18px;
+        font-size: 20px;
         top:64%;
     }
 }
@@ -63,7 +63,7 @@
     }
 
     .subtituloCapa{
-        font-size: 22px;
+        font-size: 23px;
         top:64%;
     }
 }
@@ -75,7 +75,7 @@
     }
 
     .subtituloCapa{
-        font-size: 30px;
+        font-size: 26px;
         top:62%;
     }
 }
@@ -87,7 +87,7 @@
     }
 
     .subtituloCapa{
-        font-size: 30px;
+        font-size: 26px;
         top:65%;
     }
 }
@@ -111,7 +111,7 @@
     }
 
     .subtituloCapa{
-        font-size: 40px;
+        font-size: 36px;
         top:67%;
     }
 }

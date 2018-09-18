@@ -2,6 +2,12 @@ var trocaSlide;
 
 $(document).ready(function(){
 
+    $('.carousel').carousel({
+        pause:"false",
+        interval:8000
+    });
+
+
     /* Previne que o usuário possa clicar e arrastar imagens */
     $('img').on('dragstart', false);
     
@@ -27,33 +33,33 @@ $(document).ready(function(){
     $('body').css("margin-top",$("#barra-navegacao").css("height"));
     
     /* Slider da capa do site */
-    var sliderAtivo = 1;
+    // var sliderAtivo = 1;
     
-    $('[data-ativo="1"]').css("opacity","0.55");
-    $('[data-textativo="1"]').css("left","0");
+    // $('[data-ativo="1"]').css("opacity","0.55");
+    // $('[data-textativo="1"]').css("left","0");
     
-    window.setInterval(trocaSlider, 4500);
+    // window.setInterval(trocaSlider, 4500);
     
-    function trocaSlider(){
-        $('[data-ativo="'+sliderAtivo+'"]').animate({
-            opacity: 0
-        }, 700);
-        $('[data-textativo="'+sliderAtivo+'"]').animate({
-            left: "100%"
-        }, 700);
-        if (sliderAtivo==3){
-            sliderAtivo = 1;
-        }
-        else{
-            sliderAtivo++;
-        }
-        $('[data-ativo="'+sliderAtivo+'"]').animate({
-            opacity: 0.55
-        }, 700);
-        $('[data-textativo="'+sliderAtivo+'"]').animate({
-            left: "0"
-        }, 700);
-    }
+    // function trocaSlider(){
+    //     $('[data-ativo="'+sliderAtivo+'"]').animate({
+    //         opacity: 0
+    //     }, 700);
+    //     $('[data-textativo="'+sliderAtivo+'"]').animate({
+    //         left: "100%"
+    //     }, 700);
+    //     if (sliderAtivo==3){
+    //         sliderAtivo = 1;
+    //     }
+    //     else{
+    //         sliderAtivo++;
+    //     }
+    //     $('[data-ativo="'+sliderAtivo+'"]').animate({
+    //         opacity: 0.55
+    //     }, 700);
+    //     $('[data-textativo="'+sliderAtivo+'"]').animate({
+    //         left: "0"
+    //     }, 700);
+    // }
     
     /* Ao adicionar a classe fade, a primeira aba ficava em branco até clicar em outra e clicar
     nela novamente, então o seguinte trecho de código foi feito para contornar tal situação */
