@@ -6,7 +6,8 @@ a{
 .vertical-center{
     position: relative;
     top: 50%;
-    transform: perspective(1px) translateY(-50%);
+    -webkit-transform: perspective(1px) translateY(-50%);
+            transform: perspective(1px) translateY(-50%);
 }
 /* ========================= */
 
@@ -40,6 +41,8 @@ a{
 .textos{
     text-align: justify;
     font-size: 15px ;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex ;
     white-space: normal;
 }
@@ -57,7 +60,8 @@ a{
 /* ======================== Menu do Blog ========================= */
 .menuBlog{
     border-top: 5px solid #EE3B24;
-    box-shadow: 0 5px 30px grey;
+    -webkit-box-shadow: 0 5px 30px grey;
+            box-shadow: 0 5px 30px grey;
 }
 /* ========================================================== */
 
@@ -74,7 +78,8 @@ a{
 #foto_autor{
     height:175px;
     width:175px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 50%;
 }
 

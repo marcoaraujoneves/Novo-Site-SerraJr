@@ -6,7 +6,8 @@ a{
 .vertical-center{
     position: relative;
     top: 50%;
-    transform: perspective(1px) translateY(-50%);
+    -webkit-transform: perspective(1px) translateY(-50%);
+            transform: perspective(1px) translateY(-50%);
 }
 /* ========================= */
 
@@ -37,7 +38,8 @@ a{
 /* ======================== Menu do Blog ========================= */
 .menuBlog{
     border-top: 5px solid #EE3B24;
-    box-shadow: 0 5px 30px grey;
+    -webkit-box-shadow: 0 5px 30px grey;
+            box-shadow: 0 5px 30px grey;
 }
 
 /* ========================================================== */
@@ -64,6 +66,8 @@ a{
     margin: 2px;
     font-size: 15px ;
     white-space: pre-line;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex ;
 }
 
@@ -72,6 +76,8 @@ a{
     margin: 2px;
     font-size: 13px ;
     white-space: pre-line;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex ;
 }
 
@@ -112,6 +118,8 @@ a{
     border:solid 3px gray ;
     margin-left: 2px ;
     margin-top: 20px;
+    -webkit-transition: border 0.20s linear 0s;
+    -o-transition: border 0.20s linear 0s;
     transition: border 0.20s linear 0s;
 
 }
@@ -134,7 +142,10 @@ a{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     width:100%;
 }

@@ -22,7 +22,8 @@
 
 .saiba_mais{
     position: static ;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-bottom: 30px;
     margin-top: 20px ;
     padding: 10px;
@@ -33,6 +34,8 @@
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    -webkit-transition: background-color 0.15s linear 0s;
+    -o-transition: background-color 0.15s linear 0s;
     transition: background-color 0.15s linear 0s;
     top: 25px ; 
 }
@@ -71,7 +74,8 @@
 
 .modal_sair{
     position: relative ;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 5px 15px;
     border: 1px solid transparent;
     background-color: #ee3b24;
@@ -80,6 +84,8 @@
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    -webkit-transition: background-color 0.15s linear 0s;
+    -o-transition: background-color 0.15s linear 0s;
     transition: background-color 0.15s linear 0s;
 }
 
