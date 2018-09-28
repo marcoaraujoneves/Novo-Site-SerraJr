@@ -92,7 +92,7 @@
             <div id="secao_branca">
                 <div class="container">
                     <div class="col-md-12 text-center">
-                            <h1 class="tituloServicos"> DESENVOLVIMENTO WEB </h1>
+                            <h1 class="tituloServicos"> WEB </h1>
                             <div class="linha"></div>
                     </div>
                     <div class="row">
