@@ -83,7 +83,8 @@
                     </div>
                 </div>
             </div>
-        
+            
+            <!--
             <div id="secao_branca">
                 <div class="container">
                     <div class="row">
@@ -106,9 +107,9 @@
                         </div>
                     </div>   
                 </div>
-            </div>
+            </div> -->
 
-            <div id="secao_cinza">
+            <div id="secao_branca">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
