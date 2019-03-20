@@ -140,28 +140,7 @@
                 </div>
             </div>
 
-            <div id="secao_branca">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3 class="subtitulo_servicos"> Aplicativos </h3>
-                            <p class="texto">
-                                Precisa de um aplicativo específico para um projeto pessoal
-                                da sua startup ou mesmo para divulgar um novo produto ou serviço?
-                                A Serra Jr. desenvolve aplicativos sob medida para você!
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <img class="img-responsive_right" src="img/Servicos/computacao/desenvolvimento_web/apps.png">
-                        </div>
-                    </div>
-                    <div class="row"> 
-                        <div class="col-md-12 text-center">
-                            <button type="button" class="saiba_mais" data-toggle="modal" data-target="#ModalAplicativo">Saiba Mais</button>
-                        </div>
-                    </div> 
-                </div>  
-            </div>
+
         </section>
 
      <!-- ///////////////////////////////////// Botões Modais ///////////////////////////////////////// -->

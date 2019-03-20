@@ -58,7 +58,7 @@
                         
                         <div class="tab-content">
                             <div class="tab-pane active"  role="tabpanel" id="nossa_historia">
-                                <img src="img/Principal/diretoria2.jpeg" alt="" class="img-responsive">
+                                <img src="img/Principal/diretoria2.jpg" alt="" class="img-responsive">
                                 
                                 <br><br>
                                 <h5> Nossa História </h5>
@@ -121,7 +121,7 @@
                         <img src="img/Principal/flag.png">
                         <p>
                             Desenvolver os membros a partir de projetos de engenharia mecânica e engenharia 
-                            da computação, impactando o mercado para criar valor e fazer diferença diferença.
+                            da computação, impactando o mercado para criar valor e fazer diferença.
                         </p>
                     </div>
                     
@@ -227,7 +227,7 @@
                                         <p>
                                             Sistema de controle de variáveis, criado para automatizar os relatórios de 
                                             temperaturas usados no controle de produção da fábrica. Foram utilizados 
-                                            sensores e arduíno para obtenção das temperaturas e um Sistema JAVA para 
+                                            sensores e arduíno para obtenção das temperaturas e um Sistema Local para 
                                             interface. 
                                         </p>
                                     </div>
@@ -251,7 +251,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+                            <!--
                             <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="fluid">
                                 <div class="row">
                                     <div class="col-md-8">
@@ -267,6 +267,7 @@
                                     </div>
                                 </div>
                             </div>
+                        -->
                             <div class="text-center">
                                 <ul class="nav nav-tabs listaPortifolio"  role="tablist">
                                     <li class="nav-item itemPortifolio"><a class="nav-link active" href="#soledade" role="tab" data-toggle="tab"></a></li>
@@ -280,7 +281,7 @@
             </div>
         </section>
         
-        <!-- Seção Blog -->
+        <!-- Seção Blog 
         <section id="secaoBlog" class="secaoSite cinza">
             <div class="container">
                 <div class="row">
@@ -340,7 +341,7 @@
             </div>
             
         </section>
-        
+        -->
         <!-- Seção Contatos -->
         <section class="secaoSite" id="secaoContato">
             <div class="container" id="contatos">
