@@ -1,0 +1,55 @@
+.LI{
+    color      : #201113;
+    margin-left: 6%;
+}
+
+#titulo{
+    color: #201113 ;
+    font-size: 43px ;
+    text-align: center ;
+    font-weight: 800 ;
+    margin-top: 15px ; 
+}
+
+@media screen and (max-width: 500px){
+    #titulo{
+    font-size: 30px ;
+    }
+}
+
+.centro-vertical{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* .ParagrafoSobreNos{
+    text-indent: 4em;
+    color      : #201113;
+    font-size  : 17px;
+} */
+.EstiloH6{
+    color: #201113;
+}
+.EstiloH4{
+    margin-top : 10px;
+    color      : #201113;
+    margin-left: 6%;
+}
+.EstiloH41{
+    margin-top: 5px;
+    color     : #201113;
+}
+.EstiloH2{
+    margin-top: 0px;
+    color     : #201113;
+}
+.EstiloH5{
+    margin-top : 10px;
+    margin-left: 5%;
+    color      : #201113;
+}
+/* .AlinhamentoImgEsquerda{
+    margin-top : 20px;
+    margin-left: 100px;
+} */

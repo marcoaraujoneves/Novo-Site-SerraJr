@@ -1,0 +1,41 @@
+.titulo_secoes{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color:#EE3B24;
+}
+
+.titulo_secoes::after{
+    margin: 1px auto;
+    height: 4px;
+    width: 130px;
+    content: " ";
+    display: block;
+    background-color: #EE3B24;
+    border-radius: 6px;
+}
+body {
+    margin: 0 auto;
+    margin-top: 30px !important;
+    overflow-x: hidden;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p{
+    text-align: center;
+    font-weight: 350;
+    font-size: 27px;
+}
+
+.img_cons{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-top: 0px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+
+}

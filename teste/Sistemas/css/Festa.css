@@ -1,0 +1,76 @@
+textarea, input{
+    outline: none;
+    border : 1px solid rgb(44,40,76);
+}
+.Tabela{
+    margin-left: 13%;
+    margin-top : 5%;
+}
+.ImgTd{
+    width        : 150px;
+    height       : 100px;
+    margin-left  : 25%;
+    margin-bottom: 5%;
+}
+.BotaoGeral{
+    margin-left     : 5%;
+    margin-top      : 2%;
+    width           : 200px;
+    background-color: rgb(44,40,76);
+    color           : white;
+}
+.BotaoGeral:hover{
+    color             : rgb(44,40,76);
+    background-color  : white;
+    border            : 1px solid rgb(44,40,76);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
+.BotaoModal{
+    margin-left     : 5%;
+    margin-top      : 2%;
+    background-color: rgb(44,40,76);
+    color           : white;
+}
+.BotaoModal:hover{
+    color             : rgb(44,40,76);
+    background-color  : white;
+    border            : 1px solid rgb(44,40,76);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
+.BotaoAtualiza{
+    margin-left     : 25%;
+    margin-bottom   : 25px;
+    margin-top      : 5px;
+    background-color: rgb(44,40,76);
+    color           : white;
+    width           : 88px;
+}
+.BotaoDesativa{
+    margin-left     : 25%;
+    background-color: rgb(44,40,76);
+    color           : white;
+}
+.BotaoAtualiza:hover{
+    color             : rgb(44,40,76);
+    background-color  : white;
+    border            : 1px solid rgb(44,40,76);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
+.BotaoDesativa:hover{
+    color             : rgb(44,40,76);
+    background-color  : white;
+    border            : 1px solid rgb(44,40,76);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}

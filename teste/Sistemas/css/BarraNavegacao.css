@@ -1,0 +1,102 @@
+body{
+  
+    
+    z-index   : 10;
+}
+.EfeitoUl{
+    margin-top: -50px;
+}
+a:link{
+    text-decoration: none;
+}
+#UlBarra{
+    margin-left: 40px;
+}
+.EstiloLinkBarra{
+    color       : white;
+    margin-right: 40px;
+    font-size   : 17px;
+}
+.EstiloLinkBarra:hover{
+    color             : #990033;
+    transition        : 1s;
+    -moz-transition   : 1s;
+    -o-transition     : 1s;
+    -webkit-transition: 1s;
+}
+.BoxBarra{
+    background-color: #2c284c;
+}
+.ImgBarra{
+    width      : 150px;
+    height     : 100px;
+    margin-left: 50px;
+}
+.ImagemLi{
+    margin-top: -5px;
+    width     : 16px;
+    height    : 16px;
+    fill      : white;
+}
+.BoxGirassolA{
+    width           : 105px;
+    height          : 110px;
+    background-color: white;
+    position        : absolute;
+    right           : 155px;
+    border          : 2px solid #990033;
+    border-radius   : 10px;
+}
+.BotaoEditar{
+    font-size       : 15px;
+    padding         : 5px 15px;
+    margin-top      : 10px;
+    margin-left     : 15%;
+    color           : white;
+    background-color: rgb(99,00,33);
+}
+.BotaoEditar2{
+    font-size       : 15px;
+    width           : 72px;
+    padding         : 5px 15px;
+    margin-top      : 10px;
+    margin-left     : 15%;
+    color           : white;
+    background-color: rgb(99,00,33);
+}
+.BotaoEditar3{
+    width           : 50px;
+    height          : 30px;
+    margin-top      : 12px;
+    margin-left     : 26%;
+    background-color: rgb(99,00,33);
+    z-index         : 2;
+}
+.BotaoEditar:hover{
+    color           : rgb(99,00,33);
+    background-color: white;
+    border          : 1px solid rgb(99,00,33);
+}
+.BotaoEditar2:hover{
+    color           : rgb(99,00,33);
+    background-color: white;
+    border          : 1px solid rgb(99,00,33);
+}
+.BotaoEditar3:hover{
+    color           : rgb(99,00,33);
+    background-color: white;
+    border          : 1px solid rgb(99,00,33);
+}
+.ArrowImg{
+    width           : 16px;
+    height          : 16px;
+    margin-right    : 3px;
+    margin-bottom   : 20px;
+    border          : 1px solid rgb(99,00,33);
+    border-radius   : 7px;
+    background-color: rgb(99,00,33);
+
+}
+.Reveal{
+     display: none;
+} 

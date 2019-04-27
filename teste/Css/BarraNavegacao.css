@@ -1,0 +1,48 @@
+.centro-vertical{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.EfeitoUl{
+    margin-top:0;
+}
+.EfeitoUlBarra{
+    margin-top:0;
+}
+a:link{
+    text-decoration:none !important;
+}
+
+.EstiloLinkBarra{
+    color:white;
+    margin-right:5px;
+    margin-left:5px;
+    font-size: 17px;
+}
+.EstiloLinkBarraTopo{
+    color:white;
+    /* margin-right:15px; */
+    font-size: 15px;
+}
+.EstiloLinkBarra:hover{
+    color:#990033;
+}
+.BoxBarra{  
+    background-color: #482509;
+    /*background-color: #2c284c;*/
+}
+
+.ImgBarraTopo{
+    width: 150px;
+    height: 110px;
+    /* margin-left: 50px; */
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+  } 

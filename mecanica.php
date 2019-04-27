@@ -22,6 +22,11 @@
         
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
         <title> Serviços de Mecânica </title>
+        <!-- Event snippet for Projetos Mecânicos e de Computação conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-850118458/XqKDCNfN6ZgBELqOr5UD'});
+</script>
+
     </head>
 
     <body ondragstart="return false;" ondrop="return false;">

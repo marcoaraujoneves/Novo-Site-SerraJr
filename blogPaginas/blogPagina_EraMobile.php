@@ -1,32 +1,42 @@
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
         <script src="js/jquery-3.3.1.js"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         
-        <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/blogpagina.css" />
-        <script src="js/blogpagina.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/estiloPrincipal.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/blogpagina.css" />
+        <script src="../js/blogpagina.js"></script>
+        <script type="text/javascript" language="javascript">
+
+function mudarTitulo(novotitulo) {
+
+document.getElementsByTagName('title').item(0).innerHTML = novotitulo;
+
+}
+
+</script>
+        <link rel="icon" href="../img/Principal/favicon.ico" type="image/x-icon">
         
-        <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
-        <title>A Era Mobile</title>
     </head>
 
     <body>
 
-        <?php include('menu.php');?>
+        <?php include('menu.php');
         
+
+        ?>
         <!-- Contém a imagem e o título do blog (1) -->
         <header id="headerBlog">
             <div id="container_header" class="container-fluid">
@@ -40,7 +50,7 @@
         </header>
         <!--============= FIM (1) ==================-->
 
-        <!-- Menu com diversas opções relacionadas as postagens (2) 
+         <!--Menu com diversas opções relacionadas as postagens (2) -->
         <nav class="navbar navbar-expand-md navbar-light bg-light menuBlog">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -86,14 +96,15 @@
                     </div>
               </form>
             </div>
-        </nav>-->
+        </nav>
         <!-- ====================== FIM (2) ======================= -->
+        <?php echo "<script>mudarTitulo('Batatas');</script>"; ?>
         <article class="container-fluid px-5">
             <div class="row">
                 <div class="col-md-8 text-justify mt-5 pl-md-5">
                     <h2 class="titulo m-0">A Era Mobile</h2>
                     <h5 class="estilodata"><time datetime="2018-08-03">03 de Agosto, 2018</time></h5>  
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Era Mobile/img.jpg">
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="../img/Blog/paginas/Era Mobile/img.jpg">
                     <p class="textos"> 
                         Por volta dos anos 1990, após maior difusão dos computadores, principalmente no ramo empresarial,
                         surgiu uma crescente demanda por aparelhos móveis que tivessem as algumas das principais funções dos PCs,
@@ -111,7 +122,7 @@
                         muitos dos quais são mais potentes do que os computadores utilizados à época dos seus antecessores.
                     </p>
 
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Era Mobile/img1.jpg">
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="../img/Blog/paginas/Era Mobile/img1.jpg">
 
                     <p class="textos">
                         Uma ampla gama de dispositivos móveis está disponível hoje no mercado, dentre eles se destacam os 
@@ -130,7 +141,7 @@
                         experiência e qualidade de visualização.
                     </p>
 
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Era Mobile/img2.jpg">
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="../img/Blog/paginas/Era Mobile/img2.jpg">
 
                     <p class="textos">
                         Já os tablets são uma espécie de computador pessoal portátil, sem fios e com uma interface touchscreen, 
@@ -144,7 +155,7 @@
                         ser abaixada sobre o teclado, deixando apenas a tela exposta. 
                     </p>
                     
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Era Mobile/img3.jpg">
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="../img/Blog/paginas/Era Mobile/img3.jpg">
 
                     <p class="textos">
                         Com o crescente poder de processamento nos aparelhos, aliado às ampliações e barateamento das tecnologias de rede e telefonia para dispositivos móveis,
@@ -168,7 +179,7 @@
                         a partir de dispositivos móveis, ultrapassaram os acessos feitos a partir de Desktops.
                     </p>
 
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="img/Blog/paginas/Era Mobile/img4.jpg">
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="../img/Blog/paginas/Era Mobile/img4.jpg">
 
                     <p class="textos">
                         Como dito acima, milhões de brasileiros tem um aparelho móvel, e estes aparelhos conferem mais praticidade e conectividade no dia-a-dia,
@@ -207,7 +218,7 @@
                     <div class="card bg-light my-3 p-3">
                         <div class="row no-gutters">
                             <div class="mx-auto">
-                                <img id="foto_autor" class="img-fluid vertical-center mx-3 border" src="img/Blog/Autores/autor.jpg">
+                                <img id="foto_autor" class="img-fluid vertical-center mx-3 border" src="../img/Blog/Autores/autor.jpg">
                             </div>
                             <div class="col-md">
                                 <div class="card-block p-3">
@@ -237,15 +248,15 @@
                         Aliquam accumsan, tellus at mollis consequat, ante metus aliquet metus, eget accumsan massa orci quis risus. 
                         Aliquam erat volutpat. Donec sit amet porttitor orci. Fusce commodo sapien ac lorem blandit, a suscipit purus malesuada. 
                         Curabitur vestibulum turpis ut lorem vestibulum, quis mollis tellus tristique. Duis aliquam sit amet ante ut ultrices. 
-                        Etiam ornare dui quis dolor finibus, mattis vehicula diam suscipit.</p>
+                    Etiam ornare dui quis dolor finibus, mattis vehicula diam suscipit.</p>
                 </aside>
             </div>
         </article>
         
         <?php include('rodape.php');?>
 
-    </body>
-    <script src="js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/Servicos.js"></script>
-</html>
+    
+    <script src="../js/popper.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/Servicos.js"></script>
+    </html>

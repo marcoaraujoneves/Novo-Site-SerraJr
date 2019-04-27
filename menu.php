@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Serviços de engenharia">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <meta name="keywords" content="engenharia,desenho,desenho tecnico,site,consultoria,empresa,solução,automação,site barato,barato,nova friburgo, rio de janeiro"
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -23,7 +24,23 @@
         <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
         <title> Home | Serra Jr. Engenharia </title>
     </head>
-    
+    <!-- Event snippet for Projetos Mecânicos e de Computação conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-850118458/XqKDCNfN6ZgBELqOr5UD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
     <script type="text/javascript">
         /* Máscara Para digitação do número de telefone no formulário de contato */
         function mascara(o,f){
@@ -49,7 +66,16 @@
             }
         }
     </script>
-    
+    <!-- Global site tag (gtag.js) - Google Ads: 850118458 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-850118458"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-850118458');
+</script>
+
     <body>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="barra-navegacao">
             <div class="container">
@@ -75,7 +101,7 @@
                     <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoSobre" href="#secaoSobre"> SERRA JR. </a></li>
                     <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoServicos" href="#secaoServicos"> SERVIÇOS </a></li>
                     <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoPortifolio" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoBlog" href="#secaoBlog"> BLOG </a></li>
+                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoBlog" href="blog/construcao.html"> BLOG </a></li>
                     <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoContato" href="#secaoContato"> CONTATOS </a></li>
                 </ul>
             </div>

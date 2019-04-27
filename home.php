@@ -169,7 +169,7 @@
                                 <p>Desenho Técnico e modelagem 3D<br> Prototipagem<br> Análise estrutural<br> Projetos de máquinas e equipamentos</p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="mecanica.php">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" onclick="gtag_report_conversion()" href="mecanica.php">Saiba Mais</a></center>
                     </div>
                     
                     <div class="col-md-4 containerServicos">
@@ -182,7 +182,7 @@
                                 </p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="computacao.php">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" onclick="gtag_report_conversion()" href="computacao.php">Saiba Mais</a></center>
                     </div>
                     
                     <div class="col-md-4 containerServicos">
@@ -195,7 +195,7 @@
                                 </p>
                             </div>
                         </a>
-                        <center><a class="botaoEstilizado" href="computacao.php#Desenvolvimento_web">Saiba Mais</a></center>
+                        <center><a class="botaoEstilizado" onclick="gtag_report_conversion()" href="computacao.php#Desenvolvimento_web">Saiba Mais</a></center>
                     </div>
                 </div>
             </div>
@@ -218,11 +218,11 @@
                         <div class="tab-content">
                             <div class="containerProjetoPortifolio tab-pane active"  role="tabpanel" id="soledade">
                                 <div class="row">
-                                    <div class="col-md-7">
-                                        <img src="img/Principal/LogoSoledade.jpg" class="img-responsive">
+                                    <div class="col-md-7 imagem_portifolio">
+                                        <img src="img/Principal/LogoSoledade.jpg" class="img-responsive imagem_portifolio">
                                     </div>
                                     
-                                    <div class="col-md-5 portifolioProjeto">
+                                    <div class="col-md-5 portifolioProjeto ">
                                         <h2> Fazenda Soledade </h2>
                                         <p>
                                             Sistema de controle de variáveis, criado para automatizar os relatórios de 
@@ -236,38 +236,33 @@
                             
                             <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="laje">
                                 <div class="row">
-                                    <div class="col-md-7">
-                                        <img src="img/Principal/LogoLaje.jpg" class="img-responsive">
+                                    <div class="col-md-7 imagem_portifolio">
+                                        <img src="img/Principal/LogoChassi.jpg" class="img-responsive imagem_portifolio">
                                     </div>
                                     
                                     <div class="col-md-5 portifolioProjeto">
-                                        <h2> Lar Abrigo Amor a Jesus </h2>
+                                        <h2> RL Oficina de Motocicletas </h2>
                                         <p>
-                                            Criação de um manual com soluções obtidas computacionalmente para problemas 
-                                            estruturais encontrados nas cadeiras de rodas selecionadas. Informa as 
-                                            melhores maneiras de utiliza-las, aumentando sua vida útil e evitando 
-                                            que suas peças sejam desgastadas ou destruídas. 
+                                            Foram feitos desenhos técnicos dos componentes de um chassi de motocicleta customizada afim de que o cliente pudesse registrar no Inmetro e assim comercializar este tipo de moto fabricada por ele.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <!--
+                            
                             <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="fluid">
                                 <div class="row">
-                                    <div class="col-md-8">
-                                        <img src="img/Principal/FluidDinamica.PNG" class="img-responsive imgPortifolio">
+                                    <div class="col-md-8 imagem_portifolio">
+                                        <img src="img/Principal/LogoTMF.jpg" class="img-responsive imagem_portifolio">
                                     </div>
                                     
-                                    <div class="col-md-4 portifolioProjeto">
-                                        <h2> Fluid Dinâmica </h2>
+                                    <div class="col-md-4 portifolioProjeto ">
+                                        <h2> TMF Indústria Mecânica </h2>
                                         <p>
-                                            Desenvolvimento de um site institucional, contendo informações de contato, informações gerais sobre a empresa e 
-                                            amostra de produtos, trazendo mais visibilidade à marca, agregando valor e auxiliando na prospecção.
+                                            Criação de desenhos técnicos de todos os componentes de duas máquinas de colagem e dobragem criadas pelo cliente, para que fosse possível fabricar algumas delas de acordo com as dimensões dos protótipos.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                        -->
                             <div class="text-center">
                                 <ul class="nav nav-tabs listaPortifolio"  role="tablist">
                                     <li class="nav-item itemPortifolio"><a class="nav-link active" href="#soledade" role="tab" data-toggle="tab"></a></li>
@@ -374,7 +369,7 @@
                             <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
                             <br><br>
                             
-                            <center> <input type="submit" class="botaoEstilizado" value="Enviar"> </center>
+                            <center> <input type="submit" onclick="gtag_report_conversion()" class="botaoEstilizado" value="Enviar"> </center>
                         </form>
                     </div>
                 </div>

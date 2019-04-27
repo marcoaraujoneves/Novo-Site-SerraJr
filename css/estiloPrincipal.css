@@ -273,7 +273,15 @@ section{
     border:1px solid rgba(238, 59, 36, 0.562);
     opacity: 1;
 }
-
+.imagem_portifolio{
+    object-fit: cover ;
+    width: 100% ;
+    height: 324px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+}
 #rolarInicio img{
     width: 80%;
 }

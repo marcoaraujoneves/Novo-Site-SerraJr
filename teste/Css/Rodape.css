@@ -1,0 +1,171 @@
+
+/* ---------- formas , cores e listas (linha , footer e frase de efeito tambem)---------- */
+#forma_rodape{
+    background-color: #482509 ;
+    width: auto ;
+    height: auto ;
+    margin-top: 30px;
+}
+.linha_rodape {
+    display: block;
+    margin: auto;
+    content: "";
+    width: 100%;
+    height: 3px;
+    margin-left: 0px;
+    background: rgb(229, 233, 3);
+    border-radius: 5px;
+}
+.rodape_listas{
+    list-style-type: none ;
+    padding: 0 ;
+}
+#frase_efeito{
+    color: #9E9E9E ;
+    font-size: 17px ;
+    font-weight: 700 ;
+}
+/* ---------- layout de textos---------- */
+#titulo_Rodape{
+    font-size: 100px ;
+    font-weight: 800 ; 
+    color: white ; 
+}
+@media screen and (max-width: 500px){
+    #titulo_Rodape{
+    font-size: 28px ;
+    }
+}
+.rodape_elementos{
+    color: #9E9E9E;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 16px ;
+}
+@media screen and (max-width: 575px){
+    .rodape_elementos{
+    font-size: 14px  ;
+    }
+}
+.rodape_titulos{
+    color:  #C5C5C2!important ;
+    font-size: 30px ;
+    font-weight: 500;
+}
+@media screen and (max-width: 500px){
+    .rodape_titulos{
+    font-size: 25px ;
+    }
+}
+/* ---------- /margem/---------- */
+.margem_listas{
+    margin-top: 15px ;
+}
+.margem_listas_2{
+    margin-top: 15px ;
+}
+@media screen and (max-width: 500px){
+    .margem_listas_2{
+        margin-top: 0 ;
+    }
+    .margem_listas_3{
+        margin-bottom: 9px ;
+    }
+}
+/* ---------- /menu link forma e cor/---------- */
+.rodape_link{
+    color: #9E9E9E;
+}
+.rodape_link:hover{
+    color: rgb(238, 218, 36);
+    text-decoration: none ;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+/* ---------- /contato link forma , cor e icones(tamanho)/ ---------- */
+.contato_texto{
+    color: #9E9E9E;
+    text-decoration: none ;
+}
+.contato_texto:hover{
+    color: rgb(238, 218, 36);
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+    text-decoration: none ;
+}
+.icones_contato{
+    width: 12.5px ;
+ }
+/* ---------- /Tags forma e cor/---------- */
+.tags{
+    margin-top: 10px ;
+    margin-left: 5px ;
+    float: left;
+    padding: 3px 10px;
+    color: #9E9E9E ;
+    background-color: #2C2C2C ;
+    border-radius: 10px ;
+    cursor: default;
+}
+.tags:hover{
+    color: #333  ;
+    background-color: rgb(238, 224, 36);
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+/* ---------- /Social links cor , formas e transparencia dos icones/---------- */
+.social_link{
+    color: #9E9E9E ;
+    text-decoration: none  !important;
+    opacity: 0.6;
+}
+.social_link:hover{
+    color: rgb(224, 238, 36) ;
+    text-decoration: none;
+    opacity: 1.0;
+}
+@media screen and (max-width: 700px){
+    .social_link{
+        color: #9E9E9E ;
+        text-decoration: none  !important;
+        opacity: 1.0;
+    }
+}
+/* ---------- /Social imagens e lista cor e formas /---------- */
+#social_lista>li{
+    list-style-type: none  ;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding-left: 3px;
+    padding-right: 35px;
+} 
+
+#social_lista{
+    list-style-type: none ;
+    text-align: center ;
+}
+@media screen and (max-width: 575px){
+    #social_lista{
+        display: flex;
+    }
+    #social_lista>li{
+        margin-bottom: 0;
+        margin-top: 9px ;
+    }
+}
+.social_icone{
+    max-width: 30px ;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+

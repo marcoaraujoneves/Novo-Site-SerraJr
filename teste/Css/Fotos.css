@@ -1,0 +1,74 @@
+/* ======================================== Tipografia =================================================*/
+
+#titulo{
+    color: #201113 ;
+    font-size: 43px ;
+    text-align: center ;
+    font-weight: 800 ;
+    margin-top: 15px ; 
+}
+
+@media screen and (max-width: 500px){
+    #titulo{
+    font-size: 30px ;
+    }
+}
+
+.linha{
+    display: block;
+    margin: auto;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #201113;
+}
+
+#caixa_titulo_fotos{
+    margin-bottom: 30px ;
+    margin-top: 10px ; 
+}
+
+/* ===================================================================================================== */
+
+.Tabela{
+    margin-left: 13%;
+    margin-top : 5%;
+}
+.ImgTd{
+    width        : 125px;
+    height       : 75px;
+    margin-left  : 15%;
+    margin-bottom: 5%;
+}
+.CaixoteDosBotoes{
+    margin-top: 5%;
+}
+.BotaoCadastra{
+    margin-left     : 4%;
+    margin-top      : 2%;
+    width           : 200px;
+    background-color: rgb(99,00,33);
+    color           : white;
+}
+.BotaoCadastra:hover{
+    color             : rgb(99,00,33);
+    background-color  : white;
+    border            : 1px solid rgb(99,00,33);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
+.BotaoFotos{
+    background-color: rgb(99,00,33);
+    color           : white;
+}
+.BotaoFotos:hover{
+    color             : rgb(99,00,33);
+    background-color  : white;
+    border            : 1px solid rgb(99,00,33);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}

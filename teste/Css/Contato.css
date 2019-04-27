@@ -1,0 +1,11 @@
+#titulo{
+    color: #201113 ;
+    text-align: center ;
+    margin-top: 15px ; 
+}
+
+@media screen and (max-width: 500px){
+    #titulo{
+    font-size: 30px ;
+    }
+}
