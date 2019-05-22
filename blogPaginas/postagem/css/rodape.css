@@ -1,0 +1,231 @@
+/*----------------------------------   Layout   -----------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+#forma_rodape{
+    background-color: #333 ;
+    widows: 100%;
+    height: auto;
+}
+
+#forma_copyright{
+  background-color: #222 ;
+  border-top: 1px solid #555;
+  width: 100% ;
+  height: auto;
+
+}
+
+.rodape_link{
+    color: #9E9E9E;
+}
+
+.rodape_link:hover{
+    color: #EE3B24;
+    text-decoration: none ;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+
+.rodape_listas{
+    list-style-type: none ;
+    padding: 0 ;
+}
+
+.rodape_elementos{
+    color: #9E9E9E;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#rodape_logo{   
+    padding: 10% 0 10% ;                                    /*<---------- div que contem a logo */
+    background-color:rgba(51, 51, 51, 0) ; 
+    width: 100%;
+    height: 100% ;
+}
+
+.margem_listas{
+    margin-top: 15px ;
+}
+
+#margem_conteudo{
+    background-color: #333 ;
+    padding: 25px 0px 35px;
+    margin-top: 25px;
+}
+
+.contato_texto{
+    color: #9E9E9E;
+    text-decoration: none ;
+}
+
+.contato_texto:hover{
+    color: #EE3B24;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+    text-decoration: none ;
+}
+
+.contato_texto_1{
+    color: #9E9E9E;
+    text-decoration: none ;
+}
+
+.contato_texto_1:hover{
+    color: #EE3B24;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+    text-decoration: none ;
+}
+
+.tags{
+    margin-top: 10px ;
+    margin-left: 5px ;
+    float: left;
+    padding: 3px 10px;
+    color: #9E9E9E ;
+    background-color: #2C2C2C ;
+    border-radius: 10px ;
+    cursor: default;
+}
+
+.tags:hover{
+    color: #333  ;
+    background-color: #EE3B24;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+
+.linha_rodape{
+    display: block;
+    margin: auto;
+    content: "";
+    width: 95%;
+    height: 3px;
+    margin-left: 0px ;
+    background: #EE3B24;
+    border-radius: 5px ;
+}
+
+.copyright_caixa{
+    margin-top: 0 ;
+}
+
+#social_lista{
+    padding: 0 ;
+    margin-top: 8px ;
+}
+
+#social_lista>li{
+    display: inline-block; 
+    margin-top: 15px;
+    margin-right: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+} 
+
+#social_margem{
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.social_link{
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(58, 58, 58)  ;
+    color:  #9E9E9E ;
+    font-weight: 400 ;
+    border-radius: 25px ;
+    display: block ;
+}
+
+#social_link_facebook:hover{
+    text-decoration: none ;
+    background-color:  #133783;
+    color: rgb(0, 0, 0) ;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+
+#social_link_instagram:hover{
+    text-decoration: none ;
+    background-color:  #e95950;
+    color: rgb(0, 0, 0) ;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+
+#social_link_youtube:hover{
+    text-decoration: none ;
+    background-color:  #cc181e;
+    color: rgb(0, 0, 0) ;
+    -webkit-transition: 0.15s linear ;
+    -o-transition: 0.15s linear ;
+    transition: 0.15s linear ;
+}
+/*----------------------------------   Tipografia   -------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.tags{
+    font-size: 13px ;   
+    white-space: nowrap;
+}
+
+.rodape_titulos{
+    color:  #C5C5C2!important ;
+    font-size: 30px ;
+    font-weight: 500;
+}
+
+.contato_texto{
+    font-size: 15px ;
+}
+
+.social_link{
+    font-size: 12px ;
+}
+
+.Copyright_texto{
+    font-size: 18px;
+    color: #C4C4C4;
+    margin: 25px 0px;
+    font-weight: 500;
+}
+
+.Copyright_sublinha_rodapedo{
+color: #EE3B24 ;
+}
+
+/*----------------------------------   imagens   -------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.social_icone{
+    width: 32px ;
+    height: 32px ;
+}
+
+.social_icone_youtube{
+    width: 32px ;
+    height: 32px ;
+}
+
+.icones_contato{
+   width: 12.5px ;
+}
+
+.rodape_logo{
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+    width: 100% ;
+    height: auto;
+    max-width: 300px ;
+}

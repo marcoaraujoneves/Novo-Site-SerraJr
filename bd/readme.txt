@@ -1,0 +1,1 @@
+Necessario criar um banco de dados com o nome serrajr e importar o bd.sql

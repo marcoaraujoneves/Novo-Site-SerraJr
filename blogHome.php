@@ -11,16 +11,16 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="js/jquery-3.3.1.js"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="../js/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         
-        <link rel="stylesheet" type="text/css" media="screen" href="css/estiloPrincipal.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/Servicos.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/blog.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/estiloPrincipal.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/Servicos.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/blog.css" />
         <script src="js/blog.js"></script>
         
-        <link rel="icon" href="img/Principal/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../img/Principal/favicon.ico" type="image/x-icon">
         <title>Blog SerraJr</title>
     </head>
 
@@ -40,7 +40,7 @@
         </header>
         <!--============= FIM (1) ==================-->
 
-        <!-- Menu com diversas opções relacionadas as postagens (2) 
+         
         <nav class="navbar navbar-expand-md navbar-light bg-light menuBlog">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -86,95 +86,49 @@
                     </div>
               </form>
             </div>
-        </nav>-->
+        </nav>
         <!-- ====================== FIM (2) ======================= -->
         <div class="row">
             <div class="colunaesquerda">
-                <div class="card">
-                    <h2 class="titpag">A Era Mobile</h2>
-                    <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto - 2018</time></h5>
+
+                <?php 
+                include ('db.class.php');
+                $objDB = new db();
+                $conn = $objDB->conecta_mysql();
+                $query_select = "SELECT titulo,data,preview,imgPreview from Postagem order by data desc;";
+                $result_select = mysqli_query($conn,$query_select) or die(mysql_error());
+                $rows = array();
+                while($row = mysqli_fetch_array($result_select))
+                    $rows[] = $row;
+                foreach($rows as $row){
+                    $titulo = $row['titulo'];
+                    $data = $row['data'];
+                    $imgPreview = $row['imgPreview'];
+                    $preview = $row['preview'];
+                    echo '<div class="card">
+                    <h2 class="titpag">'.$titulo.'</h2>
+                    <h5 class="estilodata"><time>'.$data.'</time></h5>
                     
                     <div id="caixa_imagemPost">
-                        <img src="img/Blog/home/noticia1.jpg" alt="Image" class="imagemPost">
+                        <img src="blogPaginas/Img/'.$titulo.'/'.$imgPreview.'" alt="Image" class="imagemPost">
                     </div>
-                   
+
                     <p class="textos">
-                        Celulares representaram um grande avanço em sua época, modificando bruscamente a forma como a sociedade se comunicava e até a forma como o mercado ser comportaria. Computadores foram ainda mais impactantes, sendo empregados nas mais diversas áreas e moldando o futuro de diversos ramos. Agora os dispositivos mobile, que em muitos casos unem estes dois mundos, são foco de um mercado bilionário que cresce cada dia mais.
+                        '.$preview.'
                     </p>
 
                     <div id="caixa_saiba_mais">
-                        <a href="blogPagina_EraMobile.php" class="saiba_mais">
+                        <a href="blogPaginas/'.$titulo.'.php" class="saiba_mais" target="_blank">
                             <b>Saiba Mais »</b>
                         </a>
                     </div>
-                </div>
-                <div class="card">
-                    <h2 class="titpag">Análise estrutural</h2>
-                    <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                    <div id="caixa_imagemPost">
-                        <img src="img/Blog/home/noticia2.jpg" alt="Image" class="imagemPost">
-                    </div>
-                    
-                    <p class="textos">
-                        Esta é uma área fundamental na Engenharia e no Desenvolvimento de projetos. Toda estrutura, peça, máquina, equipamento, etc, deve ter bem definidos alguns aspectos: qual o objetivo, como deve funcionar, para que será utilizado, em que condições de operação ele vai trabalhar, qual carga vai suportar, etc. Esses parâmetros quando bem definidos podem ajudar a construir um projeto conceitual mais detalhado e atento às necessidades do cliente.
-                    </p>
-                    
-                    <div id="caixa_saiba_mais">
-                        <a href="blogPagina_AnaliseEstrutural.php" class="saiba_mais">
-                            <b>Saiba Mais »</b>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                        <h2 class="titpag">Desenho Técnico</h2>
-                        <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                        <div id="caixa_imagemPost">
-                            <img src="img/Blog/home/noticia3.jpg" alt="Image" class="imagemPost">
-                        </div>
-                        <p class="textos">
-                            Já tentou imaginar explicar a alguém, apenas com palavras e sugestões, como é a aparência e o funcionamento de uma máquina ou até mesmo de uma “simples” peça? Todos os seus aspectos geométricos, detalhes, medidas, método de trabalho, particularidades? Parece uma tarefa árdua ou até mesmo impossível, pois de fato é! A única forma de representação fiel que se pode usar para solucionar essa questão é o desenho técnico.
-                        </p>
-                        <div id="caixa_saiba_mais">
-                            <a href="blogPagina_DesenhoTecnico.php" class="saiba_mais">
-                                <b>Saiba Mais »</b>
-                            </a>
-                        </div>
-                    </div>
-
-                <div class="card">
-                        <h2 class="titpag">A História do Android</h2>
-                        <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                        <div id="caixa_imagemPost">
-                            <img src="img/Blog/home/noticia4.jpg" alt="Image" class="imagemPost">
-                        </div>
-                        <p class="textos">
-                            O sistema operacional Android, hoje o mais popular do mundo, surgiu na Califórnia, em 2002, quando um grupo de três amigos abriu uma empresa, de mesmo nome, com o intuito de criar um sistema operacional inteligente para câmeras digitais. Após certo tempo perceberam que não havia mercado suficiente para que o projeto obtivesse sucesso, então voltaram-se para o mercado de celulares, onde os principais concorrentes seriam o Windows Mobile, da Microsoft, e o sistema Symbian, da Nokia.
-                        </p>
-                        <div id="caixa_saiba_mais">
-                            <a href="blogPagina_HistoriaAndroid.php" class="saiba_mais">
-                                <b>Saiba Mais »</b>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                            <h2 class="titpag">Prototipagem 3D</h2>
-                            <h5 class="estilodata"><time datetime="2018-08-21">03 de Agosto , 2018</time></h5>
-                            <div id="caixa_imagemPost">
-                                <img src="img/Blog/home/noticia5.jpg" alt="Image" class="imagemPost">
-                            </div>
-                            <p class="textos">
-                                Você já deve ter ouvido falar em indústria 4.0 ou quarta revolução industrial, certo? E sobre prototipagem? Todos estes termos estão em evidência ultimamente e não é por acaso. A indústria 4.0 está sendo impactada pelos avanços da tecnologia de uma forma excepcional, e a prototipagem 3D é um desses motores dessa revolução. Caso ainda não esteja familiarizado com essa terminologia e com os avanços tecnológicos da quarta revolução industrial, venha com a gente que estamos prontos para te ajudar a entender e aplicar esses conceitos para a integração da sua empresa na Era Da Informação.
-                            </p>
-                            <div id="caixa_saiba_mais">
-                                <a href="blogPagina_Prototipagem.php" class="saiba_mais">
-                                    <b>Saiba Mais »</b>
-                                </a>
-                            </div>
-                        </div>
+                </div>';
+                }
+                ?>      
+                
 
             </div>
-             <div class="colunadireita">
+            <div class="colunadireita">
                 <div class="card">
                     <h2 class="titpag2">Nossa História</h2>
                     <a href="index.php#secaoSobre"><img src="img/Blog/home/Capa-Facebook.png" alt="Image" class="imagem" id="imagem_sobre"></a>

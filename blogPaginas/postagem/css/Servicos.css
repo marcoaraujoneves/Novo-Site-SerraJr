@@ -1,0 +1,157 @@
+/*----------------------------------   Layout   -----------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/* Servicos */
+
+.separador {
+    width: 100%;
+    border-top: 4px solid #e7e7e7;
+}
+
+.img-responsive_right {
+    margin-left: 10% ;
+    margin-top: 1% ;
+    width: 80% ;
+}
+
+.img-responsive_left {
+    /* margin-left: 10% ; */
+    margin-top: 5%  ;
+    width: 80% ;
+}
+
+.saiba_mais{
+    position: static ;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-top: 20px ;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: #ee3b24;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.15s linear 0s;
+    -o-transition: background-color 0.15s linear 0s;
+    transition: background-color 0.15s linear 0s;
+    top: 25px ; 
+}
+
+.saiba_mais:hover{
+    background-color: rgb(202, 28, 5);
+    color: white;
+    text-decoration: none;
+}
+
+.linha{
+    display: block;
+    margin: auto;
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #EE3B24;
+}
+
+#secao_branca{
+    margin-top: 25px ;
+    background-color: #ffffff;
+    width: 100%; 
+}
+
+#secao_cinza{
+    background-color: #ececec;
+    border-top: 1px solid rgb(199, 199, 199) ;
+    border-bottom: 1px solid rgb(199, 199, 199) ;
+    width: 100%;
+}
+
+.modal-header{
+    background-color: rgb(223, 68, 48);
+}
+
+.modal_sair{
+    position: relative ;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    background-color: #ee3b24;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.15s linear 0s;
+    -o-transition: background-color 0.15s linear 0s;
+    transition: background-color 0.15s linear 0s;
+}
+
+.modal_sair:hover{
+    background-color: rgb(202, 28, 5);
+    color: white;
+    text-decoration: none;
+}
+
+/*----------------------------------   Tipografia   -------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.modal_titulos{
+    color:#012e5e;
+    font-weight: 700;
+    font-size: 33px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.modal_titulo_contato{
+    color:#012e5e;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.modal_texto{
+    font-size: 15px;
+    color: rgb(26, 26, 26);
+    text-align: justify;
+}
+
+.modal_sublinhado_1{
+    color:  #000000;
+    font-weight: 600;
+}
+
+.modal_sublinhado_2{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center ;
+}
+
+.modal_imagem{
+    width: 100% ;
+    height: auto;
+    margin-bottom: 15px ;
+ }
+
+.tituloServicos{
+    position:relative;
+    color:#EE3B24;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.subtitulo_servicos {
+    color: #012e5e;
+    font-weight: 600;
+    margin-top: 40px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px ;
+
+}
+.texto {
+    font-size: 14pt;
+    color: rgb(26, 26, 26);
+    text-align: justify;
+}
+
