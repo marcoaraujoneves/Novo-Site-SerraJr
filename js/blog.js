@@ -10,7 +10,7 @@ $(document).ready(function(){
             $('#subtitulo').css('font-size', '1em');
         } else {
             $('#container_header').css('height','300px');
-            $('#headerBlog').css('background-image','url("img/hero.png")');
+            $('#headerBlog').css('background-image','url("<?php echo $path;?>/img/hero.png")');
             $('#titulo').addClass('display-1');
             $('#subtitulo').css('font-size','');
         }

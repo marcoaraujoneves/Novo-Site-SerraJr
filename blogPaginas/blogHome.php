@@ -1,3 +1,8 @@
+        <?php 
+        
+        $path = "/siteserrajr/trunk";
+        
+        ?>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -18,7 +23,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="../css/estiloPrincipal.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="../css/Servicos.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="../css/blog.css" />
-        <script src="../js/blog.js"></script>
+       
         
         <link rel="icon" href="../img/Principal/favicon.ico" type="image/x-icon">
         <title>Blog SerraJr</title>
@@ -149,7 +154,7 @@
 </div>
 <?php include('rodape.php'); ?>
 </body>
-<script src="js/popper.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/Servicos.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/Servicos.js"></script>
 </html>

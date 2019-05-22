@@ -12,7 +12,7 @@ $(document).ready(function(){
             $('#nome_autor').addClass('text-center');
         } else {
             $('#container_header').css('height','300px');
-            $('#headerBlog').css('background-image','url("Img/hero.png")');
+            $('#headerBlog').css('background-image','url("<?php echo $path;?>/Img/hero.png")');
             $('#titulo').addClass('display-1');
             $('#subtitulo').css('font-size','');
             $('#lateral').css('display', '');

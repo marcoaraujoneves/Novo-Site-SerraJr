@@ -1,10 +1,13 @@
+        <?php 
+        $path = "/siteserrajr/trunk";
+        ?>
         <footer>
             <!--Rodapé-->
             <div id="forma_rodape">
                 <div id="margem_conteudo">
                     <div class="container">
                         <div class="row">
-                            
+
                             <!-- ////////////////////////////////////-Menu Principal-////////////////////////////////////////////-->
                             
                             <div class="col-md-3 col-sm-6 col-xs-12 ">
@@ -50,7 +53,7 @@
                                         -->
                                         
                                         <li class="rodape_elementos"> 
-                                            <img class="icones_contato" src="../img/Principal/icones/home.svg">
+                                            <img class="icones_contato" src="<?php echo $path;?>/img/Principal/icones/home.svg">
                                             <a id="link_secaoContato" href="#secaoContato" class="linkMenu contato_texto"> 
                                                 Rua Bonfim, 25 - Vila Amélia <br>
                                             </a>  
@@ -69,14 +72,14 @@
                                         </li>
                                         
                                         <li class="rodape_elementos"> 
-                                            <img class="icones_contato" src="../img/Principal/icones/phone.svg">
+                                            <img class="icones_contato" src="<?php echo $path;?>/img/Principal/icones/phone.svg">
                                             <span class="contato_texto"> 
                                                 (22) 2533-2265 / ramal 3122
                                             </span>
                                         </li>
                                         
                                         <li class="rodape_elementos"> 
-                                            <img class="icones_contato" src="../img/Principal/icones/envelope-closed.svg">
+                                            <img class="icones_contato" src="<?php echo $path;?>/img/Principal/icones/envelope-closed.svg">
                                             <a href="#secaoContato"  class="linkMenu contato_texto">
                                                 atendimento@serrajr.eng.br <br>
                                             </a>
@@ -104,7 +107,7 @@
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div >
                                     <center>
-                                        <img class="rodape_logo" src="../img/Principal/Logo2.png">
+                                        <img class="rodape_logo" src="<?php echo $path ?>/img/Principal/Logo2.png">
                                     </center>
                                 </div>
                             </div>
@@ -134,15 +137,15 @@
                                 <ul id="social_lista">
                                     
                                     <li>
-                                        <a target="_blank" href="https://www.facebook.com/serrajreng/?fref=ts" class="social_link" id="social_link_facebook">Facebook <img class="social_icone" src="../img/rodape/social/facebook.png"></a>
+                                        <a target="_blank" href="https://www.facebook.com/serrajreng/?fref=ts" class="social_link" id="social_link_facebook">Facebook <img class="social_icone" src="<?php echo $path;?>/img/rodape/social/facebook.png"></a>
                                     </li>
                                     
                                     <li>
-                                        <a target="_blank" href="https://www.instagram.com/serrajreng/" class="social_link" id="social_link_instagram">Instagram <img class="social_icone" src="../img/rodape/social/instagram.png"></a>
+                                        <a target="_blank" href="https://www.instagram.com/serrajreng/" class="social_link" id="social_link_instagram">Instagram <img class="social_icone" src="<?php echo $path;?>/img/rodape/social/instagram.png"></a>
                                     </li>
                                     
                                     <li>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg" class="social_link" id="social_link_youtube"> Youtube <img class="social_icone_youtube" src="../img/rodape/social/youtube.png"></a>
+                                        <a target="_blank" href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg" class="social_link" id="social_link_youtube"> Youtube <img class="social_icone_youtube" src="<?php echo $path;?>/img/rodape/social/youtube.png"></a>
                                     </li>
                                 </ul> 
                             </div>
@@ -152,8 +155,8 @@
             </div>
         </footer>
     </body>
-    <script src="../js/scriptPrincipal.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo $path;?>/js/scriptPrincipal.js"></script>
+    <script src="<?php echo $path;?>/bootstrap/js/bootstrap.min.js"></script>
 
 
 

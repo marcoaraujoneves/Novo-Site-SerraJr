@@ -13,15 +13,15 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         
-        <script src="js/jquery-3.3.1.js"></script>
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <script src="<?php echo $path;?>/js/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" href="<?php echo $path;?>/css/normalize.css">
+        <link rel="stylesheet" href="<?php echo $path;?>/bootstrap/css/bootstrap.min.css">
         
-        <link rel="stylesheet" type="text/css" media="screen" href="../css/estiloPrincipal.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="../css/Responsividade.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="../css/rodape.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $path;?>/css/estiloPrincipal.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $path;?>/css/Responsividade.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $path;?>/css/rodape.css" />
 
-        <link rel="icon" href="../img/Principal/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="<?php echo $path;?>/img/Principal/favicon.ico" type="image/x-icon">
         <title> Home | Serra Jr. Engenharia </title>
     </head>
     <!-- Event snippet for Projetos Mecânicos e de Computação conversion page
@@ -81,7 +81,7 @@ function gtag_report_conversion(url) {
             <div class="container">
                 <div class="navbar-brand">
                     <a href="index.php">
-                        <img class="img-logo" src="../img/Principal/LogoSerraJr.png">
+                        <img class="img-logo" src="<?php echo $path;?>/img/Principal/LogoSerraJr.png">
                     </a>
                 </div>
 

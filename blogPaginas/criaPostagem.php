@@ -79,7 +79,13 @@ else
 $asp = "'";
 $conteudo = '
 
-<?php include("../../inicio.php");
+
+<?php 
+$path = $_SERVER["DOCUMENT_ROOT"];
+
+$path .= "/siteserrajr/trunk";
+
+include($path . "/blogpaginas/inicio.php");
  echo "<script>mudarTitulo('.$asp.''.$titulo.''.$asp.');</script>"; ?>
 <article class="container-fluid px-5">
             <div class="row">
@@ -141,7 +147,11 @@ $conteudo = '
 
 
         
-        <?php include("../../rodape.php");?>
+        <?php 
+
+
+        include($path .  "/blogpaginas/rodape.php");
+        ?>
 
 
         <script src="../../../js/popper.min.js"></script>
