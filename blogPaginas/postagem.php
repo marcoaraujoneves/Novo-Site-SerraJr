@@ -35,7 +35,7 @@
       <div class="container container-fluid" style="margin-top:50px; text-align: center;">
         <div class="row">
 
-          <div class="col-md-9">
+          <div class="col-md-10">
             <h1 class="titulo_secoes">
              Criando postagem
            </h1>
@@ -76,22 +76,15 @@
               <label for="titulo">Titulo</label>
               <input type="text" class="form-control" id="titulo" name="titulo" class="inpForm"/ placeholder="Titulo da postagem">
             </div>
-
             <span id="myForm"></span>
+            <img src="delete.png" class="lixo1" onclick="removeElement('myForm','id'+i)">
+
             <div class="form-group">
-
               <input type="hidden" class="form-control" value ="0" id="quantidade" name="quantidade" >
-    </div>
-
-    <p></p><input type="submit" value="Pronto!">
-
-
-
+            </div>
+            <input type="submit" value="Pronto!">
           </form>
-         
         </div>
-         
-        
         <div class="col-md-1" >
           <div class="adicionar " style="position:fixed">
               <img onclick="contactFunction()" class="icone_add" style="margin-top:20px;" src="Img/icon_texto.png">
@@ -102,10 +95,10 @@
       
       </div>
       </div>
-           
-
-
     </body>
+    <script>
+
+</script>
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/Servicos.js"></script>
