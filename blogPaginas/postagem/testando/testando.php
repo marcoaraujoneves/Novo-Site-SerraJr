@@ -2,19 +2,19 @@
 
 
 <?php 
-$paths = $_SERVER["DOCUMENT_ROOT"];
+$path = $_SERVER["DOCUMENT_ROOT"];
 
-$paths .= "/siteserrajr/trunk";
+$path .= "/siteserrajr/trunk";
 
-include($paths . "/blogpaginas/inicio.php");
- echo "<script>mudarTitulo('cara');</script>"; ?>
+include($path . "/blogpaginas/inicio.php");
+ echo "<script>mudarTitulo('testando');</script>"; ?>
 <article class="container-fluid px-5">
             <div class="row">
             <div class="col-md-9">
                 
-                    <h2 class="titulo m-0">cara</h2>
-                    <h5 class="estilodata"><time>22/05/2019 às 21:34:57</time></h5>  
-                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="tmfcapa.jpg">
+                    <h2 class="titulo m-0">testando</h2>
+                    <h5 class="estilodata"><time>23/05/2019 às 04:47:34</time></h5>  
+                    <img class="imagem_postagem m-3 d-block mx-auto img-fluid" src="1.jpg">
                     
                     
 
@@ -69,14 +69,16 @@ include($paths . "/blogpaginas/inicio.php");
 
         
         <?php 
+$path = $_SERVER["DOCUMENT_ROOT"];
 
+$path .= "/siteserrajr/trunk";
 
-        include($paths .  "/blogpaginas/rodape.php");
+        include($path .  "/blogpaginas/rodape.php");
         ?>
 
 
-        <script src="<?php echo $path;?>/js/popper.min.js"></script>
-        <script src="<?php echo $path;?>./bootstrap/js/bootstrap.min.js"></script>
-        <script src="<?php echo $path;?>/js/Servicos.js"></script>
+        <script src="../../../js/popper.min.js"></script>
+        <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../js/Servicos.js"></script>
         </html>
         
