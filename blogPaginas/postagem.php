@@ -87,8 +87,8 @@
         </div>
         <div class="col-md-1" >
           <div class="adicionar " style="position:fixed">
-              <img onclick="contactFunction()" class="icone_add" style="margin-top:20px;" src="Img/icon_texto.png">
-              <img onclick="textareaFunction()" class="icone_add" style="margin-top:12px;" src="Img/img.png">  
+              <img onclick="TextFunction()" class="icone_add" style="margin-top:20px;" src="Img/icon_texto.png">
+              <img onclick="ImageFunction()" class="icone_add" style="margin-top:12px;" src="Img/img.png">  
               <img onclick="resetElements()" class="icone_add" style="margin-top:12px;" src="delete.png">  
             </div>
         </div> 

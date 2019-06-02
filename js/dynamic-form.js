@@ -28,58 +28,13 @@ function removeElement(parentDiv, childDiv){
     }
 }
 /*
-----------------------------------------------------------------------------
-
-Funções que serão chamadas quando o usuário clicar no campo de nome titulo 
-
-----------------------------------------------------------------------------
-*/
-function nameFunction(){
-    var r = document.createElement('span');
-    var y = document.createElement("INPUT");
-    y.setAttribute("type", "text");
-    y.setAttribute("placeholder", "Título");
-    var g = document.createElement("IMG");
-    g.setAttribute("src", "delete.png");
-    increment();
-    y.setAttribute("Name", "textelement_" + i);
-    r.appendChild(y);
-    g.setAttribute("onclick", "removeElement('myForm','id" + i + "')");
-    r.appendChild(g);
-    r.setAttribute("id", "id" + i);
-    document.getElementById("myForm").appendChild(r);
-}
-/*
 -----------------------------------------------------------------------------
 
-Funções que serão chamadas quando o usuário clicar no campo de nome subtitulo 
+Funções que serão chamadas quando o usuário clicar no campo de adicionar texto (T)
 
 ------------------------------------------------------------------------------
 */
-function emailFunction(){
-    var r = document.createElement('span');
-    var y = document.createElement("INPUT");
-    y.setAttribute("type", "text");
-    y.setAttribute("placeholder", "Subtítulo");
-    var g = document.createElement("IMG");
-    g.setAttribute("src", "delete.png");
-    g.setAttribute("style", "lixo");
-    increment();
-    y.setAttribute("Name", "textelement_" + i);
-    r.appendChild(y);
-    g.setAttribute("onclick", "removeElement('myForm','id" + i + "')");
-    r.appendChild(g);
-    r.setAttribute("id", "id" + i);
-    document.getElementById("myForm").appendChild(r);
-}
-/*
------------------------------------------------------------------------------
-
-Funções que serão chamadas quando o usuário clicar no campo de nome texto
-
-------------------------------------------------------------------------------
-*/
-function contactFunction(){
+function TextFunction(){
     increment();
     var r = document.createElement('div');
     var y = document.createElement("textarea");
@@ -101,11 +56,11 @@ function contactFunction(){
 /*
 -----------------------------------------------------------------------------
 
-Funções que serão chamadas quando o usuário clicar no campo de nome imagem
+Funções que serão chamadas quando o usuário clicar no campo de adicionar imagem
 
 ------------------------------------------------------------------------------
 */
-function textareaFunction(){
+function ImageFunction(){
     increment();
     var r = document.createElement('div');
     var y = document.createElement("INPUT");
@@ -125,11 +80,62 @@ function textareaFunction(){
 /*
 -----------------------------------------------------------------------------
 
-Funções que serão chamadas quando o usuário clicar no campo de nome apagar tudo 
+Funções que serão chamadas quando o usuário clicar no campo de  apagar tudo 
 
 ------------------------------------------------------------------------------
 */
 function resetElements(){
-     i = 0;
-    document.getElementById('myForm').innerHTML = '';
+    decisao = confirm("Deseja deletar todos os textos e imagens adicionados?");
+    if (decisao){
+        i = 0;
+        document.getElementById('myForm').innerHTML = '';
+        // alert ("todos os campos foram deletados ");
+    } 
 }
+// --------------------------------------------------------------- codigos extras com exemplos da sintaxe original -------------------------------------------------------------------------------------------
+/*
+-----------------------------------------------------------------------------
+
+Funções que serão chamadas quando o usuário clicar no campo de nome subtitulo 
+
+------------------------------------------------------------------------------
+*/
+// function emailFunction(){
+//     var r = document.createElement('span');
+//     var y = document.createElement("INPUT");
+//     y.setAttribute("type", "text");
+//     y.setAttribute("placeholder", "Subtítulo");
+//     var g = document.createElement("IMG");
+//     g.setAttribute("src", "delete.png");
+//     g.setAttribute("style", "lixo");
+//     increment();
+//     y.setAttribute("Name", "textelement_" + i);
+//     r.appendChild(y);
+//     g.setAttribute("onclick", "removeElement('myForm','id" + i + "')");
+//     r.appendChild(g);
+//     r.setAttribute("id", "id" + i);
+//     document.getElementById("myForm").appendChild(r);
+// }
+
+/*
+----------------------------------------------------------------------------
+
+Funções que serão chamadas quando o usuário clicar no campo de nome titulo 
+
+----------------------------------------------------------------------------
+*/
+// function nameFunction(){
+//     var r = document.createElement('span');
+//     var y = document.createElement("INPUT");
+//     y.setAttribute("type", "text");
+//     y.setAttribute("placeholder", "Título");
+//     var g = document.createElement("IMG");
+//     g.setAttribute("src", "delete.png");
+//     increment();
+//     y.setAttribute("Name", "textelement_" + i);
+//     r.appendChild(y);
+//     g.setAttribute("onclick", "removeElement('myForm','id" + i + "')");
+//     r.appendChild(g);
+//     r.setAttribute("id", "id" + i);
+//     document.getElementById("myForm").appendChild(r);
+// }
