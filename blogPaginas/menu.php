@@ -80,8 +80,8 @@ function gtag_report_conversion(url) {
         <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="barra-navegacao">
             <div class="container">
                 <div class="navbar-brand">
-                    <a href="index.php">
-                        <img class="img-logo" src="<?php echo $path;?>/img/Principal/LogoSerraJr.png">
+                    <a href="../index.php">
+                        <img class="img-logo" src="../img/Principal/LogoSerraJr.png">
                     </a>
                 </div>
 
@@ -97,12 +97,12 @@ function gtag_report_conversion(url) {
             <!-- Menu de Navegação -->
             <div class="collapse navbar-collapse" id="menu-navegacao">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> INÍCIO </a></li>
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoSobre" href="#secaoSobre"> SERRA JR. </a></li>
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoServicos" href="#secaoServicos"> SERVIÇOS </a></li>
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoPortifolio" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoBlog" href="blog/construcao.html"> BLOG </a></li>
-                    <li class="nav-item"><a class="linkMenu linkMenuTopo nav-link" id="link_secaoContato" href="#secaoContato"> CONTATOS </a></li>
+                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoCapa" href="../index.php#secaoCapa"> INÍCIO </a></li>
+                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoSobre" href="../index.php#secaoSobre"> SERRA JR. </a></li>
+                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoServicos" href="../index.php#secaoServicos"> SERVIÇOS </a></li>
+                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoPortifolio" href="../index.php#secaoPortifolio"> PORTIFÓLIO </a></li>
+                    <li class="nav-item"><a class="linkMenu nav-link link_ativo" id="link_secaoBlog" href=""> BLOG </a></li>
+                    <li class="nav-item"><a class="linkMenu nav-link" id="link_secaoContato" href="../index.php#secaoContato"> CONTATOS </a></li>
                 </ul>
             </div>
         </nav>
