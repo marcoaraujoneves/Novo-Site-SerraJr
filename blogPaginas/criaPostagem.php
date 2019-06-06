@@ -4,14 +4,6 @@ include ('../db.class.php');
 $objDB = new db();
 $conn = $objDB->conecta_mysql();
 
-
-
-
-
-
-
-
-
     $data = date('d/m/Y \à\s H:i:s');
     echo $data;
     $quantidade =$_POST['quantidade'];
@@ -139,23 +131,25 @@ include($path . "/blogpaginas/inicio.php");
                     <br>
                     <p class="textos">Textinho...</p>
                 </div>
-            </div>
+                </div>
                 
-            </div>
-        </article>
+                </div>
+                </article>
 
 
 
-        
-        <?php 
+                
+                <?php 
+                $path = $_SERVER["DOCUMENT_ROOT"];
+
+                $path .= "/siteserrajr/trunk";
+
+                include($path .  "/blogpaginas/rodape.php");
+                ?>
 
 
-        include($path .  "/blogpaginas/rodape.php");
-        ?>
-
-
-        <script src="../../../js/popper.min.js"></script>
-        <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+                <script src="../../../js/popper.min.js"></script>
+                <script src="../../../bootstrap/js/bootstrap.min.js"></script>
         <script src="../../../js/Servicos.js"></script>
         </html>
         ';

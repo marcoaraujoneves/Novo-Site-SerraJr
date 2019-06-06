@@ -1,14 +1,19 @@
 
 
 
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/inicio.php");
+<?php 
+$path = $_SERVER["DOCUMENT_ROOT"];
+
+$path .= "/siteserrajr/trunk";
+
+include($path . "/blogpaginas/inicio.php");
  echo "<script>mudarTitulo('');</script>"; ?>
 <article class="container-fluid px-5">
             <div class="row">
             <div class="col-md-9">
                 
                     <h2 class="titulo m-0"></h2>
-                    <h5 class="estilodata"><time>22/05/2019 às 20:18:29</time></h5>  
+                    <h5 class="estilodata"><time>04/06/2019 às 04:14:39</time></h5>  
                     
                     
                     
@@ -55,19 +60,25 @@
                     <br>
                     <p class="textos">Textinho...</p>
                 </div>
-            </div>
+                </div>
                 
-            </div>
-        </article>
+                </div>
+                </article>
 
 
 
-        
-        <?php include($_SERVER["DOCUMENT_ROOT"] . "/rodape.php");?>
+                
+                <?php 
+                $path = $_SERVER["DOCUMENT_ROOT"];
+
+                $path .= "/siteserrajr/trunk";
+
+                include($path .  "/blogpaginas/rodape.php");
+                ?>
 
 
-        <script src="../../../js/popper.min.js"></script>
-        <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+                <script src="../../../js/popper.min.js"></script>
+                <script src="../../../bootstrap/js/bootstrap.min.js"></script>
         <script src="../../../js/Servicos.js"></script>
         </html>
         

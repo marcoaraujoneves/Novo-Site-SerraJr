@@ -1,22 +1,23 @@
-﻿        <!-- Capa do Site -->
-        <!-- <section class="secaoSite cinza" id="secaoCapa">
-            <div class="container">
-                <div class="row" id="capa">
-                    <img class="imgSlider" data-ativo="1" src="img/Principal/capaSerra.jpg">
-                    <img class="imgSlider" data-ativo="2" src="img/Principal/capaComp.jpg">
-                    <img class="imgSlider" data-ativo="3" src="img/Principal/capaMec.jpg">
+﻿        <?php 
+        include ('sistema/connect.php');
+        $query_select = "SELECT diretoria,visao,missao from sobre where codSobre ='1' ;";
+        $result_select = mysqli_query($conn,$query_select) or die(mysql_error());
+        $rows = array();
+        $contadorProdutos = 0;
+        while($row = mysqli_fetch_array($result_select))
+            $rows[] = $row;
+        foreach($rows as $row){
+            $diretoria = $row['diretoria'];
+            $missao = $row['missao'];
+            $visao = $row['visao'];
 
-                    <h1 class="titulosCapa" data-textativo="1"> Conheça a Serra Jr. Engenharia </h1>
 
-                    <h1 class="titulosCapa" data-textativo="2"> Serviços em Engenharia de Computação </h1>
-                    <h2 class="subtituloCapa" data-textativo="2"> Desenvolvimento de Sites e Sistemas WEB, Sistemas e Automação de Processos </h2>
+        }
+        ?>      
 
-                    <h1 class="titulosCapa" data-textativo="3"> Serviços em Engenharia Mecânica </h1>
-                    <h2 class="subtituloCapa" data-textativo="3"> Modelagem 3D de peças e máquinas, Análises Estruturais e Projeto de Máquinas </h2>
-                    
-                </div>
-            </div>
-        </section> -->
+
+
+
         <div id="secaoCapa" class="carousel slide d-none d-md-block" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -58,7 +59,7 @@
                         
                         <div class="tab-content">
                             <div class="tab-pane active"  role="tabpanel" id="nossa_historia">
-                                <img src="img/Principal/diretoria2.jpg" alt="" class="img-responsive">
+                                <img src="sistema/img/gerenciador/<?php echo $diretoria;?>"  class="img-responsive">
                                 
                                 <br><br>
                                 <h5> Nossa História </h5>
@@ -115,13 +116,12 @@
         <section id="secaoMissao">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="col-md-4 sobre_pilares">
                         <h2> Missão </h2>
                         <img src="img/Principal/flag.png">
                         <p>
-                            Desenvolver os membros a partir de projetos de engenharia mecânica e engenharia 
-                            da computação, impactando o mercado para criar valor e fazer diferença.
+                            <?php echo $missao;?>
                         </p>
                     </div>
                     
@@ -129,7 +129,7 @@
                         <h2> Visão </h2>
                         <img src="img/Principal/binoculos.png">
                         <p>
-                            Ser uma empresa júnior de alto crescimento em 2019.
+                            <?php echo $visao;?>
                         </p>
                     </div>
                     
@@ -213,61 +213,54 @@
                 
                 <div class="row">
                     <div class="col-md-12" id="container_portifolio">
-                        
-                        
+
+
                         <div class="tab-content">
-                            <div class="containerProjetoPortifolio tab-pane active"  role="tabpanel" id="soledade">
+
+
+                            <?php 
+                            $query_select = "SELECT * FROM portifolio;";
+                            $result_select = mysqli_query($conn,$query_select) or die(mysql_error());
+                            $rows = array();
+                            $active = "active";
+                            while($row = mysqli_fetch_array($result_select))
+                                $rows[] = $row;
+                            foreach($rows as $row){ 
+
+                                $codPortifolio = $row['codPortifolio'];
+                                $nome = $row['nome'];
+                                $descricao = $row['descricao'];
+                                $extensao = $row['extensao'];
+                                echo '<div class="containerProjetoPortifolio tab-pane '.$active.'"  role="tabpanel" id="'.$nome.'">
                                 <div class="row">
-                                    <div class="col-md-7 imagem_portifolio">
-                                        <img src="img/Principal/LogoSoledade.jpg" class="img-responsive imagem_portifolio">
-                                    </div>
-                                    
-                                    <div class="col-md-5 portifolioProjeto ">
-                                        <h2> Fazenda Soledade </h2>
-                                        <p>
-                                            Sistema de controle de variáveis, criado para automatizar os relatórios de 
-                                            temperaturas usados no controle de produção da fábrica. Foram utilizados 
-                                            sensores e arduíno para obtenção das temperaturas e um Sistema Local para 
-                                            interface. 
-                                        </p>
-                                    </div>
+                                <div class="col-md-7 imagem_portifolio">
+                                <img src="sistema/img/portifolio/'.$codPortifolio.'.'.$extensao.'" class="img-responsive imagem_portifolio">
                                 </div>
-                            </div>
-                            
-                            <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="laje">
-                                <div class="row">
-                                    <div class="col-md-7 imagem_portifolio">
-                                        <img src="img/Principal/LogoChassi.jpg" class="img-responsive imagem_portifolio">
-                                    </div>
-                                    
-                                    <div class="col-md-5 portifolioProjeto">
-                                        <h2> RL Oficina de Motocicletas </h2>
-                                        <p>
-                                            Foram feitos desenhos técnicos dos componentes de um chassi de motocicleta customizada afim de que o cliente pudesse registrar no Inmetro e assim comercializar este tipo de moto fabricada por ele.
-                                        </p>
-                                    </div>
+
+                                <div class="col-md-5 portifolioProjeto ">
+                                <h2> '.$nome.' </h2>
+                                <p>
+                                '.$descricao.' 
+                                </p>
                                 </div>
-                            </div>
-                            
-                            <div class="containerProjetoPortifolio tab-pane "  role="tabpanel" id="fluid">
-                                <div class="row">
-                                    <div class="col-md-8 imagem_portifolio">
-                                        <img src="img/Principal/LogoTMF.jpg" class="img-responsive imagem_portifolio">
-                                    </div>
-                                    
-                                    <div class="col-md-4 portifolioProjeto ">
-                                        <h2> TMF Indústria Mecânica </h2>
-                                        <p>
-                                            Criação de desenhos técnicos de todos os componentes de duas máquinas de colagem e dobragem criadas pelo cliente, para que fosse possível fabricar algumas delas de acordo com as dimensões dos protótipos.
-                                        </p>
-                                    </div>
                                 </div>
-                            </div>
+                                </div>';
+                                $active = "";
+
+                            }
+                            ?>
+
+
                             <div class="text-center">
                                 <ul class="nav nav-tabs listaPortifolio"  role="tablist">
-                                    <li class="nav-item itemPortifolio"><a class="nav-link active" href="#soledade" role="tab" data-toggle="tab"></a></li>
-                                    <li class="nav-item itemPortifolio"><a class="nav-link" href="#laje" role="tab" data-toggle="tab"></a></li>
-                                    <li class="nav-item itemPortifolio"><a class="nav-link" href="#fluid" role="tab" data-toggle="tab"></a></li>
+                                    <?php 
+                                    foreach($rows as $row){ 
+                                        $nome = $row['nome'];
+                                        echo ' <li class="nav-item itemPortifolio"><a class="nav-link" href="#'.$nome.'" role="tab" data-toggle="tab"></a></li>';
+
+                                    }
+                                    ?>
+
                                 </ul>
                             </div>
                         </div>
@@ -336,46 +329,46 @@
             </div>
             
         </section>
-        -->
-        <!-- Seção Contatos -->
-        <section class="secaoSite" id="secaoContato">
-            <div class="container" id="contatos">
-                
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="tituloSecoes"> Contato </h1>
-                        <div class="linha"></div>
-                    </div>
-                </div>
-                
-                <div class="row" id="container_contato">
-                    <div class="col-md-7" id="container_mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.911964232392!2d-42.54090613000892!3d-22.284006672727443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978a85e8cc82f3%3A0xc2954654bfcf2b7e!2sSerra+Jr.+Engenharia!5e0!3m2!1spt-BR!2sbr!4v1532349250656" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-                    </div>
-                    
-                    <div class="col-md-5" id="container_FormularioContato">
-                        
-                        <form method="post" action="php/contato.php">
-                            <label for="contato_nome" class="contato_label"> Nome </label> <br>
-                            <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
-                            <br><br>
-                            <label for="contato_email" class="contato_label"> E-mail </label><br>
-                            <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
-                            <br><br>
-                            <label for="contato_telefone" class="contato_label"> Telefone </label><br>
-                            <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
-                            <br><br>
-                            <label for="contato_msg" class="contato_label"> Mensagem </label><br>
-                            <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
-                            <br><br>
-                            
-                            <center> <input type="submit" onclick="gtag_report_conversion()" class="botaoEstilizado" value="Enviar"> </center>
-                        </form>
-                    </div>
+    -->
+    <!-- Seção Contatos -->
+    <section class="secaoSite" id="secaoContato">
+        <div class="container" id="contatos">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="tituloSecoes"> Contato </h1>
+                    <div class="linha"></div>
                 </div>
             </div>
-        </section>
-        
-        <!-- Ícone Rolagem -->
-        <!-- <a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> <img id="rolarInicio" src="img/Principal/icone-rolagem.png"> </a> -->
+
+            <div class="row" id="container_contato">
+                <div class="col-md-7" id="container_mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.911964232392!2d-42.54090613000892!3d-22.284006672727443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978a85e8cc82f3%3A0xc2954654bfcf2b7e!2sSerra+Jr.+Engenharia!5e0!3m2!1spt-BR!2sbr!4v1532349250656" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                </div>
+
+                <div class="col-md-5" id="container_FormularioContato">
+
+                    <form method="post" action="php/contato.php">
+                        <label for="contato_nome" class="contato_label"> Nome </label> <br>
+                        <input type="text" id="contato_nome" name="nome" class="contato_input" required placeholder="Digite aqui seu nome">
+                        <br><br>
+                        <label for="contato_email" class="contato_label"> E-mail </label><br>
+                        <input type="email" id="contato_email" name="email" class="contato_input" required placeholder="Digite aqui seu e-mail">
+                        <br><br>
+                        <label for="contato_telefone" class="contato_label"> Telefone </label><br>
+                        <input type="text" id="contato_telefone" name="numero" class="contato_input" maxlength="15" required placeholder="Digite aqui seu número">
+                        <br><br>
+                        <label for="contato_msg" class="contato_label"> Mensagem </label><br>
+                        <textarea cols="35" rows="5" id="contato_msg" name="msg" class="contato_input" required placeholder="Digite aqui sua mensagem"></textarea>
+                        <br><br>
+
+                        <center> <input type="submit" onclick="gtag_report_conversion()" class="botaoEstilizado" value="Enviar"> </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ícone Rolagem -->
+    <!-- <a class="linkMenu nav-link link_ativo" id="link_secaoCapa" href="#secaoCapa"> <img id="rolarInicio" src="img/Principal/icone-rolagem.png"> </a> -->
     

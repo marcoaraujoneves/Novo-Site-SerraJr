@@ -1,0 +1,57 @@
+.Tabela{
+    margin-left: 13%;
+    margin-top : 5%;
+}
+.ImgTd{
+    width        : 75px;
+    height       : 50px;
+    margin-left  : 20%;
+    margin-bottom: 5%;
+}
+.Botao{
+    margin-left     : 23%;
+    margin-top      : 5%;
+    background-color: rgb(99,00,33);
+    color           : white;
+}
+.Botao:hover{
+    color             : rgb(99,00,33);
+    background-color  : white;
+    border            : 1px solid rgb(99,00,33);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
+.BotaoModal{
+    width           : 200px;
+    margin-left     : 2%;
+    margin-top      : 5%;
+    background-color: rgb(99,00,33);
+    color           : white;
+}
+.BotaoModal:hover{
+    color             : rgb(99,00,33);
+    background-color  : white;
+    border            : 1px solid rgb(99,00,33);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
+.BotaoCadastra{
+    margin-left     : 5%;
+    margin-top      : 2%;
+    width           : 200px;
+    background-color: rgb(99,00,33);
+    color           : white;
+}
+.BotaoCadastra:hover{
+    color             : rgb(99,00,33);
+    background-color  : white;
+    border            : 1px solid rgb(99,00,33);
+    transition        : 1s;
+    -o-transition     : 1s;
+    -moz-transition   : 1s;
+    -webkit-transition: 1s;
+}
