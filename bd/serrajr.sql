@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 11-Jun-2019 às 21:42
+-- Generation Time: 12-Jun-2019 às 07:26
 -- Versão do servidor: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -62,7 +62,8 @@ CREATE TABLE `portifolio` (
 --
 
 INSERT INTO `portifolio` (`codPortifolio`, `nome`, `descricao`, `status`, `extensao`) VALUES
-(25, 'gfd', 'gfd', 0, 'jpg');
+(25, 'gfd', 'gfd', 1, 'jpg'),
+(26, 'Cara', 'Cara', 1, 'jpg');
 
 -- --------------------------------------------------------
 
@@ -164,7 +165,7 @@ ALTER TABLE `autor`
 -- AUTO_INCREMENT for table `portifolio`
 --
 ALTER TABLE `portifolio`
-  MODIFY `codPortifolio` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `codPortifolio` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `postagem`
