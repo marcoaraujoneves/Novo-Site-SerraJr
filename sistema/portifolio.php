@@ -66,9 +66,9 @@ include "sidebar.php";
 									}
 								echo '<td>
 								<center>
-								<button class="botaoEmail Botao" data-toggle="modal" id="modificaProduto" data-target="#modificarProduto" value="'.$codPortifolio.'" type="button"><i class="fa fa-pencil"></i> </button>
-								<button class="botaoEmail Botao" data-toggle="modal" id="deletaProduto" data-target="#excluirProduto" value="'.$codPortifolio.'" type="button"><i class="fa fa-trash"></i></button><br>
-								<button class="botaoEmail Botao" data-toggle="modal" id="previewImagens" data-target="#mostrarImagens" value="'.$codPortifolio.'" type="button"><i class="fa fa-image"></i></button>
+								<button class="botaoEmail Botao" data-toggle="modal" id="modificaPortifolio" data-target="#modificarPortifolio" value="'.$codPortifolio.'" type="button"><i class="fa fa-pencil"></i> </button>
+								<button class="botaoEmail Botao" data-toggle="modal" id="deletaPortifolio" data-target="#excluirPortifolio" value="'.$codPortifolio.'" type="button"><i class="fa fa-trash"></i></button><br>
+								<button class="botaoEmail Botao" data-toggle="modal" id="previewPortifolio" data-target="#mostrarPortifolio" value="'.$codPortifolio.'" type="button"><i class="fa fa-image"></i></button>
 								';
 								if($status){
 										echo '
@@ -118,6 +118,78 @@ include "sidebar.php";
 						</div>
 					</div>
 				</div>
+
+<div  class="modal fade" id="modificarPortifolio" tabindex="-1" role="dialog" aria-labelledby="modalModificarPortifolioTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header" style="background-color: rgb(8, 21, 43);color: white;">
+									<h5 class="modal-title">Modificar Portifólio:</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form method="post"   id="formPortifolioModifica">						
+										<div class="form-group">
+											<label for="nomePortifolio">Nome</label>
+											<input type="text" name="modificanomePortifolio" id="modificanomePortifolio" class="inpForm" autocomplete="off">
+										</div>
+										<div class="form-group">
+											<label for="descricaoPortifolio">Descrição</label>
+											<textarea type="text" rows="16" name="modificadescricaoPortifolio" id="modificadescricaoPortifolio" class="inpForm" autocomplete="off"></textarea>
+										</div>
+								</div>
+								<div class="modal-footer">
+									<input type="hidden" name="modificacodigoPortifolio" id="modificacodigoPortifolio" >
+									<input type="submit" class="btn btn-success" id="modificaPortifolio" name="modificaPortifolio" value="Cadastrar"/>
+									<button type="button" class="btn btn-secondary" id="modificareturnPortifolio" data-dismiss="modal"> Cancelar </button>
+									<input type="hidden" id="addremove">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+	<div  class="modal fade" id="excluirPortifolio" tabindex="-1" role="dialog" aria-labelledby="modalDeletarPortifolioTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color: rgb(8, 21, 43);color: white;">
+					<h5 class="modal-title" style="color:white;">Deseja excluir este portifolio?</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-footer">
+					<input type="button" name="excluidProd" id="excluidPort" value="Sim" class="btn btn-danger BotaoModal">
+					<button type="button" class="btn btn-secondary" id="returnPortExcluir" data-dismiss="modal"> Não </button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="mostrarPortifolio" tabindex="-1" role="dialog" aria-labelledby="modalImagensPortifolioTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color: rgb(8, 21, 43);color: white;">
+					<h5 class="modal-title" style="color:white;">Imagens</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div id="galeriaPortifolio"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
 			<script src="js/jquery-3.3.1.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/portifolio.js"></script>

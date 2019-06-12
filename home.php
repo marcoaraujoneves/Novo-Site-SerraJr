@@ -219,7 +219,7 @@
 
 
                             <?php 
-                            $query_select = "SELECT * FROM portifolio;";
+                            $query_select = "SELECT * FROM portifolio where status ='1';";
                             $result_select = mysqli_query($conn,$query_select) or die(mysql_error());
                             $rows = array();
                             $active = "active";

@@ -31,34 +31,8 @@ $("#formPortifolio").submit(function(e) {
 
 
 
-var codSlide;
-$(document).on('click', '#deletaSlide', function(){
- // Ao clicar no botão deletar na tabela produtos, ele ira receber o valor do codigo do produto a ser deletado 
-	codSlide = $(this).attr("value"); 
-	}); 
+var codPortifolio;
 
-$(document).on('click', '#excluirSlide', function(){
-
- // Ao clicar no botão deletar na tabela produtos, ele ira receber o valor do codigo do produto a ser deletado 
-	$.ajax({  
-		url:"php/excluiSlide.php",  
-		method:"POST",  
-		data:{codTien:codSlide}, 
-
-
-		success:function(data){
-			
-			$('#clienteModalDeleta').hide(); // esconde o modal
-			$("#returnDeleta").click(); // fecha o modal de fato
-			location.reload();
-
-		}
-
-
-		
-
-	}); 
-	}); 
 
 $(document.body).on('click', '#statusPortifolio', function(){
  // retorna os dados do fetch.php para preencher a tabela via ajax
@@ -95,3 +69,32 @@ $(document.body).on('click', '#statusPortifolio', function(){
 		}  
 	});
 }); 
+
+$(document.body).on('click', '#deletaPortifolio', function(){
+ // Ao clicar no botão deletar na tabela produtos, ele ira receber o valor do codigo do produto a ser deletado 
+ codPortifolio = $(this).attr("value"); 
+});
+
+
+
+	$(document.body).on('click', '#excluidPort', function(){
+ // Ao clicar no botão deletar na tabela produtos, ele ira receber o valor do codigo do produto a ser deletado 
+ $.ajax({  
+ 	url:"php/excluirPortifolio.php",  
+ 	method:"POST",  
+ 	data:{codPortifolio:codPortifolio}, 
+
+
+ 	success:function(data)
+ 	{	
+						//$('#excluirPortifolio').hide(); // esconde o modal
+	 	    			//$("#returnPortExcluir").click(); // fecha o modal de fato
+	 	    			//location.reload();
+
+	 	    		}
+
+
+
+
+	 	    	}); 
+});
